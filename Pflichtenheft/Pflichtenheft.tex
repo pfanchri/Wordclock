@@ -3,6 +3,7 @@
 \usepackage[T1]{fontenc} 
 \usepackage[ngerman]{babel} %Umlaute,Silbentrennung 
 \usepackage{booktabs}
+\usepackage{lscape}
 \date{\today}
 \author{Christof Pfannenmüller}
 \title{DIY: Pflichtenheft Wordclock}
@@ -40,19 +41,39 @@ verschiedene Frontcovers möglich: in verschiedenen Sprachen, dafür verschieden
 Stabiles Gehäuse, schön klein\\
 \\
 Standfuß (standsicher)\\
-
+\begin{landscape}
 \section{Pflichtenheft}
 
 
-\begin{tabular}[t]{lllll}	\toprule
-	Aufgabe & Beschreibung & Wie umzusetzen  & bis & Erledigt \\
+ \begin{tabular}[]{p{2cm}p{2cm}p{10cm}p{2cm}p{2cm}}	\toprule
+	Aufgabe & Beschreibung & Wie umzusetzen  & bis & Status \\
 	\midrule
 	Weckfunktion & & Lautsprecher/Tongeber, Taster für Snoozefunktion & & \\
-	Weckzeitpunkt einstellen&& mehrere Taster, mind. 2 (Mode, Up) besser 3 (Mode, Up, Down); Mode kurz drücken zeigt aktuellen Weckzeitpunkt an, lange drücken um in Modus Weckzeitpunkt kommen; Unterscheidungsmöglichkeit AM/PM notwendig, 
+	Weckzeitpunkt einstellen & & mehrere Taster, mind. 2 (Mode, Up) besser 3 (Mode, Up, Down); Mode kurz drücken zeigt aktuellen Weckzeitpunkt an, lange drücken um in Modus Weckzeitpunkt kommen; Unterscheidungsmöglichkeit AM/PM notwendig \\
 	Uhrzeit einstellen & & Taster Up (Down) von Weckzeitpunkt verwenden; eigenen Taster um in Modus Uhrzeit einstellen zu kommen, oder mehrere Taster gleichzeitig drücken; wen gewünscht Möglichkeit für Datum einstellen (daraus Wochentag berechnen) \\
-
-	\bottomrule
+	Anpassung der Helligkeit & Anzeige heller bei heller Umgebung & Sensor für Umgebungslicht mit passender Elektronik; Loch in Gehäuse; Regelung der LEDs durch PWM (kompliziert) evtl. Controller oder durch IC (dafür ADU notwendig) \\
+	Sekunden-Anzeige & zeigt Sekunden auf der Matrix an & Knopf durch den in Sekundenmodus gewechselt wird; Anzeige der Sekunden auf der Matrix, evtl. nicht bei jedem Frontcover möglich (muss deaktiviert werden können); wo Sekunden gespeichert? \\
+	Anzeige Datum und Wochentag & & Wie anzeigen? Wo gespeichert? evtl. nicht bei jedem Frontcover möglich (muss deaktiviert werden können) \\
+	Funkuhr & Einstellen der Uhrzeit nach Atomuhr & DCF77 Verbindung um Uhrzeit automatisch zu finden und einzustellen.\\
+	Stromreserve & & Uhrzeit bleibt erhalten und Wecker klingelt trotz fehlendem Strom; Anzeige trotzdem aktiv würde Speicherdauer verkürzen ( Anzeige nur im Moment des Weckens oder gar nicht)\\
 \end{tabular}
+	%Seitenumbruch in Tabelle (besser lösen?)
+	\newpage
+	\begin{tabular}[]{p{2cm}p{2cm}p{10cm}p{2cm}p{2cm}}	\toprule
+	Aufgabe & Beschreibung & Wie umzusetzen  & bis & Status \\
+	\midrule
+	Uhr komplett ausschalten && Uhr über kleinen Schalter komplett ausschalten; Taster an Unterseite oder hinter Frontcover verstecken (bleibt Uhrzeit und Einstellungen erhalten?)\\
+	Stromversorgung && Uhr wird über USB-Netzteil versorgt; USB Buchse verbauen \\
+	24h Modus && Wecker klingelt nur um 6:00am, Uhr zeigt aber gleiches an für am/pm\\
+	verschiedene Frontcovers & & Frontcover auswechselbar; verschiedene Farben möglich (evtl. bei Farben aktuelle Uhrzeit unterschiedlich gut erkennbar); verschiedene Sprachen (Umschalten der Matrix auf andere Sprache muss möglich sein, dafür Taster etc.)\\
+	Stabiles Gehäuse & & Gehäuse mit sicherem Stand; stabil um nicht kaputt zu gehen (herunterfallen); vorerst aus Holz später Alu etc (aus einem Teil)\\
+	Programmieren der Uhr && Schnittstelle um Uhr auch später noch programmieren zu können; an Unterseite oder hinter Frontplatte verstecken\\
+\end{tabular}
+\end{landscape}
+
+\section{Umsetzung}
+	Eine Fronplatte
+
 
 
 
