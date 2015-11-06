@@ -45,7 +45,9 @@ Standfuß (standsicher)\\
 \section{Pflichtenheft}
 
 
- \begin{tabular}[]{p{2cm}p{2cm}p{10cm}p{2cm}p{2cm}}	\toprule
+ 
+\begin{tabular}[]{p{2cm}p{2cm}p{10cm}p{2cm}p{2cm}}
+	\toprule
 	Aufgabe & Beschreibung & Wie umzusetzen  & bis & Status \\
 	\midrule
 	Weckfunktion & & Lautsprecher/Tongeber, Taster für Snoozefunktion & & \\
@@ -59,7 +61,8 @@ Standfuß (standsicher)\\
 \end{tabular}
 	%Seitenumbruch in Tabelle (besser lösen?)
 	\newpage
-	\begin{tabular}[]{p{2cm}p{2cm}p{10cm}p{2cm}p{2cm}}	\toprule
+	\begin{tabular}[]{p{2cm}p{2cm}p{10cm}p{2cm}p{2cm}}
+	\toprule
 	Aufgabe & Beschreibung & Wie umzusetzen  & bis & Status \\
 	\midrule
 	Uhr komplett ausschalten && Uhr über kleinen Schalter komplett ausschalten; Taster an Unterseite oder hinter Frontcover verstecken (bleibt Uhrzeit und Einstellungen erhalten?)\\
@@ -72,7 +75,37 @@ Standfuß (standsicher)\\
 \end{landscape}
 
 \section{Umsetzung}
-	Eine Fronplatte
+	Der Aufbau der Wordclock soll von vorne nach hinten und von außen nach innen erfolgen:\\
+	Ich möchte zuerst die Größe der Frontplatte festlegen, dann ein entsprechendes CAD Modell erstellen und die Schaltung intern auf einer einzelnen Platine unterbringen. Das Gehäuse möchte ich zuerst nur aus Holz bauen bzw. am 3D-Drucker ausdrucken und dies aber so, dass es Möglich ist zu späteren Zeitpunkten ein Gehäuse aus Aluminium zu fräsen. \par
+	Ich möchte nicht nur selbstgestaltete Frontplatten verwenden können, sonder auch solche des Herstellers qlocktwo. Dadurch bin ich zwar an die genaue Größe der Frontplatte gebunden, kann aber auf die vielen verschiedenen Sprachen und Farben des Herstellers zugreifen.
+	
+	
+	
+	
+	
+	 (Maße von bestehender übernehmen damit auch diese Frontplatten passen)\\
+	Zwischenplatte erstellen (drucken oder Lasern; dicke anpassen an LED Abstrahlwinkel)
+	Alle Elektronik auf einer Platine
+	Matrix oder Einzelansteuerung\\
+	
+\begin{tabular}[]{p{3cm}p{3cm}p{3cm}p{3cm}}
+	\toprule
+	Vorteile Matrix & Nachteile Matrix & Vorteile Einzelansteuerung  & Nachteile Einzelansteuerung\\
+	\midrule
+	stromsparend & immer nur eine LED an; nicht so hell & Alle LEDs an; hell & Stromverbrauch größer\\
+	&Controller muss öfter aufwachen & lange Sleepzeiten des IC\\
+	Dimmen über IC gleich integrierbar & Dimmen über abändern der Zeiträume die einzelne LED leuchtet & gemeinsammes Dimmen über Anode/Kathode aller LEDs & LEDs nicht unterschiedlich dimmbar
+\end{tabular}
+\\
+Verdrahtungsaufwand nahezu identisch;\\
+Zeitdauern der Ansteuerung: 
+Gesamtzeit ein Durchlauf aller LEDs kleiner als $1\over30$ einer Sekunde (damit kein Flackern sichtbar. Also Zeit für eine LED bei 100\% ist $1\over10*11*30$ also $1\over 3300$ Sekunde. Also etwa 0,303 ms. Jetzt würde sich die Zeit durch Dimmen noch weiter verkürzen, was sehr kompliziert würde. Also ist eine Einzelansteuerung und Dimmen aller LEDs über verbundene Anode/Kathode einfacher.\\
+Ansteuern der LEDs über Schieberegister (kaskadierbar, benötigt also nur wenige Anschlüsse des IC) oder über LED-Treiber (eingebaute Möglichkeit des Dimmens; unabhänig von einander dimmbar; Ansteuerung über I2C)
+
+\subsection{Frontplatte}
+Für die Frontplatte möchte ich mehrere Sprachen machen, auf jeden Fall Deutsch und Englisch so wie nach Möglichkeit ein Dialekt (vorzugsweise Fränkisch)\\
+Auflistung aller 
+
 
 
 
