@@ -83,12 +83,29 @@ Standfuß (standsicher)
 
 \subsection{Frontplatte}
 Für die Frontplatte möchte ich mehrere Sprachen machen, auf jeden Fall Deutsch und Englisch so wie nach Möglichkeit ein Dialekt (vorzugsweise Fränkisch)\\
-Auflistung aller 
+Auflistung aller Sprachen TODO!!
 \subsection{Gehäuse}
-
+stabil
+Frontmaße identisch mit der der Frontplatte, Tiefe möglichst gering 
+Möglichkeit Platine, Zwischenplatte und Frontplatte zu befestigen
+Anschluss für USB und Löcher für Taster
 \subsection{Platine}
+\subsubsection{LEDs}
+Ich möchte keine farbige Wordclock und benötige deshalb keine RGB-LEDs. \\
+\begin{itemize}
+\item klein
+\item weiß (neutralweiß) 
+\item hell
+\item Abstrahlwinkel möglichst groß, damit Platine näher an Frontplatte kann insg. Uhr dünner wird
+\item kostengünstig
+\item möglichst geringer Stromverbrauch
+\end{itemize}
+Eierlegende Wollmilchsau, also Kompromiss finden\\
+Suche im Reichelt-Katalog
+
+
 \subsubsection{Ansteuerung}
-Für die LEDs stellt sich die Frage nach einer Matrix- oder Einzelansteuerung. Die folgende Tabelle soll die Vor- und Nachteile darstellen:\\
+Für die LEDs stellt sich die Frage nach einer Matrix- oder Einzelansteuerung. Die folgende Tabelle soll die Vor- und Nachteile der beiden Methoden darstellen:\\
 \begin{tabular}[]{p{3cm}p{3cm}p{3cm}p{3cm}}
 	\toprule
 	Vorteile Matrix & Nachteile Matrix & Vorteile Einzelansteuerung  & Nachteile Einzelansteuerung\\
@@ -97,15 +114,9 @@ Für die LEDs stellt sich die Frage nach einer Matrix- oder Einzelansteuerung. D
 	&Controller muss öfter aufwachen & lange Sleepzeiten des IC\\
 	Dimmen über IC gleich integrierbar & Dimmen über abändern der Zeiträume die einzelne LED leuchtet & gemeinsammes Dimmen über Anode/Kathode aller LEDs & LEDs nicht unterschiedlich dimmbar
 \end{tabular}
-Der Verdrahtungsaufwand der beiden nahezu identisch, da ich die Schaltung auf einer einzige Platine unterbringen will.\\
-
-
-
-
-
-
-Zeitdauern der Ansteuerung: 
-Gesamtzeit ein Durchlauf aller LEDs kleiner als $1\over30$ einer Sekunde (damit kein Flackern sichtbar. Also Zeit für eine LED bei 100\% ist $1\over10*11*30$ also $1\over 3300$ Sekunde. Also etwa 0,303 ms. Jetzt würde sich die Zeit durch Dimmen noch weiter verkürzen, was sehr kompliziert würde. Also ist eine Einzelansteuerung und Dimmen aller LEDs über verbundene Anode/Kathode einfacher.\\
+Der Verdrahtungsaufwand der beiden Methoden ist nahezu identisch, da ich die Schaltung auf einer einzige Platine unterbringen will.\\
+Beim betrachten der Ansteuerzeiten für eine Einzelansteuerung fällt mir auf:\\
+Gesamtzeit für einen Durchlauf aller LEDs muss kleiner als $1\over30$ einer Sekunde sein (damit kein Flackern sichtbar; vgl. Film). Also Zeit für eine LED bei 100\% Helligkeit: $\frac{1}{10*11*30} = \frac{1}{3300}=0,303ms$.Jetzt würde sich die Zeit durch Dimmen noch weiter verkürzen, was sehr kompliziert würde. Deswegen ist eine Einzelansteuerung und Dimmen aller LEDs über verbundene Anode/Kathode meine Meinung nach einfacher.\\
 Ansteuern der LEDs über Schieberegister (kaskadierbar, benötigt also nur wenige Anschlüsse des IC) oder über LED-Treiber (eingebaute Möglichkeit des Dimmens; unabhänig von einander dimmbar; Ansteuerung über I2C)
 
 

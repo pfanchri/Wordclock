@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.2)  6 NOV 2015 12:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.2)  6 NOV 2015 12:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -617,105 +617,114 @@ Overfull \hbox (16.4332pt too wide) in paragraph at lines 75--75
  []
 
 [5]
-Underfull \hbox (badness 2165) in paragraph at lines 94--95
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+
+ []
+
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 96.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 96.
+ [6
+
+]
+Underfull \hbox (badness 2165) in paragraph at lines 111--112
 []\T1/cmr/m/n/10.95 Nachteile Ein-zel-
  []
 
 
-Underfull \hbox (badness 4673) in paragraph at lines 96--96
+Underfull \hbox (badness 4673) in paragraph at lines 113--113
 []\T1/cmr/m/n/10.95 immer nur ei-ne
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
 []\T1/cmr/m/n/10.95 Stromverbrauch
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
+Underfull \hbox (badness 10000) in paragraph at lines 114--114
 []\T1/cmr/m/n/10.95 Controller muss
  []
 
 
-Underfull \hbox (badness 1325) in paragraph at lines 97--98
+Underfull \hbox (badness 1325) in paragraph at lines 114--115
 []\T1/cmr/m/n/10.95 lange Sleep-zei-ten
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
 []\T1/cmr/m/n/10.95 Dimmen über
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
 \T1/cmr/m/n/10.95 ab-än-dern der
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
 \T1/cmr/m/n/10.95 Zeiträu-me die
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
 \T1/cmr/m/n/10.95 ein-zel-ne LED
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
 []\T1/cmr/m/n/10.95 gemeinsammes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
 \T1/cmr/m/n/10.95 Dim-men über
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--98
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
 \T1/cmr/m/n/10.95 An-ode/Kathode
  []
 
 
-Underfull \hbox (badness 2707) in paragraph at lines 98--99
+Underfull \hbox (badness 2707) in paragraph at lines 115--116
 \T1/cmr/m/n/10.95 schied-lich dimm-
  []
 
 
-Overfull \hbox (29.43304pt too wide) in paragraph at lines 91--101
+Overfull \hbox (29.43304pt too wide) in paragraph at lines 108--121
 []
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 91--101
-
- []
-
-[6
-
-] [7] (./Pflichtenheft.aux) ) 
+[7] (./Pflichtenheft.aux) ) 
 Here is how much of TeX's memory you used:
- 2387 strings out of 493054
- 31197 string characters out of 6134760
- 98493 words of memory out of 5000000
- 5874 multiletter control sequences out of 15000+600000
+ 2404 strings out of 493054
+ 31501 string characters out of 6134760
+ 97493 words of memory out of 5000000
+ 5888 multiletter control sequences out of 15000+600000
  12695 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,8n,27p,441b,189s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvip
-s/cm-super/cm-super-t1.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/publ
-ic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm
--super/sfbx1095.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-s
-uper/sfbx1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-sup
-er/sfbx1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super
-/sfrm1095.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/s
-frm1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfr
-m1728.pfb>
-Output written on Pflichtenheft.pdf (7 pages, 127725 bytes).
+ 37i,8n,27p,466b,189s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/
+cm-super/cm-super-t1.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfo
+nts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmsy8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super
+/sfbx1095.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/s
+fbx1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfb
+x1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1
+095.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm120
+0.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfrm1728.
+pfb>
+Output written on Pflichtenheft.pdf (7 pages, 151925 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 73 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
