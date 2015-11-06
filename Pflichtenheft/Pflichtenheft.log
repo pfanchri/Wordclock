@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.2)  5 NOV 2015 13:33
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.2)  6 NOV 2015 12:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -334,18 +334,18 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 (./Pflichtenheft.aux)
 \openout1 = `Pflichtenheft.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 10.
-LaTeX Font Info:    ... okay on input line 10.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -413,11 +413,11 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 11.
+(Font)              <12> on input line 12.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 11.
+(Font)              <8> on input line 12.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 11.
+(Font)              <6> on input line 12.
 
 (./Pflichtenheft.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -427,72 +427,67 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \openout3 = `Pflichtenheft.toc'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--44
+Underfull \hbox (badness 10000) in paragraph at lines 17--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--44
+Underfull \hbox (badness 10000) in paragraph at lines 17--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--44
+Underfull \hbox (badness 10000) in paragraph at lines 17--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--44
+Underfull \hbox (badness 10000) in paragraph at lines 17--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--44
+Underfull \hbox (badness 10000) in paragraph at lines 17--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--44
+Underfull \hbox (badness 10000) in paragraph at lines 17--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--44
+Underfull \hbox (badness 10000) in paragraph at lines 17--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--44
+Underfull \hbox (badness 10000) in paragraph at lines 17--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--44
+Underfull \hbox (badness 10000) in paragraph at lines 17--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--44
+Underfull \hbox (badness 10000) in paragraph at lines 17--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--44
+Underfull \hbox (badness 10000) in paragraph at lines 17--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--44
+Underfull \hbox (badness 10000) in paragraph at lines 17--45
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 16--44
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 16--44
+Underfull \hbox (badness 10000) in paragraph at lines 17--45
 
  []
 
@@ -500,58 +495,28 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--44
 
 {/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 [2]
-Overfull \hbox (6.21391pt too wide) in paragraph at lines 51--51
+Overfull \hbox (6.21391pt too wide) in paragraph at lines 53--53
 []\T1/cmr/m/n/10.95 Beschreibung| 
  []
 
 
-Overfull \hbox (8.4187pt too wide) in paragraph at lines 53--53
+Overfull \hbox (8.4187pt too wide) in paragraph at lines 55--55
 []\T1/cmr/m/n/10.95 Weckfunktion| 
  []
 
 
-Overfull \hbox (13.56041pt too wide) in paragraph at lines 54--54
+Overfull \hbox (13.56041pt too wide) in paragraph at lines 56--56
 []\T1/cmr/m/n/10.95 Weckzeitpunkt
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 56--56
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
 []\T1/cmr/m/n/10.95 Anpassung
  []
 
 
-Underfull \hbox (badness 5741) in paragraph at lines 56--56
+Underfull \hbox (badness 5741) in paragraph at lines 58--58
 \T1/cmr/m/n/10.95 der Hel-lig-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--56
-[]\T1/cmr/m/n/10.95 Anzeige
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 56--56
-\T1/cmr/m/n/10.95 hel-ler bei
- []
-
-
-Underfull \hbox (badness 4378) in paragraph at lines 56--56
-\T1/cmr/m/n/10.95 hel-ler Um-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--57
-[]\T1/cmr/m/n/10.95 Sekunden-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 57--57
-[]\T1/cmr/m/n/10.95 zeigt Se-
- []
-
-
-Underfull \hbox (badness 2772) in paragraph at lines 57--57
-\T1/cmr/m/n/10.95 der Ma-trix
  []
 
 
@@ -560,22 +525,52 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--58
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 58--58
+\T1/cmr/m/n/10.95 hel-ler bei
+ []
+
+
+Underfull \hbox (badness 4378) in paragraph at lines 58--58
+\T1/cmr/m/n/10.95 hel-ler Um-
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 59--59
+[]\T1/cmr/m/n/10.95 Sekunden-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 59--59
+[]\T1/cmr/m/n/10.95 zeigt Se-
+ []
+
+
+Underfull \hbox (badness 2772) in paragraph at lines 59--59
+\T1/cmr/m/n/10.95 der Ma-trix
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
+[]\T1/cmr/m/n/10.95 Anzeige
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
 []\T1/cmr/m/n/10.95 Einstellen
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--59
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
 \T1/cmr/m/n/10.95 der Uhr-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 59--59
+Underfull \hbox (badness 10000) in paragraph at lines 61--61
 \T1/cmr/m/n/10.95 zeit nach
  []
 
 
-Overfull \hbox (4.85544pt too wide) in paragraph at lines 60--60
+Overfull \hbox (4.85544pt too wide) in paragraph at lines 62--62
 []\T1/cmr/m/n/10.95 Stromreserve| 
  []
 
@@ -586,114 +581,114 @@ Overfull \vbox (47.56903pt too high) has occurred while \output is active []
 
 
 [4]
-Overfull \hbox (6.21391pt too wide) in paragraph at lines 66--66
+Overfull \hbox (6.21391pt too wide) in paragraph at lines 68--68
 []\T1/cmr/m/n/10.95 Beschreibung| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
 []\T1/cmr/m/n/10.95 Uhr kom-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--68
+Underfull \hbox (badness 10000) in paragraph at lines 70--70
 \T1/cmr/m/n/10.95 plett aus-
  []
 
 
-Overfull \hbox (23.3028pt too wide) in paragraph at lines 69--69
+Overfull \hbox (23.3028pt too wide) in paragraph at lines 71--71
 []\T1/cmr/m/n/10.95 Stromversorgung| 
  []
 
 
-Overfull \hbox (2.13531pt too wide) in paragraph at lines 71--71
+Overfull \hbox (2.13531pt too wide) in paragraph at lines 73--73
 []\T1/cmr/m/n/10.95 verschiedene
  []
 
 
-Underfull \hbox (badness 2495) in paragraph at lines 71--72
+Underfull \hbox (badness 2495) in paragraph at lines 73--74
 []\T1/cmr/m/n/10.95 Frontcover aus-wech-sel-bar; ver-schie-de-ne Far-ben mög-li
 ch
  []
 
 
-Overfull \hbox (16.4332pt too wide) in paragraph at lines 73--73
+Overfull \hbox (16.4332pt too wide) in paragraph at lines 75--75
 []\T1/cmr/m/n/10.95 Programmieren
  []
 
 [5]
-Underfull \hbox (badness 10000) in paragraph at lines 86--90
-
- []
-
-
-Underfull \hbox (badness 2165) in paragraph at lines 93--94
+Underfull \hbox (badness 2165) in paragraph at lines 94--95
 []\T1/cmr/m/n/10.95 Nachteile Ein-zel-
  []
 
 
-Underfull \hbox (badness 4673) in paragraph at lines 95--95
+Underfull \hbox (badness 4673) in paragraph at lines 96--96
 []\T1/cmr/m/n/10.95 immer nur ei-ne
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
 []\T1/cmr/m/n/10.95 Stromverbrauch
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 96--96
+Underfull \hbox (badness 10000) in paragraph at lines 97--97
 []\T1/cmr/m/n/10.95 Controller muss
  []
 
 
-Underfull \hbox (badness 1325) in paragraph at lines 96--97
+Underfull \hbox (badness 1325) in paragraph at lines 97--98
 []\T1/cmr/m/n/10.95 lange Sleep-zei-ten
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
 []\T1/cmr/m/n/10.95 Dimmen über
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
 \T1/cmr/m/n/10.95 ab-än-dern der
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
 \T1/cmr/m/n/10.95 Zeiträu-me die
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
 \T1/cmr/m/n/10.95 ein-zel-ne LED
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
 []\T1/cmr/m/n/10.95 gemeinsammes
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
 \T1/cmr/m/n/10.95 Dim-men über
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 97--97
+Underfull \hbox (badness 10000) in paragraph at lines 98--98
 \T1/cmr/m/n/10.95 An-ode/Kathode
  []
 
 
-Underfull \hbox (badness 2707) in paragraph at lines 97--98
+Underfull \hbox (badness 2707) in paragraph at lines 98--99
 \T1/cmr/m/n/10.95 schied-lich dimm-
  []
 
 
-Overfull \hbox (46.43304pt too wide) in paragraph at lines 91--104
-[][] 
+Overfull \hbox (29.43304pt too wide) in paragraph at lines 91--101
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--101
+
  []
 
 [6
@@ -702,11 +697,11 @@ Overfull \hbox (46.43304pt too wide) in paragraph at lines 91--104
 Here is how much of TeX's memory you used:
  2387 strings out of 493054
  31197 string characters out of 6134760
- 97493 words of memory out of 5000000
+ 98493 words of memory out of 5000000
  5874 multiletter control sequences out of 15000+600000
  12695 words of font info for 33 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,8n,27p,425b,189s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,8n,27p,441b,189s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvip
 s/cm-super/cm-super-t1.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/publ
 ic/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/
@@ -717,7 +712,7 @@ er/sfbx1440.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super
 /sfrm1095.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/s
 frm1200.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfr
 m1728.pfb>
-Output written on Pflichtenheft.pdf (7 pages, 124784 bytes).
+Output written on Pflichtenheft.pdf (7 pages, 127725 bytes).
 PDF statistics:
  61 PDF objects out of 1000 (max. 8388607)
  43 compressed objects within 1 object stream

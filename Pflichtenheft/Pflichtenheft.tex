@@ -2,6 +2,7 @@
  \usepackage[utf8]{inputenc} %UTF8 input file
 \usepackage[T1]{fontenc} 
 \usepackage[ngerman]{babel} %Umlaute,Silbentrennung 
+%\usepackage{textcomp} % Zusatzpaket textcomp - damit werden einige Sonderzeichen, insbesondere das Euro-Symbolaktiviert. Änderungen siehe Beispieltext.
 \usepackage{booktabs}
 \usepackage{lscape}
 \date{\today}
@@ -15,7 +16,7 @@ Um die Entwicklung meiner Wordclock etwas zu ordnen möchte in diesem Dokument d
 \section{Lastenheft}
 {\large Hier habe ich das bereits erstellte Lastenheft eingefügt.  }\\
 Lastenheft Wordclock:\\
-\\
+\\ 
 Weckfunktion: vorsehen einer Weckfunktion mit Ton und Snoozefunktion\\
 \\
 Taster zum Ausschalten der Alarmfunktion, Snozze und zum Einstellen der Uhrzeit\\
@@ -24,11 +25,11 @@ Helligkeitsanpassung: über Sensor oder über Software und Schalter an der Rück
 \\
 Sekundenanzeige\\
 \\
-Datum und Wochentag anzeigen\\
+Datum und Wochentag anzeigen\\ 
 \\
 Funkanbindung zum automatischen Uhrzeit einstellen\\
 \\
-Stromreserve: Uhrzeit bleibt bestehen bei Stromausfall  evtl. auch Anzeige und Weckfunktion ohne Strom\\
+Stromreserve: Uhrzeit bleibt bestehen bei Stromausfall  evtl. auch Anzeige und Weckfunktion ohne Strom\\ 
 \\
 Ausschalter: kleinen Ausschalter an der Unterseite zum gänzlichen Ausschalten (Uhrzeit läuft über Batterie weiter\\
 \\
@@ -40,9 +41,10 @@ verschiedene Frontcovers möglich: in verschiedenen Sprachen, dafür verschieden
 \\
 Stabiles Gehäuse, schön klein\\
 \\
-Standfuß (standsicher)\\
+Standfuß (standsicher)
 \begin{landscape}
 \section{Pflichtenheft}
+
 
 
  
@@ -76,18 +78,17 @@ Standfuß (standsicher)\\
 
 \section{Umsetzung}
 	Der Aufbau der Wordclock soll von vorne nach hinten und von außen nach innen erfolgen:\\
-	Ich möchte zuerst die Größe der Frontplatte festlegen, dann ein entsprechendes CAD Modell erstellen und die Schaltung intern auf einer einzelnen Platine unterbringen. Das Gehäuse möchte ich zuerst nur aus Holz bauen bzw. am 3D-Drucker ausdrucken und dies aber so, dass es Möglich ist zu späteren Zeitpunkten ein Gehäuse aus Aluminium zu fräsen. \par
-	Ich möchte nicht nur selbstgestaltete Frontplatten verwenden können, sonder auch solche des Herstellers qlocktwo. Dadurch bin ich zwar an die genaue Größe der Frontplatte gebunden, kann aber auf die vielen verschiedenen Sprachen und Farben des Herstellers zugreifen.
-	
-	
-	
-	
-	
-	 (Maße von bestehender übernehmen damit auch diese Frontplatten passen)\\
-	Zwischenplatte erstellen (drucken oder Lasern; dicke anpassen an LED Abstrahlwinkel)
-	Alle Elektronik auf einer Platine
-	Matrix oder Einzelansteuerung\\
-	
+	Ich möchte zuerst die Größe der Frontplatte festlegen, dann ein entsprechendes CAD Modell erstellen und die Schaltung intern auf einer einzelnen Platine unterbringen, da dies den Verdrahtungsaufwand verringert. Das Gehäuse möchte ich zuerst nur aus Holz bauen bzw. am 3D-Drucker ausdrucken und dies aber so, dass es möglich ist zu späteren Zeitpunkten ein Gehäuse aus Aluminium oder Holz zu fräsen. \par
+	Ich möchte nicht nur selbstgestaltete Frontplatten verwenden können, sonder auch solche des Herstellers qlocktwo. Dadurch bin ich zwar an die genaue Größe der Frontplatte gebunden, kann aber auf die vielen verschiedenen Sprachen und Farben des Herstellers zugreifen. \par
+
+\subsection{Frontplatte}
+Für die Frontplatte möchte ich mehrere Sprachen machen, auf jeden Fall Deutsch und Englisch so wie nach Möglichkeit ein Dialekt (vorzugsweise Fränkisch)\\
+Auflistung aller 
+\subsection{Gehäuse}
+
+\subsection{Platine}
+\subsubsection{Ansteuerung}
+Für die LEDs stellt sich die Frage nach einer Matrix- oder Einzelansteuerung. Die folgende Tabelle soll die Vor- und Nachteile darstellen:\\
 \begin{tabular}[]{p{3cm}p{3cm}p{3cm}p{3cm}}
 	\toprule
 	Vorteile Matrix & Nachteile Matrix & Vorteile Einzelansteuerung  & Nachteile Einzelansteuerung\\
@@ -96,21 +97,16 @@ Standfuß (standsicher)\\
 	&Controller muss öfter aufwachen & lange Sleepzeiten des IC\\
 	Dimmen über IC gleich integrierbar & Dimmen über abändern der Zeiträume die einzelne LED leuchtet & gemeinsammes Dimmen über Anode/Kathode aller LEDs & LEDs nicht unterschiedlich dimmbar
 \end{tabular}
-\\
-Verdrahtungsaufwand nahezu identisch;\\
+Der Verdrahtungsaufwand der beiden nahezu identisch, da ich die Schaltung auf einer einzige Platine unterbringen will.\\
+
+
+
+
+
+
 Zeitdauern der Ansteuerung: 
 Gesamtzeit ein Durchlauf aller LEDs kleiner als $1\over30$ einer Sekunde (damit kein Flackern sichtbar. Also Zeit für eine LED bei 100\% ist $1\over10*11*30$ also $1\over 3300$ Sekunde. Also etwa 0,303 ms. Jetzt würde sich die Zeit durch Dimmen noch weiter verkürzen, was sehr kompliziert würde. Also ist eine Einzelansteuerung und Dimmen aller LEDs über verbundene Anode/Kathode einfacher.\\
 Ansteuern der LEDs über Schieberegister (kaskadierbar, benötigt also nur wenige Anschlüsse des IC) oder über LED-Treiber (eingebaute Möglichkeit des Dimmens; unabhänig von einander dimmbar; Ansteuerung über I2C)
-
-\subsection{Frontplatte}
-Für die Frontplatte möchte ich mehrere Sprachen machen, auf jeden Fall Deutsch und Englisch so wie nach Möglichkeit ein Dialekt (vorzugsweise Fränkisch)\\
-Auflistung aller 
-
-
-
-
-
-
 
 
 \end{document}
