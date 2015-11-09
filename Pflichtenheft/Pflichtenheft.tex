@@ -3,6 +3,7 @@
 \usepackage[T1]{fontenc} 
 \usepackage[ngerman]{babel} %Umlaute,Silbentrennung 
 %\usepackage{textcomp} % Zusatzpaket textcomp - damit werden einige Sonderzeichen, insbesondere das Euro-Symbolaktiviert. Änderungen siehe Beispieltext.
+\usepackage{hyperref} %URLs können eingefügt werden
 \usepackage{booktabs}
 \usepackage{lscape}
 \date{\today}
@@ -11,6 +12,7 @@
 \begin{document}
  \maketitle
 \tableofcontents 
+\newpage
 \section{Über dieses Dokument}
 Um die Entwicklung meiner Wordclock etwas zu ordnen möchte in diesem Dokument das Erstellen und die Aufgaben dabei etwas sortiert aufführen.
 \section{Lastenheft}
@@ -73,6 +75,8 @@ Standfuß (standsicher)
 	verschiedene Frontcovers & & Frontcover auswechselbar; verschiedene Farben möglich (evtl. bei Farben aktuelle Uhrzeit unterschiedlich gut erkennbar); verschiedene Sprachen (Umschalten der Matrix auf andere Sprache muss möglich sein, dafür Taster etc.)\\
 	Stabiles Gehäuse & & Gehäuse mit sicherem Stand; stabil um nicht kaputt zu gehen (herunterfallen); vorerst aus Holz später Alu etc (aus einem Teil)\\
 	Programmieren der Uhr && Schnittstelle um Uhr auch später noch programmieren zu können; an Unterseite oder hinter Frontplatte verstecken\\
+	LED Helligkeit && LEDs passen Helligkeit an Umgebungslicht an; LEDs nachts austom. aus (24h Zeiteingabe (8-20Uhr: hell, 20-8Uhr: dunkel))
+
 \end{tabular}
 \end{landscape}
 
@@ -102,9 +106,9 @@ Ich möchte keine farbige Wordclock und benötige deshalb keine RGB-LEDs. \\
 \end{itemize}
 Eierlegende Wollmilchsau, also Kompromiss finden\\
 Suche im Reichelt-Katalog
+%Beziehungen Lichtstrom lichtfarbe abstahlwinkel  -------------------------------------------
 
-
-\subsubsection{Ansteuerung}
+\subsubsection{LED-Verdrahtung}
 Für die LEDs stellt sich die Frage nach einer Matrix- oder Einzelansteuerung. Die folgende Tabelle soll die Vor- und Nachteile der beiden Methoden darstellen:\\
 \begin{tabular}[]{p{3cm}p{3cm}p{3cm}p{3cm}}
 	\toprule
@@ -118,6 +122,17 @@ Der Verdrahtungsaufwand der beiden Methoden ist nahezu identisch, da ich die Sch
 Beim betrachten der Ansteuerzeiten für eine Einzelansteuerung fällt mir auf:\\
 Gesamtzeit für einen Durchlauf aller LEDs muss kleiner als $1\over30$ einer Sekunde sein (damit kein Flackern sichtbar; vgl. Film). Also Zeit für eine LED bei 100\% Helligkeit: $\frac{1}{10*11*30} = \frac{1}{3300}=0,303ms$.Jetzt würde sich die Zeit durch Dimmen noch weiter verkürzen, was sehr kompliziert würde. Deswegen ist eine Einzelansteuerung und Dimmen aller LEDs über verbundene Anode/Kathode meine Meinung nach einfacher.\\
 Ansteuern der LEDs über Schieberegister (kaskadierbar, benötigt also nur wenige Anschlüsse des IC) oder über LED-Treiber (eingebaute Möglichkeit des Dimmens; unabhänig von einander dimmbar; Ansteuerung über I2C)
+
+\subsubsection{Ansteuerung}
+Viele Wordclocks verwenden ein RTC (Real Time Clock), beim Suchen habe ich eine gefunden, welche die Möglichkeit hat einen Alarm als Interrupt auszugeben(\url{http://www.reichelt.de/Real-Time-Clock/DS-1337/3/index.html?ACTION=3&GROUPID=2949&ARTICLE=58151&OFFSET=500&WKID=0&}), somit kann der Mikrocontroller die ganze Zeit im Schlafmodus sein und spart Strom. Zu Beginn kann man auch eine if-Abfrage verwenden, jedes mal, wenn die Uhrzeit geändert wird ob nun ein Alarm ausgegeben werden muss. Möglicherweise muss auch das Umschalten der LEDs immer auf einen Interrupt der RTC geschehen (wie weiß der Mikrocontroller sonst, dass eine Minute vorbei ist?)
+
+LDR für Helligkeitsanpassung?
+wie schalter für Snozze und einstellen verbauen etc
+
+Idee: alle Taster an Rückseite gehen auf einen interruptanschluss und jeder zusätzlivch auf einen anderen Digitalanschluss, damit Interrupspins sparen; muss über Optokopler ??
+\subsubsection{Stromversorgung}
+USB evtl. Lightningstecker als Anschluss
+Handyakku?USB Puffern
 
 
 \end{document}

@@ -1,10 +1,12 @@
 \select@language {ngerman}
-\contentsline {section}{\numberline {1}\IeC {\"U}ber dieses Dokument}{1}
-\contentsline {section}{\numberline {2}Lastenheft}{1}
-\contentsline {section}{\numberline {3}Pflichtenheft}{4}
-\contentsline {section}{\numberline {4}Umsetzung}{6}
-\contentsline {subsection}{\numberline {4.1}Frontplatte}{6}
-\contentsline {subsection}{\numberline {4.2}Geh\IeC {\"a}use}{6}
-\contentsline {subsection}{\numberline {4.3}Platine}{6}
-\contentsline {subsubsection}{\numberline {4.3.1}LEDs}{6}
-\contentsline {subsubsection}{\numberline {4.3.2}Ansteuerung}{7}
+\contentsline {section}{\numberline {1}\IeC {\"U}ber dieses Dokument}{2}{section.1}
+\contentsline {section}{\numberline {2}Lastenheft}{2}{section.2}
+\contentsline {section}{\numberline {3}Pflichtenheft}{4}{section.3}
+\contentsline {section}{\numberline {4}Umsetzung}{6}{section.4}
+\contentsline {subsection}{\numberline {4.1}Frontplatte}{6}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Geh\IeC {\"a}use}{6}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Platine}{6}{subsection.4.3}
+\contentsline {subsubsection}{\numberline {4.3.1}LEDs}{6}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.2}LED-Verdrahtung}{7}{subsubsection.4.3.2}
+\contentsline {subsubsection}{\numberline {4.3.3}Ansteuerung}{7}{subsubsection.4.3.3}
+\contentsline {subsubsection}{\numberline {4.3.4}Stromversorgung}{8}{subsubsection.4.3.4}
