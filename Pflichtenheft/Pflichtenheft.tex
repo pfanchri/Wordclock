@@ -5,12 +5,12 @@
 %\usepackage{textcomp} % Zusatzpaket textcomp - damit werden einige Sonderzeichen, insbesondere das Euro-Symbolaktiviert. Änderungen siehe Beispieltext.
 \usepackage{hyperref} %URLs können eingefügt werden
 \usepackage{booktabs}
-\usepackage{lscape}
+\usepackage{pdflscape} % Paket lscape (oder für pdflatex das Paket pdflscape)
 \date{\today}
 \author{Christof Pfannenmüller}
 \title{DIY: Pflichtenheft Wordclock}
 \begin{document}
- \maketitle
+\maketitle 
 \tableofcontents 
 \newpage
 \section{Über dieses Dokument}
@@ -44,12 +44,9 @@ verschiedene Frontcovers möglich: in verschiedenen Sprachen, dafür verschieden
 Stabiles Gehäuse, schön klein\\
 \\
 Standfuß (standsicher)
+
 \begin{landscape}
 \section{Pflichtenheft}
-
-
-
- 
 \begin{tabular}[]{p{2cm}p{2cm}p{10cm}p{2cm}p{2cm}}
 	\toprule
 	Aufgabe & Beschreibung & Wie umzusetzen  & bis & Status \\
@@ -121,11 +118,11 @@ Für die LEDs stellt sich die Frage nach einer Matrix- oder Einzelansteuerung. D
 Der Verdrahtungsaufwand der beiden Methoden ist nahezu identisch, da ich die Schaltung auf einer einzige Platine unterbringen will.\\
 Beim betrachten der Ansteuerzeiten für eine Einzelansteuerung fällt mir auf:\\
 Gesamtzeit für einen Durchlauf aller LEDs muss kleiner als $1\over30$ einer Sekunde sein (damit kein Flackern sichtbar; vgl. Film). Also Zeit für eine LED bei 100\% Helligkeit: $\frac{1}{10*11*30} = \frac{1}{3300}=0,303ms$.Jetzt würde sich die Zeit durch Dimmen noch weiter verkürzen, was sehr kompliziert würde. Deswegen ist eine Einzelansteuerung und Dimmen aller LEDs über verbundene Anode/Kathode meine Meinung nach einfacher.\\
-Ansteuern der LEDs über Schieberegister (kaskadierbar, benötigt also nur wenige Anschlüsse des IC) oder über LED-Treiber (eingebaute Möglichkeit des Dimmens; unabhänig von einander dimmbar; Ansteuerung über I2C)
+Ansteuern der LEDs über Schieberegister (kaskadierbar, benötigt also nur wenige Anschlüsse des IC) oder über LED-Treiber (eingebaute Möglischkeit des Dimmens; unabhänig von einander dimmbar; Ansteuerung über I2C)
 
 \subsubsection{Ansteuerung}
 Viele Wordclocks verwenden ein RTC (Real Time Clock), beim Suchen habe ich eine gefunden, welche die Möglichkeit hat einen Alarm als Interrupt auszugeben(\url{http://www.reichelt.de/Real-Time-Clock/DS-1337/3/index.html?ACTION=3&GROUPID=2949&ARTICLE=58151&OFFSET=500&WKID=0&}), somit kann der Mikrocontroller die ganze Zeit im Schlafmodus sein und spart Strom. Zu Beginn kann man auch eine if-Abfrage verwenden, jedes mal, wenn die Uhrzeit geändert wird ob nun ein Alarm ausgegeben werden muss. Möglicherweise muss auch das Umschalten der LEDs immer auf einen Interrupt der RTC geschehen (wie weiß der Mikrocontroller sonst, dass eine Minute vorbei ist?)
-
+Helligkeit über PWM Controller anpassen wie?
 LDR für Helligkeitsanpassung?
 wie schalter für Snozze und einstellen verbauen etc
 
@@ -133,6 +130,7 @@ Idee: alle Taster an Rückseite gehen auf einen interruptanschluss und jeder zus
 \subsubsection{Stromversorgung}
 USB evtl. Lightningstecker als Anschluss
 Handyakku?USB Puffern
+
 
 
 \end{document}
