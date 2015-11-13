@@ -6,6 +6,7 @@
 \usepackage{hyperref} %URLs können eingefügt werden
 \usepackage{booktabs}
 \usepackage{pdflscape} % Paket lscape (oder für pdflatex das Paket pdflscape)
+\usepackage{cite} %zum verwenden von BibTex
 \date{\today}
 \author{Christof Pfannenmüller}
 \title{DIY: Pflichtenheft Wordclock}
@@ -43,7 +44,9 @@ verschiedene Frontcovers möglich: in verschiedenen Sprachen, dafür verschieden
 \\
 Stabiles Gehäuse, schön klein\\
 \\
-Standfuß (standsicher)
+Standfuß (standsicher)\\
+Weiter Ideen für später: \par
+Beschriftung auf der Rückseite, evtl  noch Schriftzug Wordclock oder CC Zeichen (oder beides)
 
 \begin{landscape}
 \section{Pflichtenheft}
@@ -90,6 +93,9 @@ stabil
 Frontmaße identisch mit der der Frontplatte, Tiefe möglichst gering 
 Möglichkeit Platine, Zwischenplatte und Frontplatte zu befestigen
 Anschluss für USB und Löcher für Taster
+\subsection{Zwischenplatte}
+Die Zwischenplatte dient dazu, dass jede LED nur das für sie vorgesehene Zeichen auf der Frontplatte erleuchtet. Auch muss die Frontplatte durch die Zwischenplatte gehalten werden. Dafür möchte ich, wie in den meisten Wordclock-Ideen Magnete verwenden, da somit ein leichtes Auswechseln der Frontplatte möglich ist. Auch eine Verbindung zum Gehäuse muss durch die Frontplatte realisiert werden. Da die gesamte Schaltung nach Möglichkeit auf einer Platine realisiert werden soll werden wohl auch andere Bauelemente außer den LEDs auf der Vorderseite platziert werden müssen. Dafür ist es notwendig Aussparungen vorzusehen.  
+Da es bei manchen Frontplatten Zeichen gibt, die größer sind und somit von mehreren LEDs angeleuchtet werden sollten, sollten die Zwischenstege der einzelnen LEDs möglichst dünn sein, um nicht einen Schatten zu werfen. Sie dürfen aber auch nicht zu dünn und somit evtl. durchscheinend sein. Möglichkeit: Kegelförmig zulaufend, ähnlich dem Abstrahlkegel der LEDs (wie zu Drucken/herzustellen)
 \subsection{Platine}
 \subsubsection{LEDs}
 Ich möchte keine farbige Wordclock und benötige deshalb keine RGB-LEDs. \\
@@ -121,16 +127,30 @@ Gesamtzeit für einen Durchlauf aller LEDs muss kleiner als $1\over30$ einer Sek
 Ansteuern der LEDs über Schieberegister (kaskadierbar, benötigt also nur wenige Anschlüsse des IC) oder über LED-Treiber (eingebaute Möglischkeit des Dimmens; unabhänig von einander dimmbar; Ansteuerung über I2C)
 
 \subsubsection{Ansteuerung}
+Nach Möglichkeit SMD Bauteile verwenden, damit die Ansteuerung gut auf der Platine unterzubringen ist, trotzdem groß genug, damit es gut lötbar ist. So klein wie möglich so groß wie nötig.
+\paragraph{Uhrzeit}
+
 Viele Wordclocks verwenden ein RTC (Real Time Clock), beim Suchen habe ich eine gefunden, welche die Möglichkeit hat einen Alarm als Interrupt auszugeben(\url{http://www.reichelt.de/Real-Time-Clock/DS-1337/3/index.html?ACTION=3&GROUPID=2949&ARTICLE=58151&OFFSET=500&WKID=0&}), somit kann der Mikrocontroller die ganze Zeit im Schlafmodus sein und spart Strom. Zu Beginn kann man auch eine if-Abfrage verwenden, jedes mal, wenn die Uhrzeit geändert wird ob nun ein Alarm ausgegeben werden muss. Möglicherweise muss auch das Umschalten der LEDs immer auf einen Interrupt der RTC geschehen (wie weiß der Mikrocontroller sonst, dass eine Minute vorbei ist?)
+
+
+\paragraph{Dimmen}
+
 Helligkeit über PWM Controller anpassen wie?
-LDR für Helligkeitsanpassung?
+LDR für Helligkeitsanpassung? evtl kombinieren in gemeinsamer ansteuerung, sodass IC auf volle Leistung aussteuern kann
+
+
+\paragraph{Taster und Schalter}
+
 wie schalter für Snozze und einstellen verbauen etc
 
 Idee: alle Taster an Rückseite gehen auf einen interruptanschluss und jeder zusätzlivch auf einen anderen Digitalanschluss, damit Interrupspins sparen; muss über Optokopler ??
 \subsubsection{Stromversorgung}
 USB evtl. Lightningstecker als Anschluss
 Handyakku?USB Puffern
+der autorr \cite{cite-key1}sdadsa asdasd asdas
 
 
+\bibliographystyle{plain} 
+\bibliography{literatur}
 
 \end{document}
