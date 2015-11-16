@@ -1,7 +1,12 @@
 \begin{thebibliography}{1}
 
-\bibitem{RTCReichelt}
-Uc 2845n : Pwm-controller, dip-8.
+\bibitem{githubWC}
+{\sc Pfannenm{\"u}ller, C.}
+\newblock Wordclockprojekt auf github.
+
+\bibitem{wikiWC}
+{\sc Pfannenm{\"u}ller, C.}
+\newblock Wordclockprojekt im wiki der diy vorlesung.
 
 \bibitem{RTCDatenblatt}
 {\sc Semiconductor, D.}
