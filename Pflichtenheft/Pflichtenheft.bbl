@@ -1,3 +1,10 @@
-\begin{thebibliography}{}
+\begin{thebibliography}{1}
+
+\bibitem{RTCReichelt}
+Uc 2845n : Pwm-controller, dip-8.
+
+\bibitem{RTCDatenblatt}
+{\sc Semiconductor, D.}
+\newblock Datenblatt des ds1337.
 
 \end{thebibliography}
