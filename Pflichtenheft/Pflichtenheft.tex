@@ -97,6 +97,7 @@ Anschluss für USB und Löcher für Taster
 \subsection{Zwischenplatte}
 Die Zwischenplatte dient dazu, dass jede LED nur das für sie vorgesehene Zeichen auf der Frontplatte erleuchtet. Auch muss die Frontplatte durch die Zwischenplatte gehalten werden. Dafür möchte ich, wie in den meisten Wordclock-Ideen Magnete verwenden, da somit ein leichtes Auswechseln der Frontplatte möglich ist. Auch eine Verbindung zum Gehäuse muss durch die Frontplatte realisiert werden. Da die gesamte Schaltung nach Möglichkeit auf einer Platine realisiert werden soll werden wohl auch andere Bauelemente außer den LEDs auf der Vorderseite platziert werden müssen. Dafür ist es notwendig Aussparungen vorzusehen.  
 Da es bei manchen Frontplatten Zeichen gibt, die größer sind und somit von mehreren LEDs angeleuchtet werden sollten, sollten die Zwischenstege der einzelnen LEDs möglichst dünn sein, um nicht einen Schatten zu werfen. Sie dürfen aber auch nicht zu dünn und somit evtl. durchscheinend sein. Möglichkeit: Kegelförmig zulaufend, ähnlich dem Abstrahlkegel der LEDs (wie zu Drucken/herzustellen)
+Die Dicke der Zwischenplatte ergibt sich aus dem Abstrahlwinkel der LEDs, dieser ist bei fasst allen LEDs die für mich in Frage kamen 120 Grad Für die Dicke der Zwischenplatte ergibt sich damit: $d = \frac{0,5 * Buchstabendurchmesser}{tan60^\circ } $ 
 \subsection{Platine}
 \subsubsection{LEDs}
 Ich möchte keine farbige Wordclock und benötige deshalb keine RGB-LEDs. \\
@@ -111,7 +112,7 @@ Ich möchte keine farbige Wordclock und benötige deshalb keine RGB-LEDs. \\
 Eierlegende Wollmilchsau, also Kompromiss finden\\
 Suche im Reichelt-Katalog
 %Beziehungen Lichtstrom lichtfarbe abstahlwinkel  -------------------------------------------
-
+Eine weitere Möglichkeit für die LEDs sind adressierbare LEDs, so wurde eine Steuerung über Schieberegister entfallen (Tipp von Jürgen)
 \subsubsection{LED-Verdrahtung}
 Für die LEDs stellt sich die Frage nach einer Matrix- oder Einzelansteuerung. Die folgende Tabelle soll die Vor- und Nachteile der beiden Methoden darstellen:\\
 \begin{tabular}[]{p{3cm}p{3cm}p{3cm}p{3cm}}
@@ -135,11 +136,9 @@ Viele Wordclocks verwenden ein RTC (Real Time Clock), beim Suchen habe ich eine 
 
 
 \paragraph{Dimmen}
-
 Helligkeit über PWM Controller anpassen wie?
 LDR für Helligkeitsanpassung? evtl. kombinieren in gemeinsamer Ansteuerung, sodass IC auf volle Leistung aussteuern kann
-
-
+Da sehr aufwändig und
 \paragraph{Taster und Schalter}
 
 wie schalter für Snozze und einstellen verbauen etc
