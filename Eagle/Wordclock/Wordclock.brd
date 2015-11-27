@@ -63,6 +63,7 @@
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="57" name="tCAD" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
@@ -83,15 +84,26 @@
 <layer number="108" name="fp8" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="109" name="fp9" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="6" fill="1" visible="no" active="no"/>
+<layer number="154" name="FabDoc2" color="2" fill="1" visible="no" active="no"/>
+<layer number="155" name="FabDoc3" color="7" fill="15" visible="no" active="no"/>
 <layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="200" name="200bmp" color="1" fill="10" visible="no" active="no"/>
 <layer number="201" name="201bmp" color="2" fill="1" visible="no" active="no"/>
@@ -110,6 +122,16 @@
 <layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
+<layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
+<layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
+<layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
+<layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
+<layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
+<layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="7" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="7" fill="1" visible="no" active="no"/>
 <layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
@@ -356,6 +378,51 @@ For more information, see http://edeca.net/</description>
 <rectangle x1="1.3034" y1="-0.1615" x2="2.6072" y2="0.1749" layer="51"/>
 <rectangle x1="1.3034" y1="-0.9606" x2="2.6072" y2="-0.6242" layer="51"/>
 <rectangle x1="1.3034" y1="-1.7596" x2="2.6072" y2="-1.4232" layer="51"/>
+</package>
+</packages>
+</library>
+<library name="special">
+<description>&lt;b&gt;Special Devices&lt;/b&gt;&lt;p&gt;
+7-segment displays, switches, heatsinks, crystals, transformers, etc.&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="Q">
+<description>&lt;B&gt;CRYSTAL&lt;/B&gt;</description>
+<wire x1="5.08" y1="6.985" x2="-5.08" y2="6.985" width="0.1524" layer="21"/>
+<wire x1="5.715" y1="-6.35" x2="5.08" y2="-6.35" width="0.4064" layer="21"/>
+<wire x1="5.08" y1="-6.35" x2="5.08" y2="6.985" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-6.35" x2="2.54" y2="-6.35" width="0.4064" layer="21"/>
+<wire x1="-5.08" y1="-6.35" x2="-5.08" y2="6.985" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="-6.35" x2="-5.715" y2="-6.35" width="0.4064" layer="21"/>
+<wire x1="2.54" y1="-6.35" x2="2.54" y2="-6.985" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-6.35" x2="-2.54" y2="-6.985" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-6.35" x2="-2.54" y2="-6.35" width="0.4064" layer="21"/>
+<wire x1="-2.54" y1="-6.35" x2="-5.08" y2="-6.35" width="0.4064" layer="21"/>
+<pad name="1" x="-2.54" y="-7.62" drill="0.6096" shape="long" rot="R90"/>
+<pad name="2" x="2.54" y="-7.62" drill="0.6096" shape="long" rot="R90"/>
+<text x="-2.6162" y="1.1938" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.2512" y="-1.3462" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+</package>
+</packages>
+</library>
+<library name="WS2812B">
+<packages>
+<package name="WS2812B">
+<wire x1="-2.5" y1="2.5" x2="2.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="2.5" x2="2.5" y2="-1.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-1.5" x2="2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="2.5" y1="-2.5" x2="1.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-2.5" x2="-2.5" y2="-2.5" width="0.127" layer="21"/>
+<wire x1="-2.5" y1="-2.5" x2="-2.5" y2="2.5" width="0.127" layer="21"/>
+<wire x1="1.5" y1="-2.5" x2="2.5" y2="-1.5" width="0.127" layer="21"/>
+<circle x="2.934" y="-2.688" radius="0.1414" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="2.1" width="0.127" layer="21"/>
+<smd name="VDD" x="-2" y="1.7" dx="2" dy="1.1" layer="1"/>
+<smd name="DOUT" x="-2" y="-1.7" dx="2" dy="1.1" layer="1"/>
+<smd name="VSS" x="2" y="-1.7" dx="2" dy="1.1" layer="1"/>
+<smd name="DIN" x="2" y="1.7" dx="2" dy="1.1" layer="1"/>
+<text x="-1.7" y="2.9" size="1.27" layer="25" font="vector">&gt;NAME</text>
+<text x="-2" y="-4.1" size="1.27" layer="27" font="vector">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -622,6 +689,11 @@ design rules under a new name.</description>
 <element name="LED9" library="led" package="LED3MM" value="" x="-40.64" y="81.28"/>
 <element name="S+1" library="eagle-library-edeca.net-v5" package="DIL8" value="DS1337+" x="-60.96" y="-24.13"/>
 <element name="U$1" library="eagle-library-edeca.net-v5" package="MINI-USB" value="MINI-USB" x="-87.63" y="-21.59"/>
+<element name="Q1" library="special" package="Q" value="" x="-44.45" y="-34.29"/>
+<element name="LED65" library="WS2812B" package="WS2812B" value="WS2812B" x="-81.28" y="-41.91"/>
+<element name="LED66" library="WS2812B" package="WS2812B" value="WS2812B" x="-109.22" y="-38.1"/>
+<element name="LED67" library="WS2812B" package="WS2812B" value="WS2812B" x="-118.11" y="-40.64"/>
+<element name="LED68" library="WS2812B" package="WS2812B" value="WS2812B" x="-128.27" y="-48.26"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -633,13 +705,21 @@ design rules under a new name.</description>
 <contactref element="IC6" pad="8"/>
 <contactref element="IC7" pad="8"/>
 <contactref element="IC8" pad="8"/>
+<contactref element="LED65" pad="VSS"/>
+<contactref element="LED66" pad="VSS"/>
+<contactref element="LED67" pad="VSS"/>
+<contactref element="LED68" pad="VSS"/>
+<wire x1="-116.11" y1="-42.34" x2="-126.27" y2="-49.96" width="0" layer="19" extent="1-1"/>
+<wire x1="-107.22" y1="-39.8" x2="-116.11" y2="-42.34" width="0" layer="19" extent="1-1"/>
+<wire x1="-79.28" y1="-43.61" x2="-107.22" y2="-39.8" width="0" layer="19" extent="1-1"/>
+<wire x1="-56.515" y1="2.0066" x2="-79.28" y2="-43.61" width="0" layer="19" extent="1-1"/>
 <wire x1="-56.515" y1="10.8966" x2="-56.515" y2="2.0066" width="0" layer="19" extent="1-1"/>
 <wire x1="-42.545" y1="2.0066" x2="-56.515" y2="2.0066" width="0" layer="19" extent="1-1"/>
 <wire x1="-42.545" y1="10.8966" x2="-42.545" y2="2.0066" width="0" layer="19" extent="1-1"/>
 <wire x1="-28.575" y1="2.0066" x2="-42.545" y2="2.0066" width="0" layer="19" extent="1-1"/>
 <wire x1="-28.575" y1="10.8966" x2="-28.575" y2="2.0066" width="0" layer="19" extent="1-1"/>
-<wire x1="1.905" y1="-3.0734" x2="-28.575" y2="2.0066" width="0" layer="19" extent="1-1"/>
-<wire x1="-14.605" y1="10.8966" x2="1.905" y2="-3.0734" width="0" layer="19" extent="1-1"/>
+<wire x1="-14.605" y1="10.8966" x2="-28.575" y2="10.8966" width="0" layer="19" extent="1-1"/>
+<wire x1="1.905" y1="-3.0734" x2="-14.605" y2="10.8966" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC">
 <contactref element="IC1" pad="16"/>
@@ -1154,6 +1234,42 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$81">
 <contactref element="U$1" pad="5"/>
+<contactref element="S+1" pad="4"/>
+<wire x1="-57.15" y1="-27.94" x2="-85.38" y2="-23.19" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$82">
+<contactref element="Q1" pad="1"/>
+<contactref element="S+1" pad="1"/>
+<wire x1="-64.77" y1="-27.94" x2="-46.99" y2="-41.91" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$83">
+<contactref element="Q1" pad="2"/>
+<contactref element="S+1" pad="2"/>
+<wire x1="-62.23" y1="-27.94" x2="-41.91" y2="-41.91" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="VDD">
+<contactref element="LED65" pad="VDD"/>
+<contactref element="LED66" pad="VDD"/>
+<contactref element="LED67" pad="VDD"/>
+<contactref element="LED68" pad="VDD"/>
+<wire x1="-120.11" y1="-38.94" x2="-130.27" y2="-46.56" width="0" layer="19" extent="1-1"/>
+<wire x1="-111.22" y1="-36.4" x2="-120.11" y2="-38.94" width="0" layer="19" extent="1-1"/>
+<wire x1="-83.28" y1="-40.21" x2="-111.22" y2="-36.4" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$85">
+<contactref element="LED65" pad="DOUT"/>
+<contactref element="LED66" pad="DIN"/>
+<wire x1="-83.28" y1="-43.61" x2="-107.22" y2="-36.4" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$86">
+<contactref element="LED66" pad="DOUT"/>
+<contactref element="LED67" pad="DIN"/>
+<wire x1="-111.22" y1="-39.8" x2="-116.11" y2="-38.94" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$87">
+<contactref element="LED67" pad="DOUT"/>
+<contactref element="LED68" pad="DIN"/>
+<wire x1="-120.11" y1="-42.34" x2="-126.27" y2="-46.56" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
