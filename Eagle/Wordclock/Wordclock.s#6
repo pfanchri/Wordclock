@@ -1860,6 +1860,83 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="Bibliothek">
+<packages>
+<package name="DIP8">
+<description>&lt;b&gt;SMD DIL08&lt;/b&gt; &lt;p&gt;
+dual in line package'</description>
+<wire x1="-5.973" y1="5.483" x2="5.973" y2="5.483" width="0.0508" layer="39"/>
+<wire x1="5.973" y1="5.483" x2="5.973" y2="-5.483" width="0.0508" layer="39"/>
+<wire x1="5.973" y1="-5.483" x2="-5.973" y2="-5.483" width="0.0508" layer="39"/>
+<wire x1="-5.973" y1="-5.483" x2="-5.973" y2="5.483" width="0.0508" layer="39"/>
+<wire x1="-5.36" y1="-3.45" x2="5.36" y2="-3.45" width="0.2032" layer="51"/>
+<wire x1="5.36" y1="-3.45" x2="5.36" y2="3.45" width="0.2032" layer="51"/>
+<wire x1="5.36" y1="3.45" x2="-5.36" y2="3.45" width="0.2032" layer="51"/>
+<wire x1="-5.36" y1="3.45" x2="-5.36" y2="1.27" width="0.2032" layer="51"/>
+<wire x1="-5.36" y1="-1.27" x2="-5.36" y2="-3.45" width="0.2032" layer="51"/>
+<wire x1="-5.3584" y1="1.27" x2="-5.3584" y2="-1.27" width="0.2032" layer="51" curve="-180"/>
+<smd name="1" x="-3.81" y="-3.8" dx="1.2" dy="2.2" layer="1"/>
+<smd name="2" x="-1.27" y="-3.8" dx="1.2" dy="2.2" layer="1"/>
+<smd name="3" x="1.27" y="-3.8" dx="1.2" dy="2.2" layer="1"/>
+<smd name="4" x="3.81" y="-3.8" dx="1.2" dy="2.2" layer="1"/>
+<smd name="5" x="3.81" y="3.8" dx="1.2" dy="2.2" layer="1"/>
+<smd name="6" x="1.27" y="3.8" dx="1.2" dy="2.2" layer="1"/>
+<smd name="7" x="-1.27" y="3.8" dx="1.2" dy="2.2" layer="1"/>
+<smd name="8" x="-3.81" y="3.8" dx="1.2" dy="2.2" layer="1"/>
+<text x="-5.635" y="-3.1351" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="6.905" y="-4.4051" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<text x="-3.81" y="-2.54" size="1.27" layer="21">1</text>
+<rectangle x1="-4.0899" y1="-4.1199" x2="-3.5301" y2="-3.4501" layer="51"/>
+<rectangle x1="-1.5499" y1="-4.1199" x2="-0.9901" y2="-3.4501" layer="51"/>
+<rectangle x1="0.9901" y1="-4.1199" x2="1.5499" y2="-3.4501" layer="51"/>
+<rectangle x1="3.5301" y1="-4.1199" x2="4.0899" y2="-3.4501" layer="51"/>
+<rectangle x1="3.5301" y1="3.4501" x2="4.0899" y2="4.1199" layer="51"/>
+<rectangle x1="0.9901" y1="3.4501" x2="1.5499" y2="4.1199" layer="51"/>
+<rectangle x1="-1.5499" y1="3.4501" x2="-0.9901" y2="4.1199" layer="51"/>
+<rectangle x1="-4.0899" y1="3.4501" x2="-3.5301" y2="4.1199" layer="51"/>
+</package>
+</packages>
+<symbols>
+<symbol name="RTC_DS_1337">
+<wire x1="-17.78" y1="22.86" x2="7.62" y2="22.86" width="0.254" layer="94"/>
+<wire x1="7.62" y1="22.86" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="-17.78" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-10.16" x2="-17.78" y2="22.86" width="0.254" layer="94"/>
+<pin name="GND" x="-5.08" y="-15.24" length="middle" rot="R90"/>
+<pin name="VDD" x="-5.08" y="27.94" length="middle" rot="R270"/>
+<pin name="SDA" x="-22.86" y="17.78" length="middle"/>
+<pin name="SCL" x="-22.86" y="12.7" length="middle"/>
+<pin name="_INTA" x="-22.86" y="2.54" length="middle" direction="out"/>
+<pin name="SQW" x="12.7" y="17.78" length="middle" rot="R180"/>
+<pin name="X1" x="12.7" y="2.54" length="middle" rot="R180"/>
+<pin name="X2" x="12.7" y="-2.54" length="middle" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="RTC_DS_1337">
+<gates>
+<gate name="G$1" symbol="RTC_DS_1337" x="5.08" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="DIP8">
+<connects>
+<connect gate="G$1" pin="GND" pad="4"/>
+<connect gate="G$1" pin="SCL" pad="6"/>
+<connect gate="G$1" pin="SDA" pad="5"/>
+<connect gate="G$1" pin="SQW" pad="7"/>
+<connect gate="G$1" pin="VDD" pad="8"/>
+<connect gate="G$1" pin="X1" pad="1"/>
+<connect gate="G$1" pin="X2" pad="2"/>
+<connect gate="G$1" pin="_INTA" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1942,6 +2019,7 @@ Source: www.kingbright.com</description>
 <part name="LED62" library="led" deviceset="LED" device="3MM"/>
 <part name="LED63" library="led" deviceset="LED" device="3MM"/>
 <part name="LED64" library="led" deviceset="LED" device="3MM"/>
+<part name="U$1" library="Bibliothek" deviceset="RTC_DS_1337" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2020,6 +2098,7 @@ Source: www.kingbright.com</description>
 <instance part="LED62" gate="G$1" x="50.8" y="99.06" rot="R90"/>
 <instance part="LED63" gate="G$1" x="58.42" y="96.52" rot="R90"/>
 <instance part="LED64" gate="G$1" x="66.04" y="93.98" rot="R90"/>
+<instance part="U$1" gate="G$1" x="-86.36" y="93.98"/>
 </instances>
 <busses>
 </busses>
