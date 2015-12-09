@@ -3689,16 +3689,6 @@ Source: AVX .. aphvc.pdf</description>
 <plain>
 </plain>
 <instances>
-</instances>
-<busses>
-</busses>
-<nets>
-</nets>
-</sheet>
-<sheet>
-<plain>
-</plain>
-<instances>
 <instance part="L1" gate="G$1" x="60.96" y="152.4"/>
 <instance part="L2" gate="G$1" x="73.66" y="152.4"/>
 <instance part="L3" gate="G$1" x="86.36" y="152.4"/>
