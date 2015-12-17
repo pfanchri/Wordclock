@@ -11675,8 +11675,8 @@ Source: 008-0260-0_E.pdf</description>
 <part name="C110" library="rcl" deviceset="C-EU" device="C1310" value="100n"/>
 <part name="GND220" library="supply1" deviceset="GND" device=""/>
 <part name="GND221" library="supply1" deviceset="GND" device=""/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="M0805"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="M0805"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R1206"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R1206"/>
 <part name="R_LED1" library="rcl" deviceset="R-EU_" device="M1206"/>
 <part name="R_LED2" library="rcl" deviceset="R-EU_" device="M1206"/>
 <part name="R_LED3" library="rcl" deviceset="R-EU_" device="M1206"/>
@@ -11739,6 +11739,8 @@ Source: 008-0260-0_E.pdf</description>
 <part name="C120" library="rcl" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="R_LED5" library="rcl" deviceset="R-EU_" device="M1206"/>
 <part name="P+11" library="supply1" deviceset="+5V" device=""/>
+<part name="PAD3" library="wirepad" deviceset="2,54/1,1" device=""/>
+<part name="PAD4" library="wirepad" deviceset="2,54/1,1" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -12255,6 +12257,8 @@ Source: 008-0260-0_E.pdf</description>
 <instance part="C120" gate="G$1" x="-83.82" y="-25.4" rot="R180"/>
 <instance part="R_LED5" gate="G$1" x="-76.2" y="22.86" rot="R90"/>
 <instance part="P+11" gate="1" x="-76.2" y="33.02"/>
+<instance part="PAD3" gate="1" x="-7.62" y="-50.8" rot="R180"/>
+<instance part="PAD4" gate="1" x="-7.62" y="-58.42" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -13490,6 +13494,11 @@ Source: 008-0260-0_E.pdf</description>
 <pinref part="GND231" gate="1" pin="GND"/>
 <wire x1="-101.6" y1="-25.4" x2="-101.6" y2="-45.72" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="PAD4" gate="1" pin="P"/>
+<wire x1="-12.7" y1="-58.42" x2="-10.16" y2="-58.42" width="0.1524" layer="91"/>
+<label x="-12.7" y="-58.42" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="N$20" class="0">
 <segment>
@@ -14661,6 +14670,11 @@ Source: 008-0260-0_E.pdf</description>
 <pinref part="Q3" gate="G$1" pin="S"/>
 <wire x1="33.02" y1="15.24" x2="30.48" y2="15.24" width="0.1524" layer="91"/>
 <label x="33.02" y="10.16" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="PAD3" gate="1" pin="P"/>
+<wire x1="-12.7" y1="-50.8" x2="-10.16" y2="-50.8" width="0.1524" layer="91"/>
+<label x="-12.7" y="-50.8" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$5" class="0">

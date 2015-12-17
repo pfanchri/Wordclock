@@ -10083,6 +10083,7 @@ Source: 008-0260-0_E.pdf</description>
 <part name="PAD2" library="wirepad" deviceset="2,54/1,1" device=""/>
 <part name="SP1" library="buzzer" deviceset="AL11P" device=""/>
 <part name="Q2" library="crystal" deviceset="CRYSTAL" device="HC49S"/>
+<part name="P+9" library="supply1" deviceset="+5V" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10589,6 +10590,7 @@ Source: 008-0260-0_E.pdf</description>
 <instance part="PAD2" gate="1" x="-20.32" y="-30.48" rot="R180"/>
 <instance part="SP1" gate="G$1" x="10.16" y="-5.08"/>
 <instance part="Q2" gate="G$1" x="-81.28" y="-2.54" rot="R270"/>
+<instance part="P+9" gate="1" x="-86.36" y="63.5"/>
 </instances>
 <busses>
 </busses>
@@ -14149,6 +14151,12 @@ Source: 008-0260-0_E.pdf</description>
 <pinref part="P+8" gate="1" pin="+5V"/>
 <pinref part="LDR" gate="G$1" pin="2"/>
 <wire x1="10.16" y1="-66.04" x2="10.16" y2="-68.58" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="S+1" gate="G$1" pin="VCC"/>
+<wire x1="-91.44" y1="48.26" x2="-86.36" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-86.36" y1="48.26" x2="-86.36" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="P+9" gate="1" pin="+5V"/>
 </segment>
 </net>
 <net name="N$119" class="0">

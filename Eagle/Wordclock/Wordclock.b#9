@@ -1765,6 +1765,68 @@ Low profile connectors, straight&lt;p&gt;
 </package>
 </packages>
 </library>
+<library name="transistor-fet">
+<description>&lt;b&gt;Field Effect Transistors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;&lt;p&gt;
+&lt;p&gt;
+Symbols changed according to IEC617&lt;p&gt; 
+All types, packages and assignment to symbols and pins checked&lt;p&gt;
+Package outlines partly checked&lt;p&gt;
+&lt;p&gt;
+JFET = junction FET&lt;p&gt;
+IGBT-x = insulated gate bipolar transistor&lt;p&gt;
+x=N: NPN; x=P: PNP&lt;p&gt;
+IGFET-mc-nnn; (IGFET=insulated gate field effect transistor)&lt;P&gt;
+m=D: depletion mode (Verdr&amp;auml;ngungstyp)&lt;p&gt;
+m=E: enhancement mode (Anreicherungstyp)&lt;p&gt;
+c: N=N-channel; P=P-Channel&lt;p&gt;
+GDSB: gate, drain, source, bulk&lt;p&gt;
+&lt;p&gt;
+by R. Vogg  15.March.2002</description>
+<packages>
+<package name="TO220">
+<description>&lt;b&gt;TO 220 horizontal&lt;/b&gt;</description>
+<wire x1="-5.207" y1="-1.27" x2="5.207" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="5.207" y1="14.605" x2="-5.207" y2="14.605" width="0.127" layer="21"/>
+<wire x1="5.207" y1="-1.27" x2="5.207" y2="11.176" width="0.127" layer="21"/>
+<wire x1="5.207" y1="11.176" x2="4.318" y2="11.176" width="0.127" layer="21"/>
+<wire x1="4.318" y1="11.176" x2="4.318" y2="12.7" width="0.127" layer="21"/>
+<wire x1="4.318" y1="12.7" x2="5.207" y2="12.7" width="0.127" layer="21"/>
+<wire x1="5.207" y1="12.7" x2="5.207" y2="14.605" width="0.127" layer="21"/>
+<wire x1="-5.207" y1="-1.27" x2="-5.207" y2="11.176" width="0.127" layer="21"/>
+<wire x1="-5.207" y1="11.176" x2="-4.318" y2="11.176" width="0.127" layer="21"/>
+<wire x1="-4.318" y1="11.176" x2="-4.318" y2="12.7" width="0.127" layer="21"/>
+<wire x1="-4.318" y1="12.7" x2="-5.207" y2="12.7" width="0.127" layer="21"/>
+<wire x1="-5.207" y1="12.7" x2="-5.207" y2="14.605" width="0.127" layer="21"/>
+<wire x1="-4.572" y1="-0.635" x2="4.572" y2="-0.635" width="0.0508" layer="21"/>
+<wire x1="4.572" y1="7.62" x2="4.572" y2="-0.635" width="0.0508" layer="21"/>
+<wire x1="4.572" y1="7.62" x2="-4.572" y2="7.62" width="0.0508" layer="21"/>
+<wire x1="-4.572" y1="-0.635" x2="-4.572" y2="7.62" width="0.0508" layer="21"/>
+<circle x="0" y="11.176" radius="1.8034" width="0.127" layer="21"/>
+<circle x="0" y="11.176" radius="4.191" width="0" layer="42"/>
+<circle x="0" y="11.176" radius="4.191" width="0" layer="43"/>
+<pad name="1" x="-2.54" y="-6.35" drill="1.1176" shape="long" rot="R90"/>
+<pad name="2" x="0" y="-6.35" drill="1.1176" shape="long" rot="R90"/>
+<pad name="3" x="2.54" y="-6.35" drill="1.1176" shape="long" rot="R90"/>
+<text x="-3.81" y="5.207" size="1.778" layer="25" ratio="10">&gt;NAME</text>
+<text x="-3.937" y="2.54" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-4.445" y="7.874" size="0.9906" layer="21" ratio="12">A17,5mm</text>
+<text x="-3.175" y="0" size="1.27" layer="51" ratio="10">1</text>
+<text x="-0.635" y="0" size="1.27" layer="51" ratio="10">2</text>
+<text x="1.905" y="0" size="1.27" layer="51" ratio="10">3</text>
+<rectangle x1="2.159" y1="-4.699" x2="2.921" y2="-4.064" layer="21"/>
+<rectangle x1="-0.381" y1="-4.699" x2="0.381" y2="-4.064" layer="21"/>
+<rectangle x1="-2.921" y1="-4.699" x2="-2.159" y2="-4.064" layer="21"/>
+<rectangle x1="-3.175" y1="-4.064" x2="-1.905" y2="-1.27" layer="21"/>
+<rectangle x1="-0.635" y1="-4.064" x2="0.635" y2="-1.27" layer="21"/>
+<rectangle x1="1.905" y1="-4.064" x2="3.175" y2="-1.27" layer="21"/>
+<rectangle x1="-2.921" y1="-6.604" x2="-2.159" y2="-4.699" layer="51"/>
+<rectangle x1="-0.381" y1="-6.604" x2="0.381" y2="-4.699" layer="51"/>
+<rectangle x1="2.159" y1="-6.604" x2="2.921" y2="-4.699" layer="51"/>
+<hole x="0" y="11.176" drill="3.302"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2255,6 +2317,7 @@ design rules under a new name.</description>
 <attribute name="MF" value="" x="-80.38" y="-172.13" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="-80.38" y="-172.13" size="1.778" layer="27" display="off"/>
 </element>
+<element name="Q3" library="transistor-fet" package="TO220" value="SUP75N06-08" x="-94.92" y="-166.02"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -4755,12 +4818,16 @@ design rules under a new name.</description>
 <signal name="INTB">
 <contactref element="S+1" pad="7"/>
 <contactref element="R2" pad="1"/>
+<contactref element="IC1" pad="5"/>
 <wire x1="-10.95" y1="40.635" x2="-15.14" y2="88.625" width="0" layer="19" extent="1-1"/>
+<wire x1="-20.29" y1="-37.28" x2="-10.95" y2="40.635" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="INTA">
 <contactref element="S+1" pad="3"/>
 <contactref element="R1" pad="1"/>
+<contactref element="IC1" pad="4"/>
 <wire x1="-7.31" y1="48.565" x2="-12.6" y2="81.005" width="0" layer="19" extent="1-1"/>
+<wire x1="-22.83" y1="-37.28" x2="-7.31" y2="48.565" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$21">
 <contactref element="Q1" pad="2"/>
@@ -4820,24 +4887,18 @@ design rules under a new name.</description>
 </signal>
 <signal name="LEDALARM">
 <contactref element="LED5" pad="C"/>
+<contactref element="IC1" pad="23"/>
+<wire x1="-17.75" y1="-29.66" x2="67.5" y2="125.25" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCL">
 <contactref element="S+1" pad="6"/>
+<contactref element="IC1" pad="28"/>
+<wire x1="-30.45" y1="-29.66" x2="-12.6" y2="88.625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SDA">
 <contactref element="S+1" pad="5"/>
-</signal>
-<signal name="N$119">
 <contactref element="IC1" pad="27"/>
-</signal>
-<signal name="N$120">
-<contactref element="IC1" pad="28"/>
-</signal>
-<signal name="N$121">
-<contactref element="IC1" pad="4"/>
-</signal>
-<signal name="N$122">
-<contactref element="IC1" pad="5"/>
+<wire x1="-27.91" y1="-29.66" x2="-10.06" y2="88.625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$112">
 <contactref element="R8" pad="1"/>
@@ -4874,50 +4935,44 @@ design rules under a new name.</description>
 <wire x1="-82.02" y1="-123.65" x2="-87.82" y2="-123.65" width="0" layer="19" extent="1-1"/>
 <wire x1="-86.5612" y1="-115.1194" x2="-87.82" y2="-123.65" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="N$126">
-<contactref element="IC1" pad="23"/>
-</signal>
 <signal name="N$127">
 <contactref element="IC1" pad="24"/>
 </signal>
 <signal name="N$128">
 <contactref element="IC1" pad="25"/>
 </signal>
-<signal name="N$129">
+<signal name="LDR">
 <contactref element="IC1" pad="26"/>
 </signal>
 <signal name="N$130">
 <contactref element="IC1" pad="2"/>
-</signal>
-<signal name="N$131">
-<contactref element="IC1" pad="3"/>
-</signal>
-<signal name="N$132">
-<contactref element="IC1" pad="6"/>
-</signal>
-<signal name="N$133">
-<contactref element="IC1" pad="11"/>
-</signal>
-<signal name="N$134">
-<contactref element="IC1" pad="12"/>
-</signal>
-<signal name="N$135">
-<contactref element="IC1" pad="13"/>
+<contactref element="SG1" pad="-"/>
+<wire x1="-27.91" y1="-37.28" x2="-84.35" y2="-135.38" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCHALTER5">
 <contactref element="R8" pad="2"/>
+<contactref element="IC1" pad="13"/>
+<wire x1="0.03" y1="-37.28" x2="-84.72" y2="-72.41" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCHALTER1">
 <contactref element="R9" pad="2"/>
+<contactref element="IC1" pad="3"/>
+<wire x1="-25.37" y1="-37.28" x2="-79.36" y2="-85.57" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCHALTER2">
 <contactref element="R10" pad="2"/>
+<contactref element="IC1" pad="6"/>
+<wire x1="-17.75" y1="-37.28" x2="-79.22" y2="-108.95" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCHALTER3">
 <contactref element="R11" pad="2"/>
+<contactref element="IC1" pad="11"/>
+<wire x1="-5.05" y1="-37.28" x2="-74.22" y2="-108.95" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCHALTER4">
 <contactref element="R12" pad="2"/>
+<contactref element="IC1" pad="12"/>
+<wire x1="-2.51" y1="-37.28" x2="-79.22" y2="-123.65" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$136">
 <contactref element="C117" pad="2"/>
@@ -4943,6 +4998,15 @@ design rules under a new name.</description>
 <contactref element="IC1" pad="1"/>
 <contactref element="SV1" pad="5"/>
 <wire x1="-30.45" y1="-37.28" x2="-77.84" y2="-173.4" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="VDD">
+<contactref element="SG1" pad="+"/>
+</signal>
+<signal name="N$119">
+<contactref element="Q3" pad="2"/>
+</signal>
+<signal name="N$120">
+<contactref element="Q3" pad="3"/>
 </signal>
 </signals>
 </board>
