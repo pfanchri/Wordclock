@@ -1,5 +1,5 @@
 .HEADER
-BOARD_FILE 3.0 "Eagle IDF Exporter Version 1.0" 2015/11/19.22:29:51
+BOARD_FILE 3.0 "Eagle IDF Exporter Version 1.0" 2015/11/19.23:26:27
 "Wordclock.brd" MM
 .END_HEADER
 .BOARD_OUTLINE UNOWNED
