@@ -353,7 +353,7 @@ UsedLibrary="Y:/Documents/Uni/Fächer/DIY/Wordclock/Eagle/fremde Librarys/Adafru
 
 [Win_1]
 Type="Control Panel"
-Loc="313 144 1139 688"
+Loc="233 144 1059 688"
 State=2
 Number=0
 

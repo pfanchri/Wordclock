@@ -1,0 +1,68 @@
+*****************************************************************
+      SolidWorks Corporation - IGES Prozesssor Status-Bericht
+*****************************************************************
+=================================================================
+Allgemeine Informationen
+=================================================================
+Senden der System-Produktkennung: TO220 - TO220AB
+Erhalt der System-Produktkennung: TO220 - TO220AB
+Dateiname: D:\Temp\_SolidWorks 2015 x64\Kis Hûtõborda [GrabCad]\TO220 - TO220AB\Export\TO220 - TO220AB.IGS
+Versandsystem: SolidWorks 2015
+Präprozessor-Version: SolidWorks 2015
+Datum der Dateierstellung: 150501.114659
+Datum der Modellerstellung: 150501.114659
+Einheiten: MM
+Modellraummaßstab: 1
+Verfasser: NoiroSM250
+Firma                 : 
+
+
+=================================================================
+Elementverarbeitungsinformationen
+=================================================================
+
+
+=================================================================
+Präzisionsanalyse von IGES Datei:
+=================================================================
+  Häufigste Anzahl an signifikanten Stellen:              10
+  Höchste Zahl von signifikanten Stellen:                     13
+  Durchschnittliche Zahl an signifikanten Stellen:                7.59864
+  Maximaler Abstand zum Ursprung:                          1734.67
+  Minimaler Abstand zum Ursprung:                                0
+  Effektive Zahl an an signifikanten Stellen:                   13
+
+
+=================================================================
+Elementzusammenfassung
+=================================================================
+-----------------------------------------------------------------
+Typname                                         Menge konvertiert
+---- ----                                         ----- ---------
+100  Arc                                            936       936
+102  Composite curve                               2122      2122
+110  Line                                          3620      3620
+120  Surface of revolution                          203       203
+124  Transformation matrix                          710       710
+126  Rational B-spline curve                       6041      6041
+128  Rational B-spline surface                      818       818
+142  Curve on a parametric surface                 1061      1061
+144  Trimmed parametric surface                    1021      1021
+308  Subfigure definition                             2         2
+314  Color definition                              1021      1021
+408  Singular subfigure instance                      2         2
+_________________________________________________________________
+
+
+=================================================================
+Ergebniszusammenfassung
+=================================================================
+SolidWorks Feature-Typ                Anzahl
+-----------------------                -----
+Volumenkörper-Feature(s)                       5
+Oberflächen-Feature(s)                     0
+Kurven-/Skizzen-Feature(s)                0
+--------------------------------------------
+Startzeit: Mittwoch, Dezember 23, 2015 14:41:16
+Fertigstellungszeit: Mittwoch, Dezember 23, 2015 14:41:30
+Verarbeitungszeit: 0 days, 00 hours, 00 mins, 14 secs

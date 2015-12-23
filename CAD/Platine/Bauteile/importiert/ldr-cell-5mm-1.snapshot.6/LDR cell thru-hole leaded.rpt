@@ -1,0 +1,68 @@
+*****************************************************************
+      SolidWorks Corporation - IGES Prozesssor Status-Bericht
+*****************************************************************
+=================================================================
+Allgemeine Informationen
+=================================================================
+Senden der System-Produktkennung: LDR cell thru-hole leaded
+Erhalt der System-Produktkennung: LDR cell thru-hole leaded
+Dateiname: \\psf\Home\Documents\solidworks drawings\electr\parts\opto\LDRs\LDR cell thru-hole leaded.IGS
+Versandsystem: SolidWorks 2013
+Präprozessor-Version: SolidWorks 2013
+Datum der Dateierstellung: 150217.224137
+Datum der Modellerstellung: 150217.224137
+Einheiten: MM
+Modellraummaßstab: 1
+Verfasser: dg
+Firma                 : 
+
+
+=================================================================
+Elementverarbeitungsinformationen
+=================================================================
+
+
+=================================================================
+Präzisionsanalyse von IGES Datei:
+=================================================================
+  Häufigste Anzahl an signifikanten Stellen:               3
+  Höchste Zahl von signifikanten Stellen:                     12
+  Durchschnittliche Zahl an signifikanten Stellen:                4.93236
+  Maximaler Abstand zum Ursprung:                             1413
+  Minimaler Abstand zum Ursprung:                                0
+  Effektive Zahl an an signifikanten Stellen:                   12
+
+
+=================================================================
+Elementzusammenfassung
+=================================================================
+-----------------------------------------------------------------
+Typname                                         Menge konvertiert
+---- ----                                         ----- ---------
+100  Arc                                            472       472
+102  Composite curve                                460       460
+110  Line                                           852       852
+120  Surface of revolution                          114       114
+124  Transformation matrix                          266       266
+126  Rational B-spline curve                       1102      1102
+128  Rational B-spline surface                      100       100
+142  Curve on a parametric surface                  230       230
+144  Trimmed parametric surface                     214       214
+308  Subfigure definition                             4         4
+314  Color definition                                28        28
+408  Singular subfigure instance                      4         4
+_________________________________________________________________
+
+
+=================================================================
+Ergebniszusammenfassung
+=================================================================
+SolidWorks Feature-Typ                Anzahl
+-----------------------                -----
+Volumenkörper-Feature(s)                       6
+Oberflächen-Feature(s)                     0
+Kurven-/Skizzen-Feature(s)                0
+--------------------------------------------
+Startzeit: Mittwoch, Dezember 23, 2015 14:25:27
+Fertigstellungszeit: Mittwoch, Dezember 23, 2015 14:25:30
+Verarbeitungszeit: 0 days, 00 hours, 00 mins, 03 secs

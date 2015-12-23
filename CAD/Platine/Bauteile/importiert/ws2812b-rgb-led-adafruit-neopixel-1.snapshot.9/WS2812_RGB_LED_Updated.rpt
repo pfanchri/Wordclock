@@ -1,0 +1,75 @@
+*****************************************************************
+      SolidWorks Corporation - IGES Prozesssor Status-Bericht
+*****************************************************************
+=================================================================
+Allgemeine Informationen
+=================================================================
+Senden der System-Produktkennung: C:\Users\risknc\Google Drive\Drive\Mechanical Design\Temporary CAD folder\Alpha\Dev\Envplug\WS2812_RGB_LED.prt
+Erhalt der System-Produktkennung: C:\Users\risknc\Google Drive\Drive\Mechanical Design\Temporary CAD folder\Alpha\Dev\Envplug\WS2812_RGB_LED.prt
+Dateiname: C:\Users\risknc\Google Drive\Drive\Mechanical Design\Temporary CAD folder\Alpha\Dev\Components\WS2812_RGB_LED_Updated.igs
+Versandsystem: NX V9.0
+Präprozessor-Version: SIEMENS PLM Software NX 9.0
+Datum der Dateierstellung: 20140801.163735
+Datum der Modellerstellung: 20140801.163500
+Einheiten: MM
+Modellraummaßstab: 1
+Verfasser: 
+Firma                 : 
+
+
+=================================================================
+Elementverarbeitungsinformationen
+=================================================================
+FEHLER:   DE#   377, TYP   144: Problem in innerer Trimmkurve gefunden.
+WARNUNG: DE#   377, TYP   144: Fehler mit Hilfe von 3D-Trimmkurven repariert.
+FEHLER:   DE#   581, TYP   144: Problem in innerer Trimmkurve gefunden.
+WARNUNG: DE#   581, TYP   144: Fehler mit Hilfe von 3D-Trimmkurven repariert.
+FEHLER:   DE#  1767, TYP   144: Problem in äußerer Trimmkurve gefunden.
+WARNUNG: DE#  1767, TYP   144: Fehler mit Hilfe von 3D-Trimmkurven repariert.
+FEHLER:   DE#  1813, TYP   144: Problem in äußerer Trimmkurve gefunden.
+WARNUNG: DE#  1813, TYP   144: Fehler mit Hilfe von 3D-Trimmkurven repariert.
+
+
+=================================================================
+Präzisionsanalyse von IGES Datei:
+=================================================================
+  Häufigste Anzahl an signifikanten Stellen:               4
+  Höchste Zahl von signifikanten Stellen:                     14
+  Durchschnittliche Zahl an signifikanten Stellen:                 5.1967
+  Maximaler Abstand zum Ursprung:                          4.89307
+  Minimaler Abstand zum Ursprung:                         0.128944
+  Effektive Zahl an an signifikanten Stellen:              13.9771
+
+
+=================================================================
+Elementzusammenfassung
+=================================================================
+-----------------------------------------------------------------
+Typname                                         Menge konvertiert
+---- ----                                         ----- ---------
+100  Arc                                            111       111
+102  Composite curve                                 68        68
+110  Line                                           228       228
+116  Point                                            1         1
+124  Transformation matrix                           12        12
+126  Rational B-spline curve                        262       262
+128  Rational B-spline surface                       59        59
+142  Curve on a parametric surface                   38        38
+144  Trimmed parametric surface                      36        36
+314  Color definition                                 6         6
+406  Property                                        86        86
+_________________________________________________________________
+
+
+=================================================================
+Ergebniszusammenfassung
+=================================================================
+SolidWorks Feature-Typ                Anzahl
+-----------------------                -----
+Volumenkörper-Feature(s)                       1
+Oberflächen-Feature(s)                     1
+Kurven-/Skizzen-Feature(s)                0
+--------------------------------------------
+Startzeit: Mittwoch, Dezember 23, 2015 14:18:16
+Fertigstellungszeit: Mittwoch, Dezember 23, 2015 14:18:17
+Verarbeitungszeit: 0 days, 00 hours, 00 mins, 01 secs
