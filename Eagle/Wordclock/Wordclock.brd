@@ -2079,7 +2079,7 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="S+1" library="eagle-library-edeca.net-v5" package="DIL8" value="DS1337+" x="40.53" y="120.23" rot="MR0"/>
-<element name="Q_DS" library="crystal" package="HC49/S" value="" x="52.33" y="116.59" rot="MR0">
+<element name="Q_DS" library="crystal" package="HC49/S" value="32,768MHz" x="52.33" y="116.59" rot="MR0">
 <attribute name="OC_NEWARK" value="unknown" x="52.33" y="116.59" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="" x="52.33" y="116.59" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MF" value="" x="52.33" y="116.59" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2308,8 +2308,8 @@ design rules under a new name.</description>
 <element name="C109" library="rcl" package="C1310" value="100n" x="106.445" y="25.748903125" rot="R90"/>
 <element name="L110" library="adafruit" package="WS2812B" value="WS2812B" x="110.77" y="24.248903125" rot="R270"/>
 <element name="C110" library="rcl" package="C1310" value="100n" x="115.095" y="25.748903125" rot="R90"/>
-<element name="PULLUP_INTA" library="rcl" package="R1206" value="" x="19.805" y="70.37" rot="R270"/>
-<element name="PULLUP_INTB" library="rcl" package="R1206" value="" x="42.98" y="121.535"/>
+<element name="PULLUP_INTA" library="rcl" package="R1206" value="4,7k" x="19.805" y="70.37" rot="R270"/>
+<element name="PULLUP_INTB" library="rcl" package="R1206" value="4,7k" x="42.98" y="121.535"/>
 <element name="R_LED1" library="rcl" package="M1206" value="" x="124.87" y="119.33" rot="R180"/>
 <element name="R_LED2" library="rcl" package="M1206" value="" x="120.16" y="23.7" rot="R270"/>
 <element name="R_LED3" library="rcl" package="M1206" value="" x="13.95" y="11.45" rot="R270"/>
@@ -2333,7 +2333,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="176432" x="97.5" y="17" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C_S5" library="rcl" package="C1206" value="100n" x="86.58" y="17.83" rot="R90"/>
-<element name="R_S5" library="rcl" package="M1206" value="" x="90.19" y="15.38" rot="R180"/>
+<element name="R_S5" library="rcl" package="M1206" value="1k" x="90.19" y="15.38" rot="R180"/>
 <element name="S1" library="switch-omron" package="B3F-10XX" value="" x="67.5" y="117.5" rot="MR0">
 <attribute name="OC_NEWARK" value="36M3542" x="78.12" y="128.47" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="MPN" value="B3F-1000" x="78.12" y="128.47" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2341,7 +2341,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="176432" x="78.12" y="128.47" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="C_S1" library="rcl" package="C1206" value="100n" x="58.1" y="117.15" rot="R270"/>
-<element name="R_S1" library="rcl" package="M1206" value="" x="61.07" y="119.21" rot="R270"/>
+<element name="R_S1" library="rcl" package="M1206" value="1k" x="61.07" y="119.21" rot="R270"/>
 <element name="S2" library="switch-omron" package="B3F-10XX" value="" x="37.5" y="17" rot="MR180">
 <attribute name="OC_NEWARK" value="36M3542" x="26.88" y="6.03" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="B3F-1000" x="26.88" y="6.03" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2349,7 +2349,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="176432" x="26.88" y="6.03" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C_S2" library="rcl" package="C1206" value="100n" x="26.65" y="17.73" rot="R90"/>
-<element name="R_S2" library="rcl" package="M1206" value="" x="30.2" y="15.91" rot="R180"/>
+<element name="R_S2" library="rcl" package="M1206" value="1k" x="30.2" y="15.91" rot="R180"/>
 <element name="S3" library="switch-omron" package="B3F-10XX" value="" x="57.5" y="17" rot="MR180">
 <attribute name="OC_NEWARK" value="36M3542" x="36.26" y="7.85" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="B3F-1000" x="36.26" y="7.85" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2357,7 +2357,7 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="176432" x="36.26" y="7.85" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C_S3" library="rcl" package="C1206" value="100n" x="46.77" y="17.81" rot="R90"/>
-<element name="R_S3" library="rcl" package="M1206" value="" x="50.32" y="15.31" rot="R180"/>
+<element name="R_S3" library="rcl" package="M1206" value="1k" x="50.32" y="15.31" rot="R180"/>
 <element name="S4" library="switch-omron" package="B3F-10XX" value="" x="77.5" y="17" rot="MR180">
 <attribute name="OC_NEWARK" value="36M3542" x="66.88" y="6.03" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="B3F-1000" x="66.88" y="6.03" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2365,9 +2365,9 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="176432" x="66.88" y="6.03" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="C_S4" library="rcl" package="C1206" value="100n" x="66.75" y="17.84" rot="R90"/>
-<element name="R_S4" library="rcl" package="M1206" value="" x="70.3" y="15.14" rot="R180"/>
-<element name="C116" library="rcl" package="C0805" value="" x="20.94" y="59.64" rot="R270"/>
-<element name="C117" library="rcl" package="C0805" value="" x="17.86" y="63.06" rot="R270"/>
+<element name="R_S4" library="rcl" package="M1206" value="1k" x="70.3" y="15.14" rot="R180"/>
+<element name="C116" library="rcl" package="C0805" value="18p" x="20.94" y="59.64" rot="R270"/>
+<element name="C117" library="rcl" package="C0805" value="18p" x="17.86" y="63.06" rot="R270"/>
 <element name="SV1" library="con-harting-ml" package="ML6L" value="" x="11.46" y="37.02" rot="MR180">
 <attribute name="OC_NEWARK" value="unknown" x="11.46" y="37.02" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="MPN" value="" x="11.46" y="37.02" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2399,16 +2399,18 @@ design rules under a new name.</description>
 <element name="PAD3" library="wirepad" package="2,54/1,1" value="" x="15.02" y="95"/>
 <element name="PAD4" library="wirepad" package="2,54/1,1" value="" x="15.01" y="98.01"/>
 <element name="BRIDGE_GND" library="rcl" package="R1206" value="0" x="12.79" y="65.31" rot="R270"/>
-<element name="BRIDGE_VDD" library="rcl" package="R1206" value="" x="114.93" y="66.35" rot="R270"/>
-<element name="BRIDGE_INTB" library="rcl" package="R1206" value="" x="29.23" y="117.06"/>
-<element name="R_MOSFET" library="rcl" package="R1206" value="" x="21.08" y="115.62"/>
+<element name="BRIDGE_VDD" library="rcl" package="R1206" value="0" x="114.93" y="66.35" rot="R270"/>
+<element name="BRIDGE_INTB" library="rcl" package="R1206" value="0" x="29.23" y="117.06"/>
+<element name="R_MOSFET" library="rcl" package="R1206" value="130" x="21.08" y="115.62"/>
 <element name="R_SCL" library="rcl" package="R1206" value="" x="22.21" y="118.41"/>
 <element name="R_SDA" library="rcl" package="R1206" value="" x="22.2" y="120.47"/>
 <element name="BRIDGE_RESET1" library="rcl" package="M1206" value="0" x="16.2" y="104.72" rot="R180"/>
-<element name="BRIDGE_MOSI" library="rcl" package="R1206" value="" x="13.33" y="17.94" rot="R270"/>
-<element name="BRIDGE_SCK" library="rcl" package="R1206" value="" x="8.92" y="42.86" rot="R180"/>
-<element name="BRIDGE_RESET2" library="rcl" package="R1206" value="" x="8.91" y="44.92" rot="R180"/>
-<element name="R_MATRIXIN" library="rcl" package="R1206" value="" x="18.5" y="112.72"/>
+<element name="BRIDGE_MOSI" library="rcl" package="R1206" value="0" x="13.33" y="17.94" rot="R270"/>
+<element name="BRIDGE_SCK" library="rcl" package="R1206" value="0" x="8.92" y="42.86" rot="R180"/>
+<element name="BRIDGE_RESET2" library="rcl" package="R1206" value="0" x="8.91" y="44.92" rot="R180"/>
+<element name="R_MATRIXIN" library="rcl" package="R1206" value="300" x="18.5" y="112.72"/>
+<element name="PULLUP_SCL" library="rcl" package="R1206" value="4,7k" x="-2.88" y="-6.85"/>
+<element name="PULLUP_SDA" library="rcl" package="R1206" value="4,7k" x="-2.88" y="-12.87"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -5615,6 +5617,10 @@ design rules under a new name.</description>
 <wire x1="15.45" y1="113.38" x2="16.07" y2="114" width="0.4064" layer="1"/>
 <wire x1="16.07" y1="114" x2="20.86" y2="114" width="0.4064" layer="1"/>
 <wire x1="20.86" y1="114" x2="21.18" y2="114.32" width="0.4064" layer="1"/>
+<contactref element="PULLUP_SDA" pad="2"/>
+<contactref element="PULLUP_SCL" pad="2"/>
+<wire x1="-1.458" y1="-6.85" x2="10.08" y2="11.47" width="0" layer="19" extent="1-1"/>
+<wire x1="-1.458" y1="-12.87" x2="-1.458" y2="-6.85" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$119">
 <contactref element="S1" pad="1"/>
@@ -5741,6 +5747,8 @@ design rules under a new name.</description>
 <wire x1="26.12" y1="119.64" x2="25.07" y2="118.59" width="0.3048" layer="1"/>
 <wire x1="25.07" y1="118.59" x2="23.702" y2="118.59" width="0.3048" layer="1"/>
 <wire x1="23.702" y1="118.59" x2="23.632" y2="118.41" width="0.3048" layer="1"/>
+<contactref element="PULLUP_SCL" pad="1"/>
+<wire x1="-4.302" y1="-6.85" x2="23.632" y2="118.41" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$124">
 <contactref element="S+1" pad="5"/>
@@ -5751,6 +5759,8 @@ design rules under a new name.</description>
 <wire x1="36.72" y1="122.51" x2="36.72" y2="124.04" width="0.3048" layer="1"/>
 <wire x1="32.82" y1="120.64" x2="23.682" y2="120.64" width="0.3048" layer="1"/>
 <wire x1="23.682" y1="120.64" x2="23.622" y2="120.47" width="0.3048" layer="1"/>
+<contactref element="PULLUP_SDA" pad="1"/>
+<wire x1="-4.302" y1="-12.87" x2="23.622" y2="120.47" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="NC1">
 <contactref element="IC1" pad="23"/>
