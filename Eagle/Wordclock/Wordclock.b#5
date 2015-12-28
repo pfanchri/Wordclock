@@ -183,6 +183,8 @@
 <text x="76.25" y="6.72" size="1.778" layer="1">WORDCLOCK
 Vorlesung DIY Uni Erlangen</text>
 <text x="122.3" y="46.22" size="1.778" layer="1" rot="R90">Wiki: http://goo.gl/NjuZeu</text>
+<dimension x1="2.5" y1="2.5" x2="2.5" y2="132.5" x3="-2.44" y3="67.5" textsize="1.778" layer="105" dtype="horizontal"/>
+<dimension x1="132.5" y1="2.5" x2="2.5" y2="2.5" x3="67.5" y3="-1.87" textsize="1.778" layer="105" dtype="horizontal"/>
 </plain>
 <libraries>
 <library name="eagle-library-edeca.net-v5">

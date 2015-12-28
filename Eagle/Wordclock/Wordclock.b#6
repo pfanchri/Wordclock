@@ -182,6 +182,7 @@
 <hole x="111" y="125" drill="4"/>
 <text x="76.25" y="6.72" size="1.778" layer="1">WORDCLOCK
 Vorlesung DIY Uni Erlangen</text>
+<text x="122.3" y="46.22" size="1.778" layer="1" rot="R90">Wiki: http://goo.gl/NjuZeu</text>
 </plain>
 <libraries>
 <library name="eagle-library-edeca.net-v5">
