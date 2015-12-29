@@ -11768,6 +11768,8 @@ einige Bauteile sind optional und können über Software verwendet werden oder a
 <text x="-93.98" y="-81.28" size="1.778" layer="91">Pads für Vesorgung späterer
 Schaltungsteile
 z.B. Bewegungsmelder</text>
+<text x="-2.54" y="-208.28" size="1.778" layer="91">SCL/SDA fehlen in erstem
+ entwickeltem Bord noch !!</text>
 </plain>
 <instances>
 <instance part="S+1" gate="G$1" x="-40.64" y="-218.44"/>
@@ -15894,14 +15896,14 @@ z.B. Bewegungsmelder</text>
 <label x="-81.28" y="-86.36" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="PULLUP_SDA" gate="G$1" pin="2"/>
 <pinref part="P+13" gate="1" pin="+5V"/>
 <wire x1="-10.16" y1="-205.74" x2="-10.16" y2="-203.2" width="0.1524" layer="91"/>
+<pinref part="PULLUP_SDA" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="P+12" gate="1" pin="+5V"/>
-<pinref part="PULLUP_SCL" gate="G$1" pin="2"/>
 <wire x1="-15.24" y1="-203.2" x2="-15.24" y2="-205.74" width="0.1524" layer="91"/>
+<pinref part="PULLUP_SCL" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$119" class="0">
@@ -16023,10 +16025,10 @@ z.B. Bewegungsmelder</text>
 <pinref part="S+1" gate="G$1" pin="SCL"/>
 <pinref part="R_SCL" gate="G$1" pin="2"/>
 <wire x1="-2.54" y1="-220.98" x2="-15.24" y2="-220.98" width="0.1524" layer="91"/>
-<pinref part="PULLUP_SCL" gate="G$1" pin="1"/>
 <wire x1="-15.24" y1="-220.98" x2="-27.94" y2="-220.98" width="0.1524" layer="91"/>
 <wire x1="-15.24" y1="-215.9" x2="-15.24" y2="-220.98" width="0.1524" layer="91"/>
 <junction x="-15.24" y="-220.98"/>
+<pinref part="PULLUP_SCL" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$124" class="0">
@@ -16034,10 +16036,10 @@ z.B. Bewegungsmelder</text>
 <pinref part="S+1" gate="G$1" pin="SDA"/>
 <pinref part="R_SDA" gate="G$1" pin="2"/>
 <wire x1="-2.54" y1="-223.52" x2="-10.16" y2="-223.52" width="0.1524" layer="91"/>
-<pinref part="PULLUP_SDA" gate="G$1" pin="1"/>
 <wire x1="-10.16" y1="-223.52" x2="-27.94" y2="-223.52" width="0.1524" layer="91"/>
 <wire x1="-10.16" y1="-215.9" x2="-10.16" y2="-223.52" width="0.1524" layer="91"/>
 <junction x="-10.16" y="-223.52"/>
+<pinref part="PULLUP_SDA" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="NC1" class="0">

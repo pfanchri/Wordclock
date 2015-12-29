@@ -176,10 +176,10 @@
 <dimension x1="24.27" y1="24.248903125" x2="2.5" y2="2.5" x3="13.385" y3="0.57" textsize="1.778" layer="105" dtype="horizontal"/>
 <dimension x1="110.77" y1="24.248903125" x2="132.5" y2="2.5" x3="121.635" y3="0.32" textsize="1.778" layer="105" dtype="horizontal"/>
 <dimension x1="110.77" y1="24.248903125" x2="132.5" y2="2.5" x3="134.73" y3="13.37445" textsize="1.778" layer="105" dtype="vertical"/>
-<hole x="24" y="125" drill="4"/>
-<hole x="111" y="10" drill="4"/>
-<hole x="24" y="10" drill="4"/>
-<hole x="111" y="125" drill="4"/>
+<hole x="24" y="125" drill="3.2"/>
+<hole x="111" y="10" drill="3.2"/>
+<hole x="24" y="10" drill="3.2"/>
+<hole x="111" y="125" drill="3.2"/>
 <text x="50.82" y="4.6" size="2.8" layer="1" font="vector" ratio="16" distance="25">          WORDCLOCK
 Vorlesung DIY Uni Erlangen</text>
 <text x="129.05" y="37.68" size="3.81" layer="1" font="vector" ratio="16" distance="25" rot="R90">Wiki:
