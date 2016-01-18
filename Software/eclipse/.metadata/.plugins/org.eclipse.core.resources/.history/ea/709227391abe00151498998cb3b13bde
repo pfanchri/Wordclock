@@ -1,0 +1,14 @@
+/*
+ * main.c
+ *
+ *  Created on: 18.01.2016
+ *      Author: christofpfannenmuller
+ */
+
+
+ main(void){
+
+
+
+	while(1){}
+}

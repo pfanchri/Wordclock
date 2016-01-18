@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="/Users/christofpfannenmuller/Documents/Uni/Fächer/DIY/Wordclock/.git" key="GitSelectRepositoryPage.lastRepository"/>
+	<item value="2" key="org.eclipse.egit.ui.internal.clone.GitSelectWizardPageWizardSel"/>
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="file:////Users/christofpfannenmuller/Documents/Uni/Fächer/DIY/Fremde Repositorys/light_ws2812"/>
+	</list>
+	<section name="GitImportWizard">
+	</section>
+</section>
