@@ -11677,16 +11677,16 @@ Source: 008-0260-0_E.pdf</description>
 <part name="GND221" library="supply1" deviceset="GND" device=""/>
 <part name="PULLUP_INTA" library="rcl" deviceset="R-EU_" device="R1206" value="4,7k"/>
 <part name="PULLUP_INTB" library="rcl" deviceset="R-EU_" device="R1206" value="4,7k"/>
-<part name="R_LED1" library="rcl" deviceset="R-EU_" device="M1206"/>
-<part name="R_LED2" library="rcl" deviceset="R-EU_" device="M1206"/>
-<part name="R_LED3" library="rcl" deviceset="R-EU_" device="M1206"/>
-<part name="R_LED4" library="rcl" deviceset="R-EU_" device="M1206"/>
+<part name="R_LED1" library="rcl" deviceset="R-EU_" device="M1206" value="120"/>
+<part name="R_LED2" library="rcl" deviceset="R-EU_" device="M1206" value="120"/>
+<part name="R_LED3" library="rcl" deviceset="R-EU_" device="M1206" value="120"/>
+<part name="R_LED4" library="rcl" deviceset="R-EU_" device="M1206" value="120"/>
 <part name="LED1" library="led" deviceset="LED" device="CHIPLED_1206"/>
 <part name="LED2" library="led" deviceset="LED" device="CHIPLED_1206"/>
 <part name="LED3" library="led" deviceset="LED" device="CHIPLED_1206"/>
 <part name="LED4" library="led" deviceset="LED" device="CHIPLED_1206"/>
 <part name="LEDAL" library="led" deviceset="LED" device="CHIPLED_1206"/>
-<part name="R_LEDAL" library="rcl" deviceset="R-EU_" device="M1206"/>
+<part name="R_LEDAL" library="rcl" deviceset="R-EU_" device="M1206" value="120"/>
 <part name="IC1" library="atmel" deviceset="MEGA8-P" device=""/>
 <part name="GND222" library="supply1" deviceset="GND" device=""/>
 <part name="S5" library="switch-omron" deviceset="10-XX" device=""/>
@@ -11722,7 +11722,7 @@ Source: 008-0260-0_E.pdf</description>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="P+7" library="supply1" deviceset="+5V" device=""/>
 <part name="LDR" library="rcl" deviceset="R-EU_" device="0204/5"/>
-<part name="R_PHOTO" library="rcl" deviceset="R-EU_" device="M1206"/>
+<part name="R_PHOTO" library="rcl" deviceset="R-EU_" device="M1206" value="49,9k"/>
 <part name="P+8" library="supply1" deviceset="+5V" device=""/>
 <part name="GND229" library="supply1" deviceset="GND" device=""/>
 <part name="PAD1" library="wirepad" deviceset="2,54/1,1" device=""/>
@@ -16094,6 +16094,16 @@ z.B. Bewegungsmelder</text>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="202,1,-38.1,139.7,U$1,2,,,,"/>
+<approved hash="202,1,-38.1,137.16,U$1,3,,,,"/>
+<approved hash="202,1,-38.1,134.62,U$1,4,,,,"/>
+<approved hash="106,1,198.12,-236.22,MATRIXOUT,,,,,"/>
+<approved hash="113,1,-22.5806,47.0874,PAD1,,,,,"/>
+<approved hash="113,1,-22.5806,80.1074,PAD2,,,,,"/>
+<approved hash="113,1,-78.4606,-87.5326,PAD3,,,,,"/>
+<approved hash="113,1,-78.4606,-95.1526,PAD4,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>

@@ -9,11 +9,11 @@
 *
 * License: GNU GPL v2 (see License.txt)
 */
-
+#include <util/delay.h>
 #include "light_ws2812.h"
 #include <avr/interrupt.h>
 #include <avr/io.h>
-#include <util/delay.h>
+
  
 // Setleds for standard RGB 
 void inline ws2812_setleds(struct cRGB *ledarray, uint16_t leds)

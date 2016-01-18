@@ -11745,8 +11745,8 @@ Source: 008-0260-0_E.pdf</description>
 <part name="BRIDGE_VDD" library="rcl" deviceset="R-EU_" device="R1206" value="0"/>
 <part name="BRIDGE_INTB" library="rcl" deviceset="R-EU_" device="R1206" value="0"/>
 <part name="R_MOSFET" library="rcl" deviceset="R-EU_" device="R1206" value="130"/>
-<part name="R_SCL" library="rcl" deviceset="R-EU_" device="R1206"/>
-<part name="R_SDA" library="rcl" deviceset="R-EU_" device="R1206"/>
+<part name="R_SCL" library="rcl" deviceset="R-EU_" device="R1206" value="0"/>
+<part name="R_SDA" library="rcl" deviceset="R-EU_" device="R1206" value="0"/>
 <part name="BRIDGE_RESET1" library="rcl" deviceset="R-EU_" device="M1206" value="0"/>
 <part name="BRIDGE_MOSI" library="rcl" deviceset="R-EU_" device="R1206" value="0"/>
 <part name="BRIDGE_SCK" library="rcl" deviceset="R-EU_" device="R1206" value="0"/>

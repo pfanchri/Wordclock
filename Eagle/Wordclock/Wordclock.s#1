@@ -11709,8 +11709,8 @@ Source: 008-0260-0_E.pdf</description>
 <part name="GND227" library="supply1" deviceset="GND" device=""/>
 <part name="C_S4" library="rcl" deviceset="C-EU" device="C1206" value="100n"/>
 <part name="R_S4" library="rcl" deviceset="R-EU_" device="M1206" value="1k"/>
-<part name="C116" library="rcl" deviceset="C-EU" device="C0805" value="18p"/>
-<part name="C117" library="rcl" deviceset="C-EU" device="C0805" value="18p"/>
+<part name="C116" library="rcl" deviceset="C-EU" device="C0805" value="15p"/>
+<part name="C117" library="rcl" deviceset="C-EU" device="C0805" value="15p"/>
 <part name="GND228" library="supply1" deviceset="GND" device=""/>
 <part name="SV1" library="con-harting-ml" deviceset="ML6" device="L"/>
 <part name="Q3" library="transistor-fet" deviceset="SUP75N06-08" device=""/>

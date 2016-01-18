@@ -11770,6 +11770,8 @@ Schaltungsteile
 z.B. Bewegungsmelder</text>
 <text x="-2.54" y="-208.28" size="1.778" layer="91">SCL/SDA fehlen in erstem
  entwickeltem Bord noch !!</text>
+<text x="-160.02" y="2.54" size="1.778" layer="91">ACHTUNG !!!!
+DIE QUArze müssen neu gemacht werden und in ein anderes Gehäuse verbaut werde.</text>
 </plain>
 <instances>
 <instance part="S+1" gate="G$1" x="-40.64" y="-218.44"/>
