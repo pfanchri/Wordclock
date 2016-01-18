@@ -1,0 +1,4 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {ngerman}
+\beamer@sectionintoc {2}{mein Projekt}{3}{0}{1}
+\beamer@subsectionintoc {2}{1}{ \relax \fontsize {20.74}{25}\selectfont { Wordclock auf einer Platine}}{3}{0}{1}

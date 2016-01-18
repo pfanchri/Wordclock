@@ -82,7 +82,7 @@ OUTPUT_FILE_DEP:= ./makedep.mk
 ./%.o: .././%.c
 	@echo Building file: $<
 	@echo Invoking: AVR/GNU C Compiler
-	$(QUOTE)C:\Program Files (x86)\Atmel\AVR Studio 5.1\extensions\Atmel\AVRGCC\3.3.1.27\AVRToolchain\bin\avr-gcc.exe$(QUOTE)  -I"Q:\i4"  -O0 -g3 -Wall -Werror -pedantic -c -std=c99 -ffreestanding -DF_CPU=1000000UL -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)"  -mmcu=atmega168pa  -o"$@" "$<" 
+	$(QUOTE)C:\Program Files (x86)\Atmel\AVR Studio 5.1\extensions\Atmel\AVRGCC\3.3.1.27\AVRToolchain\bin\avr-gcc.exe$(QUOTE)  -DF_CPU=32000  -I"Q:\i4"  -O0 -g3 -Wall -Werror -pedantic -c -std=c99 -ffreestanding -DF_CPU=1000000UL -MD -MP -MF "$(@:%.o=%.d)" -MT"$(@:%.o=%.d)"  -mmcu=atmega168pa  -o"$@" "$<" 
 	@echo Finished building: $<
 
 
