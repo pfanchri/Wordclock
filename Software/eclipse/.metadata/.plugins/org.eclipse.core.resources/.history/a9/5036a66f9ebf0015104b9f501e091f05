@@ -4,17 +4,11 @@
  *  Created on: 18.01.2016
  *      Author: christofpfannenmuller
  */
-#include <util/delay.h>
-#include <avr/io.h>
-#include <avr/interrupt.h>
-#include "light_ws2812.h"
 
-struct cRGB matrix[110];
 
 void main(void){
 	//itialisierung
-
-
+	wd
 
 	//
 
