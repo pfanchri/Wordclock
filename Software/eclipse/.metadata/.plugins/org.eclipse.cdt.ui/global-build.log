@@ -1,9 +1,9 @@
-18:52:44 **** Incremental Build of configuration Release for project DIYWordclock ****
+21:43:45 **** Incremental Build of configuration Release for project DIYWordclock ****
 make all 
 Building file: ../main.c
 Invoking: AVR Compiler
 avr-gcc -Wall -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega168pa -DF_CPU=16000UL -MMD -MP -MF"main.d" -MT"main.d" -c -o "main.o" "../main.c"
-../main.c:14:6: warning: return type of 'main' is not 'int' [-Wmain]
+../main.c:24:6: warning: return type of 'main' is not 'int' [-Wmain]
  void main(void){
       ^
 Finished building: ../main.c
@@ -31,10 +31,10 @@ AVR Memory Usage
 ----------------
 Device: atmega168pa
 
-Program:     350 bytes (2.1% Full)
+Program:     354 bytes (2.2% Full)
 (.text + .data + .bootloader)
 
-Data:        330 bytes (32.2% Full)
+Data:        332 bytes (32.4% Full)
 (.data + .bss + .noinit)
 
 

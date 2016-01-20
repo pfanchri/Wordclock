@@ -6,14 +6,53 @@
  */
 #include <util/delay.h>
 #include <avr/io.h>
+#include <stdlib.h>
 #include <avr/interrupt.h>
+
 #include "light_ws2812.h"
+#include "i2c_master.h"
+
 
 struct cRGB matrix[110];
+uint8_t stunden;
+uint8_t minuten;
+uint8_t frontplatte=0; //Art der Frontplatte; 0:Standartfrontplatte; 1:Binäre Frontplatte; 2:Englische Frontplatte; ...
+
+void setalarm(void){
+	//get alarm time from user
+
+
+	//send alarm time to RTC
+}
+
+void settime(void){
+
+	//get time from user
+
+
+	//send time to RTC
+
+}
+
+void showtime(uint8_t hours_to_show, uint8_t minutes_to_show){
+	if(frontplatte==0){
+
+	}else if(frontplatte==1){
+		//Zeitanzeige für Binäre Frontplatte
+	}else if(frontplatte==2){
+		//Zeitanzeige für Englische Frontplatte
+	}
+}
+
+void change_frontplatte(uint8_t new_frontplatte){
+	frontplatte=new_frontplatte;
+}
 
 void main(void){
 	//itialisierung
 
+
+	settime();//get time from user
 
 
 	//

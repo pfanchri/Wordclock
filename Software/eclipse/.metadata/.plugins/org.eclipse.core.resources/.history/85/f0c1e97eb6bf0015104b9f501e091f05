@@ -1,0 +1,35 @@
+/*
+ * main.c
+ *
+ *  Created on: 18.01.2016
+ *      Author: christofpfannenmuller
+ */
+#include <util/delay.h>
+#include <avr/io.h>
+#include <stdlib.h>
+#include <avr/interrupt.h>
+#include "light_ws2812.h"
+
+struct cRGB matrix[110];
+uint16_ ee;
+
+void setalarm(void){
+
+}
+
+void settime(void){
+
+}
+
+void main(void){
+	//itialisierung
+
+
+	settime();//get time from user
+
+
+	//
+
+
+	while(1){}
+}
