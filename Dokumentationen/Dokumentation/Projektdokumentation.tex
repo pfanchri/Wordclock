@@ -1,0 +1,166 @@
+\documentclass[12pt,journal,compsoc]{IEEEtran}
+\usepackage[utf8]{inputenc}
+\usepackage[ngerman]{babel}
+%\usepackage{tikz, tikzscale, adjustbox,enumerate, tabularx, multirow, booktabs}
+\usepackage{graphicx, tabularx, booktabs, enumerate, multirow}
+\usepackage{cite, textcomp}
+
+\usepackage{listings}
+\lstset{
+  language=C,
+  basicstyle=\ttfamily\small,
+  keywordstyle=\color{blue}\ttfamily,
+  stringstyle=\color{red}\ttfamily,
+  commentstyle=\color{green}\ttfamily\normalsize,
+  breakatwhitespace=false,
+  breaklines=true
+}
+
+
+\makeatletter
+{\obeylines\gdef\bt@eol{^^M}}
+\newenvironment{breakabletexttt}
+  {\ttfamily\hfuzz=0.4em
+   \list{}{\leftmargin=2em
+           \itemindent=-\leftmargin
+           \listparindent=-\leftmargin
+           \parsep=0pt}
+   \item\relax\obeylines\obeyspaces\expandafter\breakable@texttt\@gobble}
+  {\endlist}
+\def\breakable@texttt{\futurelet\@let@token\breakable@texttti}
+\def\breakable@texttti#1{%
+  \ifx\@let@token\end
+  \expandafter\end
+  \else
+    \expandafter\ifx\bt@eol\@let@token
+      \par
+    \else
+      \string#1\hskip1sp
+    \fi
+    \expandafter\breakable@texttt
+  \fi}
+\makeatother
+
+
+
+\usepackage{tikz, tikzscale} % tiks für Zeichnungen
+
+\usepackage[europeanresistors,europeaninductors,arrowmos]{circuitikz}
+\usepackage{amsmath}
+
+%\usepackage[siunitx]{circuitikz}
+%\usepackage[ngerman]{varioref}% Definiert variable Referenzierungen
+%\usetikzlibrary{dsp,chains}
+
+\providecommand{\PSforPDF}[1]{#1}
+\setcounter{secnumdepth}{1}
+
+% NOTE: PDF hyperlink and bookmark features are not required in IEEE
+%       papers and their use requires extra complexity and work.
+% *** IF USING HYPERREF BE SURE AND CHANGE THE EXAMPLE PDF ***
+% *** TITLE/SUBJECT/AUTHOR/KEYWORDS INFO BELOW!!           ***
+\newcommand\MYhyperrefoptions{bookmarks=true,bookmarksnumbered=true,
+pdfpagemode={UseOutlines},plainpages=false,pdfpagelabels=true,
+colorlinks=true,linkcolor={black},citecolor={black},pagecolor={black},
+urlcolor={black},
+
+pdftitle={WOLF:PI Wake on Lan for RaspberryPi},
+pdfsubject={WOLF:PI},
+pdfauthor={Niklas Duda, Christian Hesse}}
+
+
+
+
+% correct bad hyphenation here
+%\hyphenation{op-tical net-works semi-conduc-tor}
+
+
+\begin{document} %----------------------------------------------------------------------------Beginn des Dokuments
+%
+% paper title
+% can use linebreaks \\ within to get better formatting as desired
+\title{DIY Wordclock}
+
+\author{Christof Pfannenmüller}% <-this % stops a space
+
+
+
+  % for Computer Society papers, we must declare the abstract and index terms
+  % PRIOR to the title within the \IEEEcompsoctitleabstractindextext IEEEtran
+  % command as these need to go into the title area created by \maketitle.
+%  \IEEEcompsoctitleabstractindextext{%
+%  \begin{abstract}
+  %\boldmath
+  %The abstract goes here.
+%  \end{abstract}
+  % IEEEtran.cls defaults to using nonbold math in the Abstract.
+  % This preserves the distinction between vectors and scalars. However,
+  % if the journal you are submitting to favors bold math in the abstract,
+  % then you can use LaTeX's standard command \boldmath at the very start
+  % of the abstract to achieve this. Many IEEE journals frown on math
+  % in the abstract anyway. In particular, the Computer Society does
+  % not want either math or citations to appear in the abstract.
+
+  % Note that keywords are not normally used for peerreview papers.
+%  \begin{IEEEkeywords}
+%  Computer Society, IEEEtran, journal, \LaTeX, paper, template.
+%  \end{IEEEkeywords}}
+
+
+% make the title area
+\maketitle
+
+
+% To allow for easy dual compilation without having to reenter the
+% abstract/keywords data, the \IEEEcompsoctitleabstractindextext text will
+% not be used in maketitle, but will appear (i.e., to be "transported")
+% here as \IEEEdisplaynotcompsoctitleabstractindextext when compsoc mode
+% is not selected <OR> if conference mode is selected - because compsoc
+% conference papers position the abstract like regular (non-compsoc)
+% papers do!
+\IEEEdisplaynotcompsoctitleabstractindextext
+% \IEEEdisplaynotcompsoctitleabstractindextext has no effect when using
+% compsoc under a non-conference mode.
+
+
+% For peer review papers, you can put extra information on the cover
+% page as needed:
+% \ifCLASSOPTIONpeerreview
+% \begin{center} \bfseries EDICS Category: 3-BBND \end{center}
+% \fi
+%
+% For peerreview papers, this IEEEtran command inserts a page break and
+% creates the second title. It will be ignored for other modes.
+%\IEEEpeerreviewmaketitle
+
+%----------------------------------------------------------------------------------------------Beginn des  eigentlichen Textes
+
+\section{Einführung}
+
+\IEEEPARstart{W}{ordclocks} haben in der Bastler oder DIY-Szene eine große Verbreitung und bergen eine gewisse Faszination. 
+
+
+
+\section{Aufbau der Wordclock}
+Grundsätzlich sind die meisten Wordclocks sehr ähnlich aufgebaut. Fast immer wird eine Frontplatte durch 
+
+
+%----------------------------------------------------------------------------------------------Ende des eigentlichen Textes
+
+\nocite{*}
+%\begin{thebibliography}{1}
+%\bibliography{literatur.bib}
+%\bibliographystyle{plain}
+%\bibitem{IEEEhowto:kopka}
+%H.~Kopka and P.~W. Daly, \emph{A Guide to {\LaTeX}}, 3rd~ed.\hskip 1em plus
+ % 0.5em minus 0.4em\relax Harlow, England: Addison-Wesley, 1999.
+
+%\end{thebibliography}
+
+
+
+
+% that's all folks
+\end{document}
+
+
