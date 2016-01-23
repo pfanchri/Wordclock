@@ -12,17 +12,10 @@
 #include "light_ws2812.h"
 #include "i2c_master.h"
 
-#define t_alarm //TODO: Einfügen der Pins für die Taster
-#define t_up
-#define t_down
-#define t_snooze
-#define t_mode
-
-
 
 struct cRGB matrix[110];
-uint8_t stunden==1; //1...12
-uint8_t minuten==0; //0...59
+uint8_t stunden;
+uint8_t minuten;
 uint8_t frontplatte=0; //Art der Frontplatte; 0:Standartfrontplatte; 1:Binäre Frontplatte; 2:Englische Frontplatte; ...
 
 void setalarm(void){
@@ -65,9 +58,5 @@ int main(void){
 	//
 
 
-	while(1){//Dauerablauf
-
-
-
-	}
+	while(1){}
 }
