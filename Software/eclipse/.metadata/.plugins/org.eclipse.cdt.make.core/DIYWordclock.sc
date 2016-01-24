@@ -329,7 +329,7 @@
 <definedSymbol symbol="__AVR__=1"/>
 <definedSymbol symbol="AVR=1"/>
 <definedSymbol symbol="__AVR_ARCH__=5"/>
-<definedSymbol symbol="__AVR_ATmega16__=1"/>
+<definedSymbol symbol="__AVR_ATmega168P__=1"/>
 <definedSymbol symbol="__AVR_HAVE_MOVW__=1"/>
 <definedSymbol symbol="__AVR_HAVE_LPMX__=1"/>
 <definedSymbol symbol="__AVR_ENHANCED__=1"/>
@@ -434,9 +434,7 @@
 <definedSymbol symbol="__INT24_MIN__=(-__INT24_MAX__-1)"/>
 <definedSymbol symbol="__UINT24_MAX__=16777215UL"/>
 <definedSymbol symbol="__ELF__=1"/>
-<definedSymbol symbol="F_CPU=1000000UL"/>
-<definedSymbol symbol="F_CPU=16000UL"/>
-<definedSymbol symbol="__AVR_ATmega168PA__=1"/>
+<definedSymbol symbol="F_CPU=1600000UL"/>
 </collector>
 </instance>
 </scannerInfo>

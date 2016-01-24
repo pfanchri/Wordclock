@@ -46,12 +46,12 @@ void showtime(uint8_t hours_to_show, uint8_t minutes_to_show){
 	if(frontplatte==0){
 		//Zeitanzeige für Standart Frontplatte
 		//Minutenleds
-		PORTB = (1<<PB5)|(1<<PB4)|(1<<PB3)|(1<<PB1);//alle Minutenleds off
-			switch(minutes_to_show%5) {
-				case 1: PORTB = (1<<PB4); break;
-				case 2: PORTB = (1<<PB4)|(1<<PB3); break;
-				case 3: PORTB = (1<<PB4)|(1<<PB3)|(1<<PB1); break;
-				case 4: PORTB = (1<<PB4)|(1<<PB3)|(1<<PB1)|(1<<PB5); break;
+		PORTB |= (1<<PB5);PORTB |= (1<<PB4);PORTB |= (1<<PB3);PORTB |= (1<<PB1);//alle Minutenleds off
+			switch(minutes_to_show%5) {//setzen entsprechende Minuten auf GND
+				case 1: PORTB &=~ (1<<PB4); break;
+				case 2: PORTB &=~ (1<<PB4)^(1<<PB3); break;
+				case 3: PORTB &=~ (1<<PB4)^(1<<PB3)^(1<<PB1); break;
+				case 4: PORTB &=~ (1<<PB4)^(1<<PB3)^(1<<PB1)^(1<<PB5); break;
 			}
 			//Ansteuerung der Matrix
 			/*
@@ -86,6 +86,7 @@ void showtime(uint8_t hours_to_show, uint8_t minutes_to_show){
 	}else if(frontplatte==2){
 		//Zeitanzeige für Englische Frontplatte
 	}
+	ws2812_setleds(matrix,110);
 }
 
 void change_frontplatte(uint8_t new_frontplatte){
@@ -94,6 +95,21 @@ void change_frontplatte(uint8_t new_frontplatte){
 
 void init(void){
 	//in outputs intit
+	//minutenleds + alarmLed
+	//setze bit 1 =Ausgang
+		DDRB |= (1<<1);
+		DDRB |= (1<<3);
+		DDRB |= (1<<4);
+		DDRB |= (1<<5);
+		DDRC |= (1<<3);//AlarmLED
+		// setze pin auf vdd = LED aus
+		PORTB |= (1<<1);
+		PORTB |= (1<<3);
+		PORTB |= (1<<4);
+		PORTB |= (1<<5);
+		PORTC |= (1<<3);//AlarmLED
+
+
 
 }
 
@@ -104,6 +120,16 @@ int main(void){
 	//setalarm();
 
 
+	/*
+	while(1){
+		_delay_ms(1000);
+		PORTB |= (1<<PB3);
+		_delay_ms(1000);
+		PORTB &= ~ (1<<PB3);
+
+	}
+	*/
+
 
 	while(1){//Dauerablauf
 		showtime(stunden, minuten);
@@ -111,9 +137,9 @@ int main(void){
 		//Uhrzeit erhöhen testweise
 		_delay_ms(1000);
 		minuten++;
-		if(minuten>=60){minuten=60;stunden++;}
+		if(minuten>=60){minuten=0;stunden++;}
 		if(stunden>=13){stunden=1;}
-		//ende Uhrzeut Testweise erhöhen
+		//ende Uhrzeit Testweise erhöhen
 
 	}
 }

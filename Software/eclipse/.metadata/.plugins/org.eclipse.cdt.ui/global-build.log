@@ -1,13 +1,13 @@
-20:08:22 **** Incremental Build of configuration Release for project DIYWordclock ****
+16:06:03 **** Incremental Build of configuration Release for project DIYWordclock ****
 make all 
 Building file: ../main.c
 Invoking: AVR Compiler
-avr-gcc -Wall -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega168pa -DF_CPU=16000UL -MMD -MP -MF"main.d" -MT"main.d" -c -o "main.o" "../main.c"
+avr-gcc -Wall -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega168p -DF_CPU=1600000UL -MMD -MP -MF"main.d" -MT"main.d" -c -o "main.o" "../main.c"
 Finished building: ../main.c
  
 Building target: DIYWordclock.elf
 Invoking: AVR C Linker
-avr-gcc -Wl,-Map,DIYWordclock.map -mmcu=atmega168pa -o "DIYWordclock.elf"  ./i2c_master.o ./light_ws2812.o ./main.o   
+avr-gcc -Wl,-Map,DIYWordclock.map -mmcu=atmega168p -o "DIYWordclock.elf"  ./i2c_master.o ./light_ws2812.o ./main.o   
 Finished building target: DIYWordclock.elf
  
 Invoking: AVR Create Extended Listing
@@ -23,12 +23,12 @@ avr-objcopy -j .eeprom --no-change-warnings --change-section-lma .eeprom=0 -O ih
 Finished building: DIYWordclock.eep
  
 Invoking: Print Size
-avr-size --format=avr --mcu=atmega168pa DIYWordclock.elf
+avr-size --format=avr --mcu=atmega168p DIYWordclock.elf
 AVR Memory Usage
 ----------------
-Device: atmega168pa
+Device: atmega168p
 
-Program:    1098 bytes (6.7% Full)
+Program:    1174 bytes (7.2% Full)
 (.text + .data + .bootloader)
 
 Data:        334 bytes (32.6% Full)
