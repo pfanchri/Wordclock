@@ -5468,3 +5468,27 @@ java.lang.IllegalStateException: Invalid thread access
 
 !ENTRY org.eclipse.ui 4 4 2016-01-24 11:53:06.631
 !MESSAGE Conflicting handlers for org.eclipse.ui.window.openEditorDropDown: {org.eclipse.ui.internal.WorkbookEditorsHandler} vs {org.eclipse.ui.internal.WorkbookEditorsHandler@7e49a1c5}
+
+!ENTRY org.eclipse.ui 4 4 2016-01-24 11:57:35.838
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.exit: {org.eclipse.ui.internal.handlers.QuitHandler@2c709cb5} vs {org.eclipse.ui.internal.handlers.QuitHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-01-24 11:57:35.994
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.newEditor: {org.eclipse.ui.internal.handlers.NewEditorHandler@52052438} vs {org.eclipse.ui.internal.handlers.NewEditorHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-01-24 11:57:35.994
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.nextEditor: {org.eclipse.ui.internal.CycleEditorHandler@587bc9a9} vs {org.eclipse.ui.internal.CycleEditorHandler:true}
+
+!ENTRY org.eclipse.ui 4 4 2016-01-24 11:57:35.994
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.close: {org.eclipse.ui.internal.CloseEditorHandler} vs {org.eclipse.ui.internal.CloseEditorHandler@1dfe3aa4}
+
+!ENTRY org.eclipse.ui 4 4 2016-01-24 11:57:35.994
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.previousEditor: {org.eclipse.ui.internal.CycleEditorHandler:false} vs {org.eclipse.ui.internal.CycleEditorHandler@58d5408e}
+
+!ENTRY org.eclipse.ui 4 4 2016-01-24 11:57:35.995
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.openEditorDropDown: {org.eclipse.ui.internal.WorkbookEditorsHandler} vs {org.eclipse.ui.internal.WorkbookEditorsHandler@7e49a1c5}
+
+!ENTRY org.eclipse.ui 4 4 2016-01-24 11:57:36.032
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.closeAll: {org.eclipse.ui.internal.CloseAllHandler} vs {org.eclipse.ui.internal.CloseAllHandler@42f6b022}
+
+!ENTRY org.eclipse.ui 4 4 2016-01-24 11:57:36.071
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.showViewMenu: {org.eclipse.ui.internal.ShowViewMenuHandler@5aa86d82} vs {org.eclipse.ui.internal.ShowViewMenuHandler}
