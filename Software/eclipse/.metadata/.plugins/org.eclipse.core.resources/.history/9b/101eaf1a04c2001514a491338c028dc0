@@ -17,13 +17,12 @@
 #define t_down
 #define t_snooze
 #define t_mode
-#define V_ON 150  //Wert für LED on 0...255
 
 
 
 struct cRGB matrix[110];
-uint8_t stunden=1; //aktueller Stundenwert  1...12
-uint8_t minuten=0; //aktueller Minutenwert  0...59
+uint8_t stunden=1; //1...12
+uint8_t minuten=0; //0...59
 uint8_t frontplatte=0; //Art der Frontplatte; 0:Standartfrontplatte; 1:Binäre Frontplatte; 2:Englische Frontplatte; ...
 
 void setalarm(void){
@@ -54,31 +53,6 @@ void showtime(uint8_t hours_to_show, uint8_t minutes_to_show){
 				case 4: PORTB = (1<<PB4)|(1<<PB3)|(1<<PB1)|(1<<PB5); break;
 			}
 			//Ansteuerung der Matrix
-			/*
-				Vorlage:
-				es ist ein uhr
-				es ist f¸nf nach eins
-				es ist zehn nach eins
-				es ist viertel zwei
-				es ist zehn vor halb zwei
-				es ist f¸nf vor halb zwei
-				es ist halb zwei
-				es ist f¸nf nach halb zwei
-				es ist zehn nach halb zwei
-				es ist dreiviertel zwei
-				es ist zehn vor zwei
-				es ist f¸nf vor zwei
-				*/
-			//ES IST anschalten
-			matrix[0].r=V_ON;matrix[0].g=V_ON;matrix[0].b=V_ON;
-			matrix[1].r=V_ON;matrix[1].g=V_ON;matrix[1].b=V_ON;
-			matrix[3].r=V_ON;matrix[3].g=V_ON;matrix[3].b=V_ON;
-			matrix[4].r=V_ON;matrix[4].g=V_ON;matrix[4].b=V_ON;
-			matrix[5].r=V_ON;matrix[5].g=V_ON;matrix[5].b=V_ON;
-
-
-
-
 
 
 	}else if(frontplatte==1){
@@ -92,28 +66,21 @@ void change_frontplatte(uint8_t new_frontplatte){
 	frontplatte=new_frontplatte;
 }
 
-void init(void){
-	//in outputs intit
-
-}
-
 int main(void){
 	//itialisierung
-	init();
-	//settime();//get time from user
-	//setalarm();
+	//in outputs intit
 
+
+	settime();//get time from user
+	setalarm();
+
+	//
 
 
 	while(1){//Dauerablauf
 		showtime(stunden, minuten);
+		delay_ms(1000);
 
-		//Uhrzeit erhöhen testweise
-		_delay_ms(1000);
-		minuten++;
-		if(minuten>=60){minuten=60;stunden++;}
-		if(stunden>=13){stunden=1;}
-		//ende Uhrzeut Testweise erhöhen
 
 	}
 }

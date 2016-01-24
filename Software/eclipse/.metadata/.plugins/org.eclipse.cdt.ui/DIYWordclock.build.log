@@ -1,10 +1,5 @@
-14:54:59 **** Incremental Build of configuration Release for project DIYWordclock ****
+20:08:22 **** Incremental Build of configuration Release for project DIYWordclock ****
 make all 
-Building file: ../i2c_master.c
-Invoking: AVR Compiler
-avr-gcc -Wall -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega168pa -DF_CPU=16000UL -MMD -MP -MF"i2c_master.d" -MT"i2c_master.d" -c -o "i2c_master.o" "../i2c_master.c"
-Finished building: ../i2c_master.c
- 
 Building file: ../main.c
 Invoking: AVR Compiler
 avr-gcc -Wall -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega168pa -DF_CPU=16000UL -MMD -MP -MF"main.d" -MT"main.d" -c -o "main.o" "../main.c"
@@ -33,15 +28,15 @@ AVR Memory Usage
 ----------------
 Device: atmega168pa
 
-Program:     946 bytes (5.8% Full)
+Program:    1098 bytes (6.7% Full)
 (.text + .data + .bootloader)
 
-Data:        333 bytes (32.5% Full)
+Data:        334 bytes (32.6% Full)
 (.data + .bss + .noinit)
 
 
 Finished building: sizedummy
  
 
-14:55:06 Build Finished (took 6s.217ms)
+20:08:22 Build Finished (took 210ms)
 
