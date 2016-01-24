@@ -73,7 +73,7 @@ void showtime(uint8_t hours_to_show, uint8_t minutes_to_show){
 			matrix[0].r=V_ON;matrix[0].g=V_ON;matrix[0].b=V_ON;
 			matrix[1].r=V_ON;matrix[1].g=V_ON;matrix[1].b=V_ON;
 			matrix[3].r=V_ON;matrix[3].g=V_ON;matrix[3].b=V_ON;
-			matrix[4].r=V_ON;matrix[4].g=V_ON;matrix[4].b=V_ON;//TODO: darf nur dann angezeigt werden wenn es das auch soll
+			matrix[4].r=V_ON;matrix[4].g=V_ON;matrix[4].b=V_ON;
 			matrix[5].r=V_ON;matrix[5].g=V_ON;matrix[5].b=V_ON;
 
 
@@ -121,9 +121,6 @@ int main(void){
 	//settime();//get time from user
 	//setalarm();
 
-	//mosefet leitet: // ---------------hier war ich
-		DDRC |= (1<<1);
-		PORTC |= (1<<1);
 
 /*
 	while(1){

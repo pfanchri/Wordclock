@@ -121,9 +121,6 @@ int main(void){
 	//settime();//get time from user
 	//setalarm();
 
-	//mosefet leitet: // ---------------hier war ich
-		DDRC |= (1<<1);
-		PORTC |= (1<<1);
 
 /*
 	while(1){
