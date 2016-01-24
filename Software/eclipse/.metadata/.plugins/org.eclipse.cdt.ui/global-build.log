@@ -1,4 +1,4 @@
-16:06:03 **** Incremental Build of configuration Release for project DIYWordclock ****
+16:10:33 **** Incremental Build of configuration Release for project DIYWordclock ****
 make all 
 Building file: ../main.c
 Invoking: AVR Compiler
@@ -28,7 +28,7 @@ AVR Memory Usage
 ----------------
 Device: atmega168p
 
-Program:    1174 bytes (7.2% Full)
+Program:    1148 bytes (7.0% Full)
 (.text + .data + .bootloader)
 
 Data:        334 bytes (32.6% Full)
