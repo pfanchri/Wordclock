@@ -1,0 +1,28 @@
+14:35:57 **** Incremental Build of configuration Debug for project Test LEDs ****
+make all 
+Building file: ../RGB_blinky.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega168p -DF_CPU=16000000UL -MMD -MP -MF"RGB_blinky.d" -MT"RGB_blinky.d" -c -o "RGB_blinky.o" "../RGB_blinky.c"
+In file included from ../RGB_blinky.c:10:0:
+/usr/local/CrossPack-AVR-20131216/avr/include/util/delay.h:95:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed" [-Wcpp]
+ # warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+   ^
+Finished building: ../RGB_blinky.c
+ 
+Building file: ../light_ws2812.c
+Invoking: AVR Compiler
+avr-gcc -Wall -g2 -gstabs -O0 -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega168p -DF_CPU=16000000UL -MMD -MP -MF"light_ws2812.d" -MT"light_ws2812.d" -c -o "light_ws2812.o" "../light_ws2812.c"
+In file included from ../light_ws2812.c:16:0:
+/usr/local/CrossPack-AVR-20131216/avr/include/util/delay.h:95:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed" [-Wcpp]
+ # warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+   ^
+Finished building: ../light_ws2812.c
+ 
+Building target: Test LEDs.elf
+Invoking: AVR C Linker
+avr-gcc -Wl,-Map,Test LEDs.map -mmcu=atmega168p -o "Test LEDs.elf"  ./RGB_blinky.o ./light_ws2812.o   
+avr-gcc: error: LEDs.map: No such file or directory
+make: *** [Test LEDs.elf] Error 1
+
+14:35:57 Build Finished (took 166ms)
+

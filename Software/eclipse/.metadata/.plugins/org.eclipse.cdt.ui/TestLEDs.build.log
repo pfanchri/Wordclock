@@ -1,7 +1,7 @@
-14:42:40 **** Incremental Build of configuration Debug for project LEDTest ****
+14:36:56 **** Incremental Build of configuration Debug for project TestLEDs ****
 make all 
 Invoking: Print Size
-avr-size --format=avr --mcu=atmega168p LEDTest.elf
+avr-size --format=avr --mcu=atmega168p TestLEDs.elf
 AVR Memory Usage
 ----------------
 Device: atmega168p
@@ -15,3 +15,6 @@ Data:          3 bytes (0.3% Full)
 
 Finished building: sizedummy
  
+
+14:36:56 Build Finished (took 65ms)
+
