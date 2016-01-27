@@ -1,4 +1,6 @@
 eclipse.preferences.version=1
+formatter_profile=org.eclipse.cdt.ui.default.gnu_profile
+formatter_settings_version=1
 sourceHoverBackgroundColor=250,251,197
 spelling_locale_initialized=true
 useAnnotationsPrefPage=true

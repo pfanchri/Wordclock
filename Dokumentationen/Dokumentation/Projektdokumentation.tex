@@ -64,9 +64,9 @@ pdfpagemode={UseOutlines},plainpages=false,pdfpagelabels=true,
 colorlinks=true,linkcolor={black},citecolor={black},pagecolor={black},
 urlcolor={black},
 
-pdftitle={WOLF:PI Wake on Lan for RaspberryPi},
-pdfsubject={WOLF:PI},
-pdfauthor={Niklas Duda, Christian Hesse}}
+pdftitle={DIY Wordclock},
+pdfsubject={Wordclock},
+pdfauthor={Christof Pfannenmüller}}
 
 
 
@@ -140,11 +140,33 @@ pdfauthor={Niklas Duda, Christian Hesse}}
 \IEEEPARstart{W}{ordclocks} haben in der Bastler oder DIY-Szene eine große Verbreitung und bergen eine gewisse Faszination. 
 
 
+Grundsätzlich sind die alle Wordclocks sehr ähnlich aufgebaut. Fast immer wird eine Frontplatte auf welcher die Buchstaben passend angeordnet sind, durch eine Matrix an LEDs von hinten erleuchtet. Dadurch, dass nur die zur aktuellen Stunde passenden   Wörter erleuchtet sind, stechen diese aus den, auf den ersten Blick verwirrend angeordneten, Buchstaben der Frontplatte hervor. Wichtig bei einer Wordclock ist auch, dass jede LED nur den für sie vorgesehen Buchstaben der Frontplatte beleuchtet und nicht zu einem Teil auch die benachbarten Buchstaben, da dies den Effekt des Hervorscheinens der erleuteten Buchstaben vor den dunkleren minimieren würde. Dafür wird meist eine so genannte Zwischenplatte angebracht, so kann sichergestellt werden, das das Licht  einer LED  nicht  auf einen anderen Teil der Frontplatte scheint, da es durch die Zwischenplatte abgeschirmt wird.
+Wordclocks wurden bereits in vielen verschiedenen Sprachen erstellt, wobei  grundsätzlich jede Sprache möglich ist. Die einzige Bedingung ist, dass es möglich ist alle Wörter die zum "schreiben" der Uhrzeit notwendig sind, auf der Frontplatte anzuordnen. Dabei ist jedoch wichtig, dass die Reihenfolge der Wörter so gewählt wird, das jede mögliche Uhrzeit auch dargestellt werden kann, ohne aber ein Wort doppelt unterbringen zu müssen und trotzdem die Reihenfolge der Wörter dem Sprachgebrauch entspricht. In diesem Zusammenhang ist etwa die Darstellung der Zeit 15:45 interessant, denn je nach Wohnort werden für diese verschiedene Zeiten im Umgang verwendet. Vor allem in Sachsen, Thüringen und Franken wird die Bezeichnung "dreviertel vier" verwendet, in Norddeutschland dagegen eher "viertel vor sechs". Solche Feinheiten müssen also berücksichtigt werden,  bei "viertel nach drei" bzw. "viertel vier" verhält es sich ähnlich.
 
-\section{Aufbau der Wordclock}
-Grundsätzlich sind die meisten Wordclocks sehr ähnlich aufgebaut. Fast immer wird eine Frontplatte durch 
+\section{Anforderungen}
+Die Wordclock sollte vor allem - im Gegensatz zu den meisten anderen - kleiner ausgelegt sein und nicht zum Aufhängen an der Wand gedacht sein, sondern als modulare kleine Tischuhr, die bei Einbau einer Alarmfunktion, auch als Wecker dienen kann.
 
 
+
+
+
+
+
+
+
+
+Plfichtenheft
+github
+
+\section{Hardware}
+
+\section{Software}
+
+\section{Ausblick}
+DCF
+beschriftung der Taster mit Lasercutter
+Batterienbetrieben
+Da die Buchstaben  einzeln ansteuerbar sind, besteht auch die Möglichkeit die Matrix für noch weitere Anwendungen zu nutzen. So  etwas termeratur anzeigen ; Datum Wochentag etc
 %----------------------------------------------------------------------------------------------Ende des eigentlichen Textes
 
 \nocite{*}

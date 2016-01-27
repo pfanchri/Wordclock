@@ -434,7 +434,7 @@
 <definedSymbol symbol="__INT24_MIN__=(-__INT24_MAX__-1)"/>
 <definedSymbol symbol="__UINT24_MAX__=16777215UL"/>
 <definedSymbol symbol="__ELF__=1"/>
-<definedSymbol symbol="F_CPU=1600000UL"/>
+<definedSymbol symbol="F_CPU=16000000UL"/>
 </collector>
 </instance>
 </scannerInfo>
