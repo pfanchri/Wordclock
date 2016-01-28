@@ -741,11 +741,11 @@ int main(void)
 	    }
 	if (j >= 110)
 	    {
-	    j = 0;
+	    i = 0;
 	    }
 	if (k >= 110)
 	    {
-	    k= 0;
+	    i = 0;
 	    }
 	_delay_ms(100);
 

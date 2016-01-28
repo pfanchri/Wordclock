@@ -718,39 +718,45 @@ int main(void)
     //settime();//get time from user
     //setalarm();
 
-    //TESTSCHLEIFE für Matrix ------------------------------
-    PORTC &= ~(1 << 1);
-    uint8_t i = 0;
-    uint8_t j = 37;
-    uint8_t k = 73;
-    while (1)
-	{
-	matrix[i].r = 30;
-	matrix[j].g = 30;
-	matrix[k].b = 30;
-	ws2812_setleds(matrix, 110);
-	matrix[i].r = 0;
-	matrix[j].g = 0;
-	matrix[k].b = 0;
-	i++;
-	j++;
-	k++;
-	if (i >= 110)
-	    {
-	    i = 0;
-	    }
-	if (j >= 110)
-	    {
-	    j = 0;
-	    }
-	if (k >= 110)
-	    {
-	    k= 0;
-	    }
-	_delay_ms(100);
+//TESTSCHLEIFE für Matrix ------------------------------
 
+    while (1)
+	{PORTC &= ~(1 << 1);
+	for (uint8_t i = 0; i < 110; i++)
+	    {
+	    matrix[i].r = 30;
+	    matrix[i].g = 0;
+	    matrix[i].b = 0;
+	    ws2812_setleds(matrix, 110);
+	    matrix[i].r = 0;
+	    matrix[i].g = 0;
+	    matrix[i].b = 0;
+	    _delay_ms(100);
+	    }
+	for (uint8_t i = 0; i < 110; i++)
+	    {
+	    matrix[i].r = 0;
+	    matrix[i].g = 30;
+	    matrix[i].b = 0;
+	    ws2812_setleds(matrix, 110);
+	    matrix[i].r = 0;
+	    matrix[i].g = 0;
+	    matrix[i].b = 0;
+	    _delay_ms(100);
+	    }
+	for (uint8_t i = 0; i < 110; i++)
+	    {
+	    matrix[i].r = 0;
+	    matrix[i].g = 0;
+	    matrix[i].b = 30;
+	    ws2812_setleds(matrix, 110);
+	    matrix[i].r = 0;
+	    matrix[i].g = 0;
+	    matrix[i].b = 0;
+	    _delay_ms(100);
+	    }
 	}
-//TESTSCHLEIFE 2 ------------------------------
+    //TESTSCHLEIFE 2 ------------------------------
 
     /*
      while(1){
@@ -771,14 +777,14 @@ int main(void)
      _delay_ms(1000);
      PORTB &= ~ (1<<PB3);
 
-
-     _delay_ms(1000);
-     PORTB |= (1 << PB3);
-     _delay_ms(1000);
-     PORTB &= ~(1 << PB3);
      }
      */
-//TESTSCHLEIFE ENDE ------------------------------
+    //TESTSCHLEIFE ENDE ------------------------------
+    _delay_ms(1000);
+    PORTB |= (1 << PB3);
+    _delay_ms(1000);
+    PORTB &= ~(1 << PB3);
+
     while (1)
 	{	//Dauerablauf
 
@@ -799,4 +805,4 @@ int main(void)
 	//ende Uhrzeit Testweise erhöhen
 
 	}
-}
+    }
