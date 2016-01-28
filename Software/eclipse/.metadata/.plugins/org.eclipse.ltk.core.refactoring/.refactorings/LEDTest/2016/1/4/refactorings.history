@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Ressource &apos;LEDTest/RGB_blinky.c&apos; umbenennen in &apos;main.c&apos;" description="Ressource &apos;RGB_blinky.c&apos; umbenennen" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="RGB_blinky.c" name="main.c" stamp="1453920632895" updateReferences="true"/>
+</session>

@@ -1,15 +1,15 @@
-14:42:40 **** Incremental Build of configuration Debug for project LEDTest ****
+21:09:19 **** Incremental Build of configuration Release for project DIYWordclock ****
 make all 
 Invoking: Print Size
-avr-size --format=avr --mcu=atmega168p LEDTest.elf
+avr-size --format=avr --mcu=atmega168p DIYWordclock.elf
 AVR Memory Usage
 ----------------
 Device: atmega168p
 
-Program:    3120 bytes (19.0% Full)
+Program:    2916 bytes (17.8% Full)
 (.text + .data + .bootloader)
 
-Data:          3 bytes (0.3% Full)
+Data:        334 bytes (32.6% Full)
 (.data + .bss + .noinit)
 
 
