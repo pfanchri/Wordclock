@@ -82,8 +82,7 @@ void showtime(uint8_t hours_to_show, uint8_t minutes_to_show)
 	    matrix[i].g = 0;
 	    matrix[i].b = 0;
 	    }
-	PORTC &= ~(1 << 1);				//Mosfet anschalten
-	ws2812_setleds(matrix, 110);
+
 	/*
 
 	 //Ansteuerung der Matrix

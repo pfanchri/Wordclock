@@ -147,7 +147,10 @@ Wordclocks wurden bereits in vielen verschiedenen Sprachen erstellt, wobei  grun
 Die Wordclock sollte vor allem - im Gegensatz zu den meisten anderen - kleiner ausgelegt sein und nicht zum Aufhängen an der Wand gedacht sein, sondern als modulare kleine Tischuhr, die bei Einbau einer Alarmfunktion, auch als Wecker dienen kann.
 
 
-Um zunächst einen Überblick über die genauen 
+Um zunächst einen Überblick zu bekommen sammelte ich alle möglichen Projektideen und mögliche Umsetzungen in
+
+
+Zur Versionskontrolle wird während des Projektes für alle Dateien github eingesetzt um jeweils den aktuellen Stand zu protokollieren.
 
 
 
@@ -159,6 +162,8 @@ Plfichtenheft
 github
 
 \section{Hardware}
+Für die Platine wird Eagle als PCB-Software zum Entwurf der Platine verwendet. Die Hauptarbeit übernimmt dabei ein Prozessor der  Mega8-Reihe von AVR verwendet, da dieser einfach zu programmieren und leicht verfügbar ist. Genau wird der Atmega168PA-PU verwendet, der den größten programmierbaren Flash seiner Baureihe zur Verfügung stellt. Da ein späterer Einbau einer Batteriepufferung möglich sein soll, verwenden wir hier die   Pico-Power Ausführung des AVR, da diese weniger Strom im Schalfmodus verbaucht, was hierbei hilfreich sein kann. 
+
 
 \section{Software}
 

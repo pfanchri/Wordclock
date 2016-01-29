@@ -82,8 +82,7 @@ void showtime(uint8_t hours_to_show, uint8_t minutes_to_show)
 	    matrix[i].g = 0;
 	    matrix[i].b = 0;
 	    }
-	PORTC &= ~(1 << 1);				//Mosfet anschalten
-	ws2812_setleds(matrix, 110);
+
 	/*
 
 	 //Ansteuerung der Matrix
@@ -654,7 +653,7 @@ void showtime(uint8_t hours_to_show, uint8_t minutes_to_show)
 	    break;
 	    }
 	//SonderfŠlle:
-	if (hours_to_show == 1 && minutes_to_show < 5)//S von einS ausschalten bei "ein Uhr"
+	if (hours_to_show == 1 && minutes_to_show == 0)//S von einS ausschalten bei "ein Uhr"
 	    {
 	    matrix[58].r = 0;
 	    matrix[58].g = 0;

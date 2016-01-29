@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.24)  27 JAN 2016 12:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.24)  29 JAN 2016 14:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1389,11 +1389,23 @@ LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <14.05249> not available
 LaTeX Font Info:    Font shape `OT1/phv/bx/sc' in size <14.05249> not available
 
 (Font)              Font shape `OT1/phv/b/sc' tried instead on input line 138.
+
+Underfull \hbox (badness 2635) in paragraph at lines 165--166
+\OT1/ppl/m/n/12.045 zum Ent-wurf der Pla-ti-ne ver-wen-det. Die
+ []
+
+
+Underfull \hbox (badness 1694) in paragraph at lines 165--166
+\OT1/ppl/m/n/12.045 der Mega8-Reihe von AVR ver-wen-det, da
+ []
+
 [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
 ]
-(./Projektdokumentation.aux) ) 
+[2
+
+] (./Projektdokumentation.aux) ) 
 Here is how much of TeX's memory you used:
  29056 strings out of 493054
  617889 string characters out of 6134760
@@ -1402,15 +1414,15 @@ Here is how much of TeX's memory you used:
  33628 words of font info for 75 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,6n,54p,10400b,280s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/local/texlive/2015/texmf-dist/fonts/enc/dvi
-ps/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhv
-b8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb
-></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/
-local/texlive/2015/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on Projektdokumentation.pdf (1 page, 41686 bytes).
+{/usr/local/texlive/2015/texmf-dist/fonts/enc/d
+vips/base/8r.enc}</usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/u
+hvb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.p
+fb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></us
+r/local/texlive/2015/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on Projektdokumentation.pdf (2 pages, 43220 bytes).
 PDF statistics:
- 28 PDF objects out of 1000 (max. 8388607)
- 20 compressed objects within 1 object stream
+ 31 PDF objects out of 1000 (max. 8388607)
+ 22 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
