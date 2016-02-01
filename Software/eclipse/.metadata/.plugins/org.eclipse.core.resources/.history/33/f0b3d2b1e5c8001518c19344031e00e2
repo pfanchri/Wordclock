@@ -1,0 +1,13 @@
+void all_on(prozent_rot prozent_blau, prozent_gruen){
+    PORTC &= ~(1 << 1);
+        while(0){
+    	for (uint8_t i = 0; i <= 110; i++)
+    		{
+    		matrix[i].r = prozent_rot;
+    		matrix[i].g = prozent_gruen;
+    		matrix[i].b = prozent_blau;
+    		}
+    	ws2812_setleds(matrix, 110);
+    	_delay_ms(1000);_delay_ms(1000);_delay_ms(1000);_delay_ms(1000);_delay_ms(1000);
+        }
+}

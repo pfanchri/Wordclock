@@ -1,4 +1,4 @@
-11:18:44 **** Incremental Build of configuration Release for project DIYWordclock ****
+14:41:06 **** Incremental Build of configuration Release for project DIYWordclock ****
 make all 
 Building file: ../main.c
 Invoking: AVR Compiler
@@ -7,7 +7,7 @@ Finished building: ../main.c
  
 Building target: DIYWordclock.elf
 Invoking: AVR C Linker
-avr-gcc -Wl,-Map,DIYWordclock.map -mmcu=atmega168p -o "DIYWordclock.elf"  ./i2c_master.o ./light_ws2812.o ./main.o   
+avr-gcc -Wl,-Map,DIYWordclock.map -mmcu=atmega168p -o "DIYWordclock.elf"  ./uart/uart.o  ./i2chw/twimaster.o  ./ds1307/ds1307.o  ./light_ws2812.o ./main.o ./test.o   
 Finished building target: DIYWordclock.elf
  
 Invoking: AVR Create Extended Listing
@@ -28,10 +28,10 @@ AVR Memory Usage
 ----------------
 Device: atmega168p
 
-Program:    3024 bytes (18.5% Full)
+Program:    3902 bytes (23.8% Full)
 (.text + .data + .bootloader)
 
-Data:        337 bytes (32.9% Full)
+Data:        406 bytes (39.6% Full)
 (.data + .bss + .noinit)
 
 

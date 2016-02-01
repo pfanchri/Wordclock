@@ -1,0 +1,7 @@
+
+#ifndef TEST_H
+#define TEST_H
+void all_on(prozent_rot prozent_blau, prozent_gruen);
+void lauflicht(void);
+
+#endif

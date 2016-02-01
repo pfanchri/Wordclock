@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Ressource &apos;DIYWordclock/Test.c&apos; umbenennen in &apos;test.c&apos;" description="Ressource &apos;Test.c&apos; umbenennen" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Test.c" name="test.c" stamp="1454332683177" updateReferences="true"/>
+</session>

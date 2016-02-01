@@ -1,0 +1,56 @@
+void all_on(prozent_rot prozent_blau, prozent_gruen)
+    {
+    PORTC &= ~(1 << 1);
+    while (0)
+	{
+	for (uint8_t i = 0; i <= 110; i++)
+	    {
+	    matrix[i].r = prozent_rot;
+	    matrix[i].g = prozent_gruen;
+	    matrix[i].b = prozent_blau;
+	    }
+	ws2812_setleds(matrix, 110);
+	_delay_ms(1000);
+	_delay_ms(1000);
+	_delay_ms(1000);
+	_delay_ms(1000);
+	_delay_ms(1000);
+	}
+    }
+void lauflicht(void)
+    {
+    PORTC &= ~(1 << 1);
+    uint8_t i = 0;
+    uint8_t j = 37;
+    uint8_t k = 73;
+    while (1)
+	{
+	matrix[i].r = 30;
+	matrix[j].g = 30;
+	matrix[k].b = 30;
+	ws2812_setleds(matrix, 110);
+	matrix[i].r = 0;
+	matrix[j].g = 0;
+	matrix[k].b = 0;
+	i++;
+	j++;
+	k++;
+	if (i >= 110)
+	    {
+	    i = 0;
+	    }
+	if (j >= 110)
+	    {
+	    j = 0;
+	    }
+	if (k >= 110)
+	    {
+	    k = 0;
+	    }
+	_delay_ms(100);
+
+	}
+    }
+
+
+
