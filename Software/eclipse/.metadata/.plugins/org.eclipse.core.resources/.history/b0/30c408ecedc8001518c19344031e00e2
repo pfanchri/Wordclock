@@ -30,21 +30,15 @@
 #define V_ON_G 30  		//Wert für LED on 0...255
 #define V_ON_R 30  		//Wert für LED on 0...255
 
-struct cRGB matrix[111];//eines länger als eigentlich damit besser beleuchtet bei letzter
+struct cRGB matrix[111];	//eines länger als eigentlich damit besser beleuchtet bei letzter
+uint8_t stunden = 1; 		//aktueller Stundenwert  1...12
+uint8_t minuten = 0; 		//aktueller Minutenwert  0...59
 uint8_t frontplatte = 0; //Art der Frontplatte; 0:Standartfrontplatte; 1:Binäre Frontplatte; 2:Englische Frontplatte; ...
-uint8_t matrix_on = 1; //TODO: evlt mit anderen zu einer Statusvariable zusammenfügen
+uint8_t matrix_on = 1; 		//TODO: evlt mit anderen zu einer Statusvariable zusammenfügen
 
-uint16_t year = 2016;
-uint8_t month = 1;
-uint8_t day = 0;
-uint8_t hour = 1;//aktueller hourwert  1...12
-uint8_t minute = 0;//aktueller minutewert  0...59
-uint8_t second = 0;
-
-ISR(INT1_vect)
-    {
-    //TODO: weiter int Vektoren einfügen; auch für PCint
-    }
+ISR(INT1_vect){
+		    //TODO: weiter int Vektoren einfügen; auch für PCint
+}
 
 void setalarm(void)
     {
@@ -53,7 +47,7 @@ void setalarm(void)
     //send alarm time to RTC
     }
 
-void all_on(uint8_t prozent_rot, uint8_t prozent_blau, uint8_t prozent_gruen)
+void all_on(uint8_t prozent_rot, uint8_t  prozent_blau,uint8_t prozent_gruen)
     {
     PORTC &= ~(1 << 1);
     while (0)
@@ -107,13 +101,13 @@ void lauflicht(void)
 	}
     }
 
+
 void settime(void)
     {
 
     //get time from user
 
     //send time to RTC
-    ds1307_setdate(year, month, day, hour, minute, 0);
 
     }
 
@@ -724,7 +718,7 @@ void showtime(uint8_t hours_to_show, uint8_t minutes_to_show)
 	    break;
 	    }
 	//Sonderfälle:
-	if (hours_to_show == 1 && minutes_to_show < 5) //S von einS ausschalten bei "ein Uhr"
+	if (hours_to_show == 1 && minutes_to_show < 5)//S von einS ausschalten bei "ein Uhr"
 	    {
 	    matrix[58].r = 0;
 	    matrix[58].g = 0;
@@ -791,8 +785,6 @@ void init(void)
 	}
     ws2812_setleds(matrix, 111);
     PORTC |= (1 << 1);
-    //init ds1307
-    ds1307_init();
     }
 
 int main(void)
@@ -803,37 +795,69 @@ int main(void)
     //settime();//get time from user
     //setalarm();
 
+    //TESTSCHLEIFE für Matrix ------------------------------
 
 
-	//get date
-	ds1307_getdate(&year, &month, &day, &hour, &minute, &second);
+
+    while(1){//TEst RTC
+	//init uart
 
 
-	_delay_ms(1000);
-	_delay_ms(1000);//hier war ich -----------
-	_delay_ms(1000);
-	while (1)
-	    {
-	    }
+		//init ds1307
+		ds1307_init();
+
+
+		uint8_t year = 0;
+		uint8_t month = 0;
+		uint8_t day = 0;
+		uint8_t hour = 0;
+		uint8_t minute = 0;
+		uint8_t second = 0;
+
+		//check set date
+		ds1307_setdate(12, 12, 31, 23, 59, 35);
+		PORTB &= ~(1 << PB4);
+
+
+			//get date
+			ds1307_getdate(&year, &month, &day, &hour, &minute, &second);
+
+			char buf[50];
+			sprintf(buf, "%d/%d/%d %d:%d:%d", year, month, day, hour, minute, second);
+			uart_puts(buf);	uart_puts("\r\n");
+			PORTB &= ~(1 << PB3);
+			_delay_ms(1000);
+			_delay_ms(1000);_delay_ms(1000);
+			if(year){
+			    PORTB &= ~(1 << PB4);
+			    while(1){
+				lauflicht();
+			    }
+			}
+			_delay_ms(1000);
+						_delay_ms(1000);_delay_ms(1000);
+						while(1){}
+
+    }
 
 
 
     while (1)
 	{	//Dauerablauf
 
-	showtime(hour, minute);
+	showtime(stunden, minuten);
 
 	//Uhrzeit erhöhen testweise
 	_delay_ms(1000);
-	minute++;
-	if (minute >= 60)
+	minuten++;
+	if (minuten >= 60)
 	    {
-	    minute = 0;
-	    hour++;
+	    minuten = 0;
+	    stunden++;
 	    }
-	if (hour >= 13)
+	if (stunden >= 13)
 	    {
-	    hour = 1;
+	    stunden = 1;
 	    }
 	//ende Uhrzeit Testweise erhöhen
 

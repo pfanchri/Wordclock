@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.14)  18 JAN 2016 21:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.24)  1 FEB 2016 21:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1360,7 +1360,7 @@ thkerncmss.
 
 ] [5
 
-] <EagleS1.png, id=159, 549.05125pt x 681.54625pt>
+] <EagleS1.png, id=153, 549.05125pt x 681.54625pt>
 File: EagleS1.png Graphic file (type png)
 
 <use EagleS1.png>
@@ -1372,13 +1372,13 @@ Overfull \vbox (14.96368pt too high) detected at line 65
 
 [6
 
- <./EagleS1.png>] <EagleS3.png, id=185, 434.62375pt x 538.01pt>
+ <./EagleS1.png>] <EagleS3.png, id=179, 434.62375pt x 538.01pt>
 File: EagleS3.png Graphic file (type png)
 
 <use EagleS3.png>
 Package pdftex.def Info: EagleS3.png used on input line 77.
 (pdftex.def)             Requested size: 159.79204pt x 197.80455pt.
- <EagleS4.png, id=186, 602.25pt x 423.5825pt>
+ <EagleS4.png, id=180, 602.25pt x 423.5825pt>
 File: EagleS4.png Graphic file (type png)
 
 <use EagleS4.png>
@@ -1392,21 +1392,21 @@ Overfull \hbox (12.2942pt too wide) in paragraph at lines 77--77
 [7
 
  <./EagleS3.png> <./EagleS4.png>]
-<Qlocktwo.png, id=213, 303.1325pt x 338.26375pt>
+<Qlocktwo.png, id=207, 303.1325pt x 338.26375pt>
 File: Qlocktwo.png Graphic file (type png)
  <use Qlocktwo.png>
 Package pdftex.def Info: Qlocktwo.png used on input line 85.
 (pdftex.def)             Requested size: 199.73653pt x 222.88829pt.
  [8
 
- <./Qlocktwo.png>] <SW1.png, id=240, 1011.78pt x 693.59125pt>
+ <./Qlocktwo.png>] <SW1.png, id=233, 1011.78pt x 693.59125pt>
 File: SW1.png Graphic file (type png)
  <use SW1.png>
 Package pdftex.def Info: SW1.png used on input line 92.
 (pdftex.def)             Requested size: 307.28987pt x 210.65073pt.
  [9
 
- <./SW1.png>] <SW2.png, id=268, 1011.78pt x 693.59125pt>
+ <./SW1.png>] <SW2.png, id=262, 1011.78pt x 693.59125pt>
 File: SW2.png Graphic file (type png)
  <use SW2.png>
 Package pdftex.def Info: SW2.png used on input line 99.
@@ -1414,7 +1414,7 @@ Package pdftex.def Info: SW2.png used on input line 99.
  [10
 
  <./SW2.png>]
-<SW4.png, id=294, 1011.78pt x 693.59125pt>
+<SW4.png, id=288, 1011.78pt x 693.59125pt>
 File: SW4.png Graphic file (type png)
  <use SW4.png>
 Package pdftex.def Info: SW4.png used on input line 106.
@@ -1422,7 +1422,7 @@ Package pdftex.def Info: SW4.png used on input line 106.
  [11
 
  <./SW4.png>]
-<SW5.png, id=321, 1011.78pt x 693.59125pt>
+<SW5.png, id=315, 1011.78pt x 693.59125pt>
 File: SW5.png Graphic file (type png)
  <use SW5.png>
 Package pdftex.def Info: SW5.png used on input line 113.
@@ -1430,7 +1430,7 @@ Package pdftex.def Info: SW5.png used on input line 113.
  [12
 
  <./SW5.png>]
-<SW6.png, id=347, 1011.78pt x 693.59125pt>
+<SW6.png, id=341, 1011.78pt x 693.59125pt>
 File: SW6.png Graphic file (type png)
  <use SW6.png>
 Package pdftex.def Info: SW6.png used on input line 119.
@@ -1438,7 +1438,7 @@ Package pdftex.def Info: SW6.png used on input line 119.
  [13
 
  <./SW6.png>]
-<SW7.png, id=375, 1011.78pt x 693.59125pt>
+<SW7.png, id=369, 1011.78pt x 693.59125pt>
 File: SW7.png Graphic file (type png)
  <use SW7.png>
 Package pdftex.def Info: SW7.png used on input line 125.
@@ -1446,13 +1446,13 @@ Package pdftex.def Info: SW7.png used on input line 125.
  [14
 
  <./SW7.png>]
-<Anordnung1.png, id=401, 1281.78876pt x 1281.78876pt>
+<Anordnung1.png, id=395, 1281.78876pt x 1281.78876pt>
 File: Anordnung1.png Graphic file (type png)
  <use Anordnung1.png>
 Package pdftex.def Info: Anordnung1.png used on input line 136.
 (pdftex.def)             Requested size: 159.79204pt x 159.77335pt.
 
-<Anordnung2.png, id=402, 301.125pt x 298.11375pt>
+<Anordnung2.png, id=396, 301.125pt x 298.11375pt>
 File: Anordnung2.png Graphic file (type png)
  <use Anordnung2.png>
 Package pdftex.def Info: Anordnung2.png used on input line 136.
@@ -1465,13 +1465,13 @@ Overfull \hbox (12.2942pt too wide) in paragraph at lines 136--136
 [15
 
  <./Anordnung1.png> <./Anordnung2.png (PNG copy)>]
-<Frontplatte1.png, id=429, 589.20125pt x 588.1975pt>
+<Frontplatte1.png, id=423, 589.20125pt x 588.1975pt>
 File: Frontplatte1.png Graphic file (type png)
  <use Frontplatte1.png>
 Package pdftex.def Info: Frontplatte1.png used on input line 147.
 (pdftex.def)             Requested size: 159.79204pt x 159.5155pt.
 
-<Frontplatte2.png, id=430, 589.20125pt x 588.1975pt>
+<Frontplatte2.png, id=424, 589.20125pt x 588.1975pt>
 File: Frontplatte2.png Graphic file (type png)
  <use Frontplatte2.png>
 Package pdftex.def Info: Frontplatte2.png used on input line 147.
@@ -1491,9 +1491,15 @@ LaTeX Font Info:    Try loading font information for TS1+cmss on input line 155
 File: ts1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ) [17
 
-] [18
-
 ]
+<Github.png, id=476, 62.2325pt x 62.2325pt>
+File: Github.png Graphic file (type png)
+ <use Github.png>
+Package pdftex.def Info: Github.png used on input line 167.
+(pdftex.def)             Requested size: 122.91406pt x 122.9254pt.
+ [18
+
+ <./Github.png (PNG copy)>]
 \tf@nav=\write6
 \openout6 = `Projektpräsentation.nav'.
 
@@ -1503,26 +1509,31 @@ File: ts1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 \tf@snm=\write8
 \openout8 = `Projektpräsentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 160.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 160.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 169.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 169.
+ (./Projektpräsentation.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 169.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 169.
 
-(./Projektpräsentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 160.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 160.
-Package rerunfilecheck Info: File `Projektpräsentation.out' has not changed.
-(rerunfilecheck)             Checksum: B93DE68390986FFB16E63BD0F6FDF460;128.
 
+Package rerunfilecheck Warning: File `Projektpräsentation.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Projektpräsentation.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  B93DE68390986FFB16E63BD0F6FDF460;128.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 160.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 169.
  ) 
 Here is how much of TeX's memory you used:
- 19531 strings out of 493054
- 371155 string characters out of 6134760
+ 19533 strings out of 493054
+ 371194 string characters out of 6134760
  457590 words of memory out of 5000000
- 22553 multiletter control sequences out of 15000+600000
+ 22554 multiletter control sequences out of 15000+600000
  15213 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,14n,55p,425b,563s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1533,10 +1544,10 @@ fb></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb
 ></usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfss1440.pfb><
 /usr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfss2074.pfb></u
 sr/local/texlive/2015/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb>
-Output written on Projektpräsentation.pdf (18 pages, 825691 bytes).
+Output written on Projektpräsentation.pdf (18 pages, 826123 bytes).
 PDF statistics:
- 539 PDF objects out of 1000 (max. 8388607)
- 485 compressed objects within 5 object streams
+ 533 PDF objects out of 1000 (max. 8388607)
+ 478 compressed objects within 5 object streams
  40 named destinations out of 1000 (max. 500000)
- 133 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 122 words of extra memory for PDF output out of 10000 (max. 10000000)
 
