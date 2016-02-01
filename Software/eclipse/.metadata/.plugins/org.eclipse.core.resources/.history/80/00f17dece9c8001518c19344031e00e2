@@ -799,13 +799,15 @@ int main(void)
 
 
 
-    while(1){//TEst RTC
+    while(0){//TEst RTC
 	//init uart
-
+		uart_init( UART_BAUD_SELECT(UART_BAUD_RATE,F_CPU) );
 
 		//init ds1307
 		ds1307_init();
 
+		sei();
+		uart_puts("startup...");
 
 		uint8_t year = 0;
 		uint8_t month = 0;
@@ -816,7 +818,7 @@ int main(void)
 
 		//check set date
 		ds1307_setdate(12, 12, 31, 23, 59, 35);
-		PORTB &= ~(1 << PB4);
+
 
 
 			//get date
@@ -830,9 +832,6 @@ int main(void)
 			_delay_ms(1000);_delay_ms(1000);
 			if(year){
 			    PORTB &= ~(1 << PB4);
-			    while(1){
-				lauflicht();
-			    }
 			}
 			_delay_ms(1000);
 						_delay_ms(1000);_delay_ms(1000);
