@@ -18,10 +18,10 @@
 #define t_snooze
 #define t_mode
 #define V_ON_B 50  		//Wert für LED on 0...255
-#define V_ON_G 0  		//Wert für LED on 0...255
-#define V_ON_R 0  		//Wert für LED on 0...255
+#define V_ON_G 50  		//Wert für LED on 0...255
+#define V_ON_R 50  		//Wert für LED on 0...255
 
-struct cRGB matrix[111];	//eines länger als eigentlich damit besser beleuchtet bei letzter
+struct cRGB matrix[110];
 uint8_t stunden = 1; 		//aktueller Stundenwert  1...12
 uint8_t minuten = 0; 		//aktueller Minutenwert  0...59
 uint8_t frontplatte = 0; //Art der Frontplatte; 0:Standartfrontplatte; 1:Binäre Frontplatte; 2:Englische Frontplatte; ...
@@ -76,14 +76,14 @@ void showtime(uint8_t hours_to_show, uint8_t minutes_to_show)
 	    }
 
 	//Leeren des Arrays
-	for (uint8_t i = 0; i < 111; i++)
+	for (uint8_t i = 0; i < 110; i++)
 	    {
 	    matrix[i].r = 0;
 	    matrix[i].g = 0;
 	    matrix[i].b = 0;
 	    }
 	PORTC &= ~(1 << 1);				//Mosfet anschalten
-	ws2812_setleds(matrix, 111);
+	ws2812_setleds(matrix, 110);
 	/*
 
 	 //Ansteuerung der Matrix
@@ -674,7 +674,7 @@ void showtime(uint8_t hours_to_show, uint8_t minutes_to_show)
     if (matrix_on)
 	{
 	PORTC &= ~(1 << 1);				//Mosfet anschalten
-	ws2812_setleds(matrix, 111);
+	ws2812_setleds(matrix, 110);
 	}
     else
 	{
@@ -713,13 +713,13 @@ void init(void)
 
     //Matrix leeren
     PORTC &= ~(1 << 1);					//Mosfet anschalten
-    for (uint8_t i = 0; i <= 111; i++)
+    for (uint8_t i = 0; i <= 110; i++)
 	{
 	matrix[i].r = 0;
 	matrix[i].g = 0;//TODO: evtl den gesamten BLock nach vorne verschieben
 	matrix[i].b = 0; //War geplant damit am anfang erst einmal dunkel
 	}
-    ws2812_setleds(matrix, 111);
+    ws2812_setleds(matrix, 110);
     PORTC |= (1 << 1);
     }
 
@@ -731,7 +731,7 @@ int main(void)
     //setalarm();
 
     //TESTSCHLEIFE für Matrix ------------------------------
-    PORTC &= ~(1 << 1);
+    /*PORTC &= ~(1 << 1);
     while(1){
 	for (uint8_t i = 0; i <= 110; i++)
 		{
@@ -773,7 +773,7 @@ int main(void)
 	_delay_ms(100);
 
 	}
-
+    */
 //TESTSCHLEIFE 2 ------------------------------
 
     /*

@@ -731,7 +731,7 @@ int main(void)
     //setalarm();
 
     //TESTSCHLEIFE für Matrix ------------------------------
-    PORTC &= ~(1 << 1);
+    /*PORTC &= ~(1 << 1);
     while(1){
 	for (uint8_t i = 0; i <= 110; i++)
 		{
@@ -773,7 +773,7 @@ int main(void)
 	_delay_ms(100);
 
 	}
-
+    */
 //TESTSCHLEIFE 2 ------------------------------
 
     /*

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Ressource &apos;DIYWordclock/DS1307/main.c&apos; löschen" deleteContents="false" description="Ressource &apos;DIYWordclock/DS1307/main.c&apos; löschen" element1="/DIYWordclock/DS1307/main.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1454322506008"/>
+</session>

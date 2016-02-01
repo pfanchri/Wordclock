@@ -17,9 +17,9 @@
 #define t_down
 #define t_snooze
 #define t_mode
-#define V_ON_B 50  		//Wert für LED on 0...255
-#define V_ON_G 0  		//Wert für LED on 0...255
-#define V_ON_R 0  		//Wert für LED on 0...255
+#define V_ON_B 250  		//Wert für LED on 0...255
+#define V_ON_G 250  		//Wert für LED on 0...255
+#define V_ON_R 250  		//Wert für LED on 0...255
 
 struct cRGB matrix[111];	//eines länger als eigentlich damit besser beleuchtet bei letzter
 uint8_t stunden = 1; 		//aktueller Stundenwert  1...12
@@ -731,7 +731,7 @@ int main(void)
     //setalarm();
 
     //TESTSCHLEIFE für Matrix ------------------------------
-    PORTC &= ~(1 << 1);
+    /*PORTC &= ~(1 << 1);
     while(1){
 	for (uint8_t i = 0; i <= 110; i++)
 		{
@@ -773,7 +773,7 @@ int main(void)
 	_delay_ms(100);
 
 	}
-
+    */
 //TESTSCHLEIFE 2 ------------------------------
 
     /*

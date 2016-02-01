@@ -4485,3 +4485,2628 @@ Caused by: java.lang.IllegalStateException: No context available outside of the 
 
 !ENTRY org.eclipse.ui 4 4 2016-01-29 15:20:30.063
 !MESSAGE Conflicting handlers for org.eclipse.ui.window.previousEditor: {org.eclipse.ui.internal.CycleEditorHandler:false} vs {org.eclipse.ui.internal.CycleEditorHandler@37f02eaa}
+!SESSION 2016-02-01 10:22:33.528 -----------------------------------------------
+eclipse.buildId=4.3.2.M20140221-1700
+java.version=1.6.0_65
+java.vendor=Apple Inc.
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=de_DE
+Framework arguments:  -product org.eclipse.epp.package.standard.product -keyring /Users/christofpfannenmuller/.eclipse_keyring -showlocation
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.standard.product -keyring /Users/christofpfannenmuller/.eclipse_keyring -showlocation
+
+!ENTRY org.eclipse.jface 2 0 2016-02-01 10:23:57.775
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-02-01 10:23:57.775
+!MESSAGE A conflict occurred for CTRL+SHIFT+SPACE:
+Binding(CTRL+SHIFT+SPACE,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.contentAssist.contextInformation,Kontextinformationen,
+		Kontextinformationen anzeigen,
+		Category(org.eclipse.ui.category.edit,Bearbeiten,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@777d57d6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(CTRL+SHIFT+SPACE,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.contentAssist.contextInformation,Kontextinformationen,
+		Kontextinformationen anzeigen,
+		Category(org.eclipse.ui.category.edit,Bearbeiten,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@777d57d6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-02-01 10:23:57.775
+!MESSAGE A conflict occurred for ALT+PAGE_DOWN:
+Binding(ALT+PAGE_DOWN,
+	ParameterizedCommand(Command(org.eclipse.ui.navigate.nextSubTab,Nächster Unter-Tab,
+		Zum nächsten Unter-Tab umschalten,
+		Category(org.eclipse.ui.category.navigate,Navigieren,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4611dfe3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(ALT+PAGE_DOWN,
+	ParameterizedCommand(Command(org.eclipse.ui.navigate.nextSubTab,Nächster Unter-Tab,
+		Zum nächsten Unter-Tab umschalten,
+		Category(org.eclipse.ui.category.navigate,Navigieren,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4611dfe3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-02-01 10:23:57.775
+!MESSAGE A conflict occurred for ALT+PAGE_UP:
+Binding(ALT+PAGE_UP,
+	ParameterizedCommand(Command(org.eclipse.ui.navigate.previousSubTab,Vorheriger Unter-Tab,
+		Zum vorherigen Unterreiter umschalten,
+		Category(org.eclipse.ui.category.navigate,Navigieren,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3f81d405,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(ALT+PAGE_UP,
+	ParameterizedCommand(Command(org.eclipse.ui.navigate.previousSubTab,Vorheriger Unter-Tab,
+		Zum vorherigen Unterreiter umschalten,
+		Category(org.eclipse.ui.category.navigate,Navigieren,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3f81d405,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-02-01 10:23:57.775
+!MESSAGE A conflict occurred for CTRL+SPACE:
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.contentAssist.proposals,Inhaltshilfe,
+		Inhaltshilfe,
+		Category(org.eclipse.ui.category.edit,Bearbeiten,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6486b4d5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(CTRL+SPACE,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.contentAssist.proposals,Inhaltshilfe,
+		Inhaltshilfe,
+		Category(org.eclipse.ui.category.edit,Bearbeiten,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6486b4d5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-02-01 10:23:57.775
+!MESSAGE A conflict occurred for COMMAND+F10:
+Binding(COMMAND+F10,
+	ParameterizedCommand(Command(org.eclipse.ui.window.showViewMenu,Sichtmenü anzeigen,
+		Sichtmenü anzeigen,
+		Category(org.eclipse.ui.category.window,Fenster,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@47ca3f82,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(COMMAND+F10,
+	ParameterizedCommand(Command(org.eclipse.ui.window.showViewMenu,Sichtmenü anzeigen,
+		Sichtmenü anzeigen,
+		Category(org.eclipse.ui.category.window,Fenster,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@47ca3f82,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-02-01 10:23:57.775
+!MESSAGE A conflict occurred for COMMAND+Z:
+Binding(COMMAND+Z,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.undo,Rückgängig,
+		Letzte Operation rückgängig machen,
+		Category(org.eclipse.ui.category.edit,Bearbeiten,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2f0f94a0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+Binding(COMMAND+Z,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.undo,Rückgängig,
+		Letzte Operation rückgängig machen,
+		Category(org.eclipse.ui.category.edit,Bearbeiten,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2f0f94a0,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.dialogAndWindow,,,system)
+
+!ENTRY org.eclipse.ui 4 0 2016-02-01 10:25:18.384
+!MESSAGE Source Provider 'org.eclipse.ui.internal.services.WorkbenchSourceProvider' should extend AbstractSourceProvider
+
+!ENTRY org.eclipse.ui 4 0 2016-02-01 10:25:18.390
+!MESSAGE Source Provider 'org.eclipse.ui.internal.services.ActionSetSourceProvider' should extend AbstractSourceProvider
+
+!ENTRY org.eclipse.ui 4 0 2016-02-01 10:25:18.391
+!MESSAGE Source Provider 'org.eclipse.ui.internal.menus.FocusControlSourceProvider' should extend AbstractSourceProvider
+
+!ENTRY org.eclipse.ui 4 0 2016-02-01 10:25:18.391
+!MESSAGE Source Provider 'org.eclipse.ui.internal.services.MenuSourceProvider' should extend AbstractSourceProvider
+
+!ENTRY org.eclipse.ui 4 0 2016-02-01 10:25:18.392
+!MESSAGE Source Provider 'org.eclipse.ui.internal.contexts.ActiveContextSourceProvider' should extend AbstractSourceProvider
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:18.979
+!MESSAGE Conflicting handlers for org.eclipse.ui.newWizard: {org.eclipse.ui.internal.handlers.WizardHandler$New@5f30cda4} vs {org.eclipse.ui.internal.handlers.WizardHandler$New}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:18.980
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.import: {org.eclipse.ui.internal.handlers.WizardHandler$Import} vs {org.eclipse.ui.internal.handlers.WizardHandler$Import@20422e25}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:18.980
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.export: {org.eclipse.ui.internal.handlers.WizardHandler$Export} vs {org.eclipse.ui.internal.handlers.WizardHandler$Export@75f9eba0}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:18.981
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.properties: {org.eclipse.ui.internal.handlers.PropertyDialogHandler@204845a2} vs {org.eclipse.ui.internal.handlers.PropertyDialogHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:18.981
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.exit: {org.eclipse.ui.internal.handlers.QuitHandler} vs {org.eclipse.ui.internal.handlers.QuitHandler@b3e6577}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:18.982
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.newWindow: {org.eclipse.ui.internal.handlers.OpenInNewWindowHandler} vs {org.eclipse.ui.internal.handlers.OpenInNewWindowHandler@7d4966cc}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:18.982
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.switchToEditor: {org.eclipse.ui.internal.WorkbenchEditorsHandler@1e8ee5c0} vs {org.eclipse.ui.internal.WorkbenchEditorsHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:18.983
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.minimizePart: {org.eclipse.ui.internal.handlers.MinimizePartHandler} vs {org.eclipse.ui.internal.handlers.MinimizePartHandler@3cd4c5a0}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:18.983
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.closePart: {org.eclipse.ui.internal.handlers.ClosePartHandler@a326074} vs {org.eclipse.ui.internal.handlers.ClosePartHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:18.984
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.preferences: {org.eclipse.ui.internal.handlers.ShowPreferencePageHandler} vs {org.eclipse.ui.internal.handlers.ShowPreferencePageHandler@78221c75}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:18.984
+!MESSAGE Conflicting handlers for org.eclipse.ui.views.showView: {org.eclipse.ui.handlers.ShowViewHandler@26c087be} vs {org.eclipse.ui.handlers.ShowViewHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:18.985
+!MESSAGE Conflicting handlers for org.eclipse.ui.help.displayHelp: {org.eclipse.ui.internal.handlers.DisplayHelpHandler} vs {org.eclipse.ui.internal.handlers.DisplayHelpHandler@1a80b973}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:18.985
+!MESSAGE Conflicting handlers for org.eclipse.ui.perspectives.showPerspective: {org.eclipse.ui.handlers.ShowPerspectiveHandler@1a46a171} vs {org.eclipse.ui.handlers.ShowPerspectiveHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:18.986
+!MESSAGE Conflicting handlers for org.eclipse.ui.navigate.showIn: {org.eclipse.ui.internal.ShowInHandler} vs {org.eclipse.ui.internal.ShowInHandler@15f87254}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:20.800
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.activateEditor: {org.eclipse.ui.internal.ActivateEditorHandler} vs {org.eclipse.ui.internal.ActivateEditorHandler@365aad2a}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:20.800
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.showSystemMenu: {org.eclipse.ui.internal.ShowPartPaneMenuHandler} vs {org.eclipse.ui.internal.ShowPartPaneMenuHandler@55d43df5}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:20.801
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.showViewMenu: {org.eclipse.ui.internal.ShowViewMenuHandler@6bb0b0a0} vs {org.eclipse.ui.internal.ShowViewMenuHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:20.802
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.close: {org.eclipse.ui.internal.CloseEditorHandler@45c8dc5e} vs {org.eclipse.ui.internal.CloseEditorHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:20.802
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.closeAll: {org.eclipse.ui.internal.CloseAllHandler@17c047f0} vs {org.eclipse.ui.internal.CloseAllHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:20.803
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.closeOthers: {org.eclipse.ui.internal.CloseOthersHandler} vs {org.eclipse.ui.internal.CloseOthersHandler@307fc620}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:20.803
+!MESSAGE Conflicting handlers for org.eclipse.ui.ToggleCoolbarAction: {org.eclipse.ui.internal.handlers.ToggleCoolbarHandler} vs {org.eclipse.ui.internal.handlers.ToggleCoolbarHandler@7d7a33f2}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:20.804
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.nextEditor: {org.eclipse.ui.internal.CycleEditorHandler@f5c0729} vs {org.eclipse.ui.internal.CycleEditorHandler:true}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:20.804
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.previousEditor: {org.eclipse.ui.internal.CycleEditorHandler:false} vs {org.eclipse.ui.internal.CycleEditorHandler@36778590}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:20.805
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.nextView: {org.eclipse.ui.internal.CycleViewHandler:true} vs {org.eclipse.ui.internal.CycleViewHandler@426a086a}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:20.806
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.previousView: {org.eclipse.ui.internal.CycleViewHandler:false} vs {org.eclipse.ui.internal.CycleViewHandler@6d882c1a}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:20.806
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.nextPerspective: {org.eclipse.ui.internal.CyclePerspectiveHandler@a01ddcb} vs {org.eclipse.ui.internal.CyclePerspectiveHandler:true}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:20.807
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.previousPerspective: {org.eclipse.ui.internal.CyclePerspectiveHandler@dd1e765} vs {org.eclipse.ui.internal.CyclePerspectiveHandler:false}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:20.807
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.closeAllPerspectives: {org.eclipse.ui.internal.handlers.CloseAllPerspectivesHandler@1e085b8d} vs {org.eclipse.ui.internal.handlers.CloseAllPerspectivesHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:20.808
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.customizePerspective: {org.eclipse.ui.internal.handlers.EditActionSetsHandler@c20e54a} vs {org.eclipse.ui.internal.handlers.EditActionSetsHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:20.809
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.closePerspective: {org.eclipse.ui.internal.handlers.ClosePerspectiveHandler@6f0725b4} vs {org.eclipse.ui.internal.handlers.ClosePerspectiveHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:20.809
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.openEditorDropDown: {org.eclipse.ui.internal.WorkbookEditorsHandler} vs {org.eclipse.ui.internal.WorkbookEditorsHandler@3020e746}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:20.810
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.newEditor: {org.eclipse.ui.internal.handlers.NewEditorHandler@6c12a801} vs {org.eclipse.ui.internal.handlers.NewEditorHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:20.810
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.maximizePart: {org.eclipse.ui.internal.handlers.MaximizePartHandler@4f35ecf1} vs {org.eclipse.ui.internal.handlers.MaximizePartHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:20.852
+!MESSAGE Die Farbfactory konnte nicht erstellt werden.
+
+!ENTRY org.eclipse.equinox.registry 4 1 2016-02-01 10:25:20.852
+!MESSAGE Plug-in "org.eclipse.rap.ui" was unable to instantiate class "org.eclipse.ui.internal.themes.LightColorFactory".
+!STACK 0
+java.lang.ExceptionInInitializerError
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at java.lang.Class.newInstance0(Class.java:357)
+	at java.lang.Class.newInstance(Class.java:310)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:184)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.ui.internal.themes.ThemeRegistryReader.checkColorFactory(ThemeRegistryReader.java:406)
+	at org.eclipse.ui.internal.themes.ThemeRegistryReader.getColorValue(ThemeRegistryReader.java:183)
+	at org.eclipse.ui.internal.themes.ThemeRegistryReader.readColor(ThemeRegistryReader.java:139)
+	at org.eclipse.ui.internal.themes.ThemeRegistryReader.readElement(ThemeRegistryReader.java:239)
+	at org.eclipse.ui.internal.registry.RegistryReader.readElements(RegistryReader.java:144)
+	at org.eclipse.ui.internal.registry.RegistryReader.readExtension(RegistryReader.java:155)
+	at org.eclipse.ui.internal.registry.RegistryReader.readRegistry(RegistryReader.java:176)
+	at org.eclipse.ui.internal.themes.ThemeRegistryReader.readThemes(ThemeRegistryReader.java:452)
+	at org.eclipse.ui.internal.WorkbenchPlugin$14.compute(WorkbenchPlugin.java:1485)
+	at org.eclipse.e4.core.internal.contexts.ValueComputation.get(ValueComputation.java:61)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.internalGet(EclipseContext.java:242)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.get(EclipseContext.java:209)
+	at org.eclipse.ui.internal.WorkbenchPlugin.getThemeRegistry(WorkbenchPlugin.java:672)
+	at org.eclipse.ui.internal.Workbench$29.runWithException(Workbench.java:1699)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3976)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3653)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2686)
+	at org.eclipse.ui.internal.Workbench.access$7(Workbench.java:2594)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:608)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+Caused by: java.lang.NullPointerException
+	at org.eclipse.ui.themes.ColorUtil.getSystemColor(ColorUtil.java:149)
+	at org.eclipse.ui.themes.ColorUtil.process(ColorUtil.java:46)
+	at org.eclipse.ui.themes.ColorUtil.getColorValue(ColorUtil.java:169)
+	at org.eclipse.ui.internal.themes.LightColorFactory.<clinit>(LightColorFactory.java:32)
+	... 48 more
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:20.854
+!MESSAGE Plugin org.eclipse.rap.ui, extension org.eclipse.ui.themes, id org.eclipse.ui.workbench.ACTIVE_TAB_TEXT_COLOR: Es kann nur ein Wert oder defaultMapping festgelegt werden.
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:20.855
+!MESSAGE Die Farbfactory konnte nicht erstellt werden.
+
+!ENTRY org.eclipse.equinox.registry 4 1 2016-02-01 10:25:20.855
+!MESSAGE Plug-in "org.eclipse.rap.ui" was unable to instantiate class "org.eclipse.ui.internal.themes.LightColorFactory".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.eclipse.ui.internal.themes.LightColorFactory
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at java.lang.Class.newInstance0(Class.java:357)
+	at java.lang.Class.newInstance(Class.java:310)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:184)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.ui.internal.themes.ThemeRegistryReader.checkColorFactory(ThemeRegistryReader.java:406)
+	at org.eclipse.ui.internal.themes.ThemeRegistryReader.getColorValue(ThemeRegistryReader.java:183)
+	at org.eclipse.ui.internal.themes.ThemeRegistryReader.readColor(ThemeRegistryReader.java:139)
+	at org.eclipse.ui.internal.themes.ThemeRegistryReader.readElement(ThemeRegistryReader.java:239)
+	at org.eclipse.ui.internal.registry.RegistryReader.readElements(RegistryReader.java:144)
+	at org.eclipse.ui.internal.registry.RegistryReader.readExtension(RegistryReader.java:155)
+	at org.eclipse.ui.internal.registry.RegistryReader.readRegistry(RegistryReader.java:176)
+	at org.eclipse.ui.internal.themes.ThemeRegistryReader.readThemes(ThemeRegistryReader.java:452)
+	at org.eclipse.ui.internal.WorkbenchPlugin$14.compute(WorkbenchPlugin.java:1485)
+	at org.eclipse.e4.core.internal.contexts.ValueComputation.get(ValueComputation.java:61)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.internalGet(EclipseContext.java:242)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.get(EclipseContext.java:209)
+	at org.eclipse.ui.internal.WorkbenchPlugin.getThemeRegistry(WorkbenchPlugin.java:672)
+	at org.eclipse.ui.internal.Workbench$29.runWithException(Workbench.java:1699)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3976)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3653)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2686)
+	at org.eclipse.ui.internal.Workbench.access$7(Workbench.java:2594)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:608)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:20.856
+!MESSAGE Plugin org.eclipse.rap.ui, extension org.eclipse.ui.themes, id org.eclipse.ui.workbench.ACTIVE_TAB_BG_END: Es kann nur ein Wert oder defaultMapping festgelegt werden.
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:20.856
+!MESSAGE Die Farbfactory konnte nicht erstellt werden.
+
+!ENTRY org.eclipse.equinox.registry 4 1 2016-02-01 10:25:20.856
+!MESSAGE Plug-in "org.eclipse.rap.ui" was unable to instantiate class "org.eclipse.ui.internal.themes.LightColorFactory".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.eclipse.ui.internal.themes.LightColorFactory
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at java.lang.Class.newInstance0(Class.java:357)
+	at java.lang.Class.newInstance(Class.java:310)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:184)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.ui.internal.themes.ThemeRegistryReader.checkColorFactory(ThemeRegistryReader.java:406)
+	at org.eclipse.ui.internal.themes.ThemeRegistryReader.getColorValue(ThemeRegistryReader.java:183)
+	at org.eclipse.ui.internal.themes.ThemeRegistryReader.readColor(ThemeRegistryReader.java:139)
+	at org.eclipse.ui.internal.themes.ThemeRegistryReader.readElement(ThemeRegistryReader.java:239)
+	at org.eclipse.ui.internal.registry.RegistryReader.readElements(RegistryReader.java:144)
+	at org.eclipse.ui.internal.registry.RegistryReader.readExtension(RegistryReader.java:155)
+	at org.eclipse.ui.internal.registry.RegistryReader.readRegistry(RegistryReader.java:176)
+	at org.eclipse.ui.internal.themes.ThemeRegistryReader.readThemes(ThemeRegistryReader.java:452)
+	at org.eclipse.ui.internal.WorkbenchPlugin$14.compute(WorkbenchPlugin.java:1485)
+	at org.eclipse.e4.core.internal.contexts.ValueComputation.get(ValueComputation.java:61)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.internalGet(EclipseContext.java:242)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.get(EclipseContext.java:209)
+	at org.eclipse.ui.internal.WorkbenchPlugin.getThemeRegistry(WorkbenchPlugin.java:672)
+	at org.eclipse.ui.internal.Workbench$29.runWithException(Workbench.java:1699)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3976)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3653)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2686)
+	at org.eclipse.ui.internal.Workbench.access$7(Workbench.java:2594)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:608)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:20.857
+!MESSAGE Plugin org.eclipse.rap.ui, extension org.eclipse.ui.themes, id org.eclipse.ui.workbench.ACTIVE_TAB_BG_START: Es kann nur ein Wert oder defaultMapping festgelegt werden.
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:20.857
+!MESSAGE Die Farbfactory konnte nicht erstellt werden.
+
+!ENTRY org.eclipse.equinox.registry 4 1 2016-02-01 10:25:20.857
+!MESSAGE Plug-in "org.eclipse.rap.ui" was unable to instantiate class "org.eclipse.ui.internal.themes.LightColorFactory".
+!STACK 0
+java.lang.NoClassDefFoundError: Could not initialize class org.eclipse.ui.internal.themes.LightColorFactory
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:39)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:27)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:513)
+	at java.lang.Class.newInstance0(Class.java:357)
+	at java.lang.Class.newInstance(Class.java:310)
+	at org.eclipse.core.internal.registry.osgi.RegistryStrategyOSGI.createExecutableExtension(RegistryStrategyOSGI.java:184)
+	at org.eclipse.core.internal.registry.ExtensionRegistry.createExecutableExtension(ExtensionRegistry.java:905)
+	at org.eclipse.core.internal.registry.ConfigurationElement.createExecutableExtension(ConfigurationElement.java:243)
+	at org.eclipse.core.internal.registry.ConfigurationElementHandle.createExecutableExtension(ConfigurationElementHandle.java:55)
+	at org.eclipse.ui.internal.themes.ThemeRegistryReader.checkColorFactory(ThemeRegistryReader.java:406)
+	at org.eclipse.ui.internal.themes.ThemeRegistryReader.getColorValue(ThemeRegistryReader.java:183)
+	at org.eclipse.ui.internal.themes.ThemeRegistryReader.readColor(ThemeRegistryReader.java:139)
+	at org.eclipse.ui.internal.themes.ThemeRegistryReader.readElement(ThemeRegistryReader.java:239)
+	at org.eclipse.ui.internal.registry.RegistryReader.readElements(RegistryReader.java:144)
+	at org.eclipse.ui.internal.registry.RegistryReader.readExtension(RegistryReader.java:155)
+	at org.eclipse.ui.internal.registry.RegistryReader.readRegistry(RegistryReader.java:176)
+	at org.eclipse.ui.internal.themes.ThemeRegistryReader.readThemes(ThemeRegistryReader.java:452)
+	at org.eclipse.ui.internal.WorkbenchPlugin$14.compute(WorkbenchPlugin.java:1485)
+	at org.eclipse.e4.core.internal.contexts.ValueComputation.get(ValueComputation.java:61)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.internalGet(EclipseContext.java:242)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.get(EclipseContext.java:209)
+	at org.eclipse.ui.internal.WorkbenchPlugin.getThemeRegistry(WorkbenchPlugin.java:672)
+	at org.eclipse.ui.internal.Workbench$29.runWithException(Workbench.java:1699)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3976)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3653)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2686)
+	at org.eclipse.ui.internal.Workbench.access$7(Workbench.java:2594)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:608)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:20.858
+!MESSAGE Plugin org.eclipse.rap.ui, extension org.eclipse.ui.themes, id org.eclipse.ui.workbench.ACTIVE_NOFOCUS_TAB_BG_START: Es kann nur ein Wert oder defaultMapping festgelegt werden.
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:20.859
+!MESSAGE Die Farbfactory konnte nicht erstellt werden.
+
+!ENTRY org.eclipse.ui.workbench 4 0 2016-02-01 10:25:20.859
+!MESSAGE org.eclipse.ui.internal.themes.RGBContrastFactory cannot be cast to org.eclipse.ui.themes.IColorFactory
+!STACK 0
+java.lang.ClassCastException: org.eclipse.ui.internal.themes.RGBContrastFactory cannot be cast to org.eclipse.ui.themes.IColorFactory
+	at org.eclipse.ui.internal.themes.ThemeRegistryReader.checkColorFactory(ThemeRegistryReader.java:405)
+	at org.eclipse.ui.internal.themes.ThemeRegistryReader.getColorValue(ThemeRegistryReader.java:183)
+	at org.eclipse.ui.internal.themes.ThemeRegistryReader.readColor(ThemeRegistryReader.java:139)
+	at org.eclipse.ui.internal.themes.ThemeRegistryReader.readElement(ThemeRegistryReader.java:239)
+	at org.eclipse.ui.internal.registry.RegistryReader.readElements(RegistryReader.java:144)
+	at org.eclipse.ui.internal.registry.RegistryReader.readExtension(RegistryReader.java:155)
+	at org.eclipse.ui.internal.registry.RegistryReader.readRegistry(RegistryReader.java:176)
+	at org.eclipse.ui.internal.themes.ThemeRegistryReader.readThemes(ThemeRegistryReader.java:452)
+	at org.eclipse.ui.internal.WorkbenchPlugin$14.compute(WorkbenchPlugin.java:1485)
+	at org.eclipse.e4.core.internal.contexts.ValueComputation.get(ValueComputation.java:61)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.internalGet(EclipseContext.java:242)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.get(EclipseContext.java:209)
+	at org.eclipse.ui.internal.WorkbenchPlugin.getThemeRegistry(WorkbenchPlugin.java:672)
+	at org.eclipse.ui.internal.Workbench$29.runWithException(Workbench.java:1699)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3976)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3653)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2686)
+	at org.eclipse.ui.internal.Workbench.access$7(Workbench.java:2594)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:608)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:20.860
+!MESSAGE Plugin org.eclipse.rap.ui, extension org.eclipse.ui.themes, id org.eclipse.ui.workbench.INACTIVE_TAB_BG_START: Es kann nur ein Wert oder defaultMapping festgelegt werden.
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:20.861
+!MESSAGE Die Farbfactory konnte nicht erstellt werden.
+
+!ENTRY org.eclipse.ui.workbench 4 0 2016-02-01 10:25:20.861
+!MESSAGE org.eclipse.ui.themes.RGBBlendColorFactory cannot be cast to org.eclipse.ui.themes.IColorFactory
+!STACK 0
+java.lang.ClassCastException: org.eclipse.ui.themes.RGBBlendColorFactory cannot be cast to org.eclipse.ui.themes.IColorFactory
+	at org.eclipse.ui.internal.themes.ThemeRegistryReader.checkColorFactory(ThemeRegistryReader.java:405)
+	at org.eclipse.ui.internal.themes.ThemeRegistryReader.getColorValue(ThemeRegistryReader.java:183)
+	at org.eclipse.ui.internal.themes.ThemeRegistryReader.readColor(ThemeRegistryReader.java:139)
+	at org.eclipse.ui.internal.themes.ThemeRegistryReader.readElement(ThemeRegistryReader.java:249)
+	at org.eclipse.ui.internal.registry.RegistryReader.readElements(RegistryReader.java:144)
+	at org.eclipse.ui.internal.registry.RegistryReader.readElementChildren(RegistryReader.java:133)
+	at org.eclipse.ui.internal.themes.ThemeRegistryReader.readElement(ThemeRegistryReader.java:288)
+	at org.eclipse.ui.internal.registry.RegistryReader.readElements(RegistryReader.java:144)
+	at org.eclipse.ui.internal.registry.RegistryReader.readExtension(RegistryReader.java:155)
+	at org.eclipse.ui.internal.registry.RegistryReader.readRegistry(RegistryReader.java:176)
+	at org.eclipse.ui.internal.themes.ThemeRegistryReader.readThemes(ThemeRegistryReader.java:452)
+	at org.eclipse.ui.internal.WorkbenchPlugin$14.compute(WorkbenchPlugin.java:1485)
+	at org.eclipse.e4.core.internal.contexts.ValueComputation.get(ValueComputation.java:61)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.internalGet(EclipseContext.java:242)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.get(EclipseContext.java:209)
+	at org.eclipse.ui.internal.WorkbenchPlugin.getThemeRegistry(WorkbenchPlugin.java:672)
+	at org.eclipse.ui.internal.Workbench$29.runWithException(Workbench.java:1699)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3976)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3653)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2686)
+	at org.eclipse.ui.internal.Workbench.access$7(Workbench.java:2594)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:608)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:20.861
+!MESSAGE Plugin org.eclipse.rap.ui, extension org.eclipse.ui.themes, id org.eclipse.ui.workbench.ACTIVE_TAB_BG_END: Es kann nur ein Wert oder defaultMapping festgelegt werden.
+
+!ENTRY org.eclipse.core.net 1 0 2016-02-01 10:25:21.534
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.jface 2 0 2016-02-01 10:25:23.350
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-02-01 10:25:23.350
+!MESSAGE A conflict occurred for COMMAND+E:
+Binding(COMMAND+E,
+	ParameterizedCommand(Command(org.eclipse.ui.window.openEditorDropDown,Schnellwechseleditor,
+		Dropdown-Liste des Editors öffnen,
+		Category(org.eclipse.ui.category.window,Fenster,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@774c61a6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+E,
+	ParameterizedCommand(Command(org.eclipse.ui.window.openEditorDropDown,Schnellwechseleditor,
+		Dropdown-Liste des Editors öffnen,
+		Category(org.eclipse.ui.category.window,Fenster,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@774c61a6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-02-01 10:25:23.350
+!MESSAGE A conflict occurred for COMMAND+SHIFT+NUMPAD_MULTIPLY:
+Binding(COMMAND+SHIFT+NUMPAD_MULTIPLY,
+	ParameterizedCommand(Command(org.eclipse.ui.navigate.expandAll,Alles einblenden,
+		Aktuellen Baum aufklappen,
+		Category(org.eclipse.ui.category.navigate,Navigieren,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@379f167a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+NUMPAD_MULTIPLY,
+	ParameterizedCommand(Command(org.eclipse.ui.navigate.expandAll,Alles einblenden,
+		Aktuellen Baum aufklappen,
+		Category(org.eclipse.ui.category.navigate,Navigieren,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@379f167a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-02-01 10:25:23.350
+!MESSAGE A conflict occurred for COMMAND+SHIFT+E:
+Binding(COMMAND+SHIFT+E,
+	ParameterizedCommand(Command(org.eclipse.ui.window.switchToEditor,Zu Editor wechseln,
+		Zu einem Editor wechseln,
+		Category(org.eclipse.ui.category.window,Fenster,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2d7cc01d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+E,
+	ParameterizedCommand(Command(org.eclipse.ui.window.switchToEditor,Zu Editor wechseln,
+		Zu einem Editor wechseln,
+		Category(org.eclipse.ui.category.window,Fenster,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2d7cc01d,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-02-01 10:25:23.350
+!MESSAGE A conflict occurred for COMMAND+N:
+Binding(COMMAND+N,
+	ParameterizedCommand(Command(org.eclipse.ui.newWizard,Neu,
+		Assistenten für neue Objekte öffnen,
+		Category(org.eclipse.ui.category.file,Datei,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5928c73f,
+		[Lorg.eclipse.e4.ui.internal.workbench.Parameter;@43126d4,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+N,
+	ParameterizedCommand(Command(org.eclipse.ui.newWizard,Neu,
+		Assistenten für neue Objekte öffnen,
+		Category(org.eclipse.ui.category.file,Datei,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5928c73f,
+		[Lorg.eclipse.e4.ui.internal.workbench.Parameter;@43126d4,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-02-01 10:25:23.350
+!MESSAGE A conflict occurred for COMMAND+W:
+Binding(COMMAND+W,
+	ParameterizedCommand(Command(org.eclipse.ui.file.close,Schließen,
+		Den aktiven Editor schließen,
+		Category(org.eclipse.ui.category.file,Datei,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@36ec2a72,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+W,
+	ParameterizedCommand(Command(org.eclipse.ui.file.close,Schließen,
+		Den aktiven Editor schließen,
+		Category(org.eclipse.ui.category.file,Datei,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@36ec2a72,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-02-01 10:25:23.350
+!MESSAGE A conflict occurred for COMMAND+SHIFT+W:
+Binding(COMMAND+SHIFT+W,
+	ParameterizedCommand(Command(org.eclipse.ui.file.closeAll,Alles schließen,
+		Alle Editoren schließen,
+		Category(org.eclipse.ui.category.file,Datei,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4ad6be89,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+W,
+	ParameterizedCommand(Command(org.eclipse.ui.file.closeAll,Alles schließen,
+		Alle Editoren schließen,
+		Category(org.eclipse.ui.category.file,Datei,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4ad6be89,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-02-01 10:25:23.350
+!MESSAGE A conflict occurred for COMMAND+S:
+Binding(COMMAND+S,
+	ParameterizedCommand(Command(org.eclipse.ui.file.save,Speichern,
+		Aktuellen Inhalt speichern,
+		Category(org.eclipse.ui.category.file,Datei,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@58773ac1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+S,
+	ParameterizedCommand(Command(org.eclipse.ui.file.save,Speichern,
+		Aktuellen Inhalt speichern,
+		Category(org.eclipse.ui.category.file,Datei,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@58773ac1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-02-01 10:25:23.350
+!MESSAGE A conflict occurred for COMMAND+SHIFT+S:
+Binding(COMMAND+SHIFT+S,
+	ParameterizedCommand(Command(org.eclipse.ui.file.saveAll,Alle speichern,
+		Alle aktuellen Inhalte speichern,
+		Category(org.eclipse.ui.category.file,Datei,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7bb28246,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+S,
+	ParameterizedCommand(Command(org.eclipse.ui.file.saveAll,Alle speichern,
+		Alle aktuellen Inhalte speichern,
+		Category(org.eclipse.ui.category.file,Datei,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7bb28246,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-02-01 10:25:23.350
+!MESSAGE A conflict occurred for F2:
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Umbenennen,
+		Ausgewähltes Objekt umbenennen,
+		Category(org.eclipse.ui.category.file,Datei,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@487011c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(F2,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,Umbenennen,
+		Ausgewähltes Objekt umbenennen,
+		Category(org.eclipse.ui.category.file,Datei,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@487011c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-02-01 10:25:23.350
+!MESSAGE A conflict occurred for COMMAND+P:
+Binding(COMMAND+P,
+	ParameterizedCommand(Command(org.eclipse.ui.file.print,Drucken,
+		Drucken,
+		Category(org.eclipse.ui.category.file,Datei,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3b59d796,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+P,
+	ParameterizedCommand(Command(org.eclipse.ui.file.print,Drucken,
+		Drucken,
+		Category(org.eclipse.ui.category.file,Datei,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3b59d796,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-02-01 10:25:23.350
+!MESSAGE A conflict occurred for ALT+CR:
+Binding(ALT+CR,
+	ParameterizedCommand(Command(org.eclipse.ui.file.properties,Eigenschaften,
+		Eigenschaften des ausgewählten Elements anzeigen,
+		Category(org.eclipse.ui.category.file,Datei,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@758d74b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CR,
+	ParameterizedCommand(Command(org.eclipse.ui.file.properties,Eigenschaften,
+		Eigenschaften des ausgewählten Elements anzeigen,
+		Category(org.eclipse.ui.category.file,Datei,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@758d74b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-02-01 10:25:23.350
+!MESSAGE A conflict occurred for COMMAND+F:
+Binding(COMMAND+F,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.findReplace,Suchen und Ersetzen,
+		Einen Text suchen und ersetzen,
+		Category(org.eclipse.ui.category.edit,Bearbeiten,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@599e80b1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+F,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.findReplace,Suchen und Ersetzen,
+		Einen Text suchen und ersetzen,
+		Category(org.eclipse.ui.category.edit,Bearbeiten,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@599e80b1,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-02-01 10:25:23.350
+!MESSAGE A conflict occurred for COMMAND+.:
+Binding(COMMAND+.,
+	ParameterizedCommand(Command(org.eclipse.ui.navigate.next,Nächste,
+		Zum nächsten Element navigieren,
+		Category(org.eclipse.ui.category.navigate,Navigieren,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3513126e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+.,
+	ParameterizedCommand(Command(org.eclipse.ui.navigate.next,Nächste,
+		Zum nächsten Element navigieren,
+		Category(org.eclipse.ui.category.navigate,Navigieren,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3513126e,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-02-01 10:25:23.350
+!MESSAGE A conflict occurred for COMMAND+F6:
+Binding(COMMAND+F6,
+	ParameterizedCommand(Command(org.eclipse.ui.window.nextEditor,Nächster Editor,
+		Zum nächsten Editor umschalten,
+		Category(org.eclipse.ui.category.window,Fenster,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@18107c2f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+F6,
+	ParameterizedCommand(Command(org.eclipse.ui.window.nextEditor,Nächster Editor,
+		Zum nächsten Editor umschalten,
+		Category(org.eclipse.ui.category.window,Fenster,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@18107c2f,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-02-01 10:25:23.350
+!MESSAGE A conflict occurred for COMMAND+SHIFT+F6:
+Binding(COMMAND+SHIFT+F6,
+	ParameterizedCommand(Command(org.eclipse.ui.window.previousEditor,Vorheriger Editor,
+		Zum vorherigen Editor umschalten,
+		Category(org.eclipse.ui.category.window,Fenster,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6248fe00,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+F6,
+	ParameterizedCommand(Command(org.eclipse.ui.window.previousEditor,Vorheriger Editor,
+		Zum vorherigen Editor umschalten,
+		Category(org.eclipse.ui.category.window,Fenster,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6248fe00,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-02-01 10:25:23.350
+!MESSAGE A conflict occurred for COMMAND+F7:
+Binding(COMMAND+F7,
+	ParameterizedCommand(Command(org.eclipse.ui.window.nextView,Nächste Sicht,
+		Zur nächsten Sicht umschalten,
+		Category(org.eclipse.ui.category.window,Fenster,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@261be469,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+F7,
+	ParameterizedCommand(Command(org.eclipse.ui.window.nextView,Nächste Sicht,
+		Zur nächsten Sicht umschalten,
+		Category(org.eclipse.ui.category.window,Fenster,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@261be469,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-02-01 10:25:23.350
+!MESSAGE A conflict occurred for COMMAND+SHIFT+F7:
+Binding(COMMAND+SHIFT+F7,
+	ParameterizedCommand(Command(org.eclipse.ui.window.previousView,Vorherige Sicht,
+		Zur vorherigen Sicht umschalten,
+		Category(org.eclipse.ui.category.window,Fenster,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7130bd0a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+F7,
+	ParameterizedCommand(Command(org.eclipse.ui.window.previousView,Vorherige Sicht,
+		Zur vorherigen Sicht umschalten,
+		Category(org.eclipse.ui.category.window,Fenster,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7130bd0a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-02-01 10:25:23.350
+!MESSAGE A conflict occurred for COMMAND+F8:
+Binding(COMMAND+F8,
+	ParameterizedCommand(Command(org.eclipse.ui.window.nextPerspective,Nächste Perspektive,
+		Zur nächsten Perspektive umschalten,
+		Category(org.eclipse.ui.category.window,Fenster,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@36cb1594,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+F8,
+	ParameterizedCommand(Command(org.eclipse.ui.window.nextPerspective,Nächste Perspektive,
+		Zur nächsten Perspektive umschalten,
+		Category(org.eclipse.ui.category.window,Fenster,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@36cb1594,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-02-01 10:25:23.350
+!MESSAGE A conflict occurred for COMMAND+SHIFT+F8:
+Binding(COMMAND+SHIFT+F8,
+	ParameterizedCommand(Command(org.eclipse.ui.window.previousPerspective,Vorherige Perspektive,
+		Zur vorherigen Perspektive umschalten,
+		Category(org.eclipse.ui.category.window,Fenster,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4ef5c3a6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+F8,
+	ParameterizedCommand(Command(org.eclipse.ui.window.previousPerspective,Vorherige Perspektive,
+		Zur vorherigen Perspektive umschalten,
+		Category(org.eclipse.ui.category.window,Fenster,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@4ef5c3a6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-02-01 10:25:23.351
+!MESSAGE A conflict occurred for COMMAND+SHIFT+NUMPAD_DIVIDE:
+Binding(COMMAND+SHIFT+NUMPAD_DIVIDE,
+	ParameterizedCommand(Command(org.eclipse.ui.navigate.collapseAll,Alles ausblenden,
+		Aktuellen Baum zuklappen,
+		Category(org.eclipse.ui.category.navigate,Navigieren,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@68ffefc9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+NUMPAD_DIVIDE,
+	ParameterizedCommand(Command(org.eclipse.ui.navigate.collapseAll,Alles ausblenden,
+		Aktuellen Baum zuklappen,
+		Category(org.eclipse.ui.category.navigate,Navigieren,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@68ffefc9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-02-01 10:25:23.351
+!MESSAGE A conflict occurred for ALT+F7:
+Binding(ALT+F7,
+	ParameterizedCommand(Command(org.eclipse.ui.part.nextPage,Nächste Seite,
+		Zur nächsten Seite umschalten,
+		Category(org.eclipse.ui.category.navigate,Navigieren,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7ad7aaf9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+F7,
+	ParameterizedCommand(Command(org.eclipse.ui.part.nextPage,Nächste Seite,
+		Zur nächsten Seite umschalten,
+		Category(org.eclipse.ui.category.navigate,Navigieren,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@7ad7aaf9,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-02-01 10:25:23.351
+!MESSAGE A conflict occurred for ALT+SHIFT+F7:
+Binding(ALT+SHIFT+F7,
+	ParameterizedCommand(Command(org.eclipse.ui.part.previousPage,Vorherige Seite,
+		Zur vorherigen Seite umschalten,
+		Category(org.eclipse.ui.category.navigate,Navigieren,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@651a0070,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+F7,
+	ParameterizedCommand(Command(org.eclipse.ui.part.previousPage,Vorherige Seite,
+		Zur vorherigen Seite umschalten,
+		Category(org.eclipse.ui.category.navigate,Navigieren,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@651a0070,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:23.567
+!MESSAGE Conflicting handlers for org.eclipse.ui.newWizard: {org.eclipse.ui.internal.handlers.WizardHandler$New@5f30cda4} vs {org.eclipse.ui.internal.handlers.WizardHandler$New}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:23.581
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.import: {org.eclipse.ui.internal.handlers.WizardHandler$Import} vs {org.eclipse.ui.internal.handlers.WizardHandler$Import@20422e25}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:23.581
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.export: {org.eclipse.ui.internal.handlers.WizardHandler$Export} vs {org.eclipse.ui.internal.handlers.WizardHandler$Export@75f9eba0}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:23.585
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.newWindow: {org.eclipse.ui.internal.handlers.OpenInNewWindowHandler} vs {org.eclipse.ui.internal.handlers.OpenInNewWindowHandler@7d4966cc}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:23.586
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.newEditor: {org.eclipse.ui.internal.handlers.NewEditorHandler@6c12a801} vs {org.eclipse.ui.internal.handlers.NewEditorHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:23.588
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.close: {org.eclipse.ui.internal.CloseEditorHandler@45c8dc5e} vs {org.eclipse.ui.internal.CloseEditorHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:23.588
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.closeAll: {org.eclipse.ui.internal.CloseAllHandler@17c047f0} vs {org.eclipse.ui.internal.CloseAllHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:23.589
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.closeOthers: {org.eclipse.ui.internal.CloseOthersHandler} vs {org.eclipse.ui.internal.CloseOthersHandler@307fc620}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:23.595
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.showViewMenu: {org.eclipse.ui.internal.ShowViewMenuHandler@6bb0b0a0} vs {org.eclipse.ui.internal.ShowViewMenuHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:23.596
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.showSystemMenu: {org.eclipse.ui.internal.ShowPartPaneMenuHandler} vs {org.eclipse.ui.internal.ShowPartPaneMenuHandler@55d43df5}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:23.597
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.nextEditor: {org.eclipse.ui.internal.CycleEditorHandler@f5c0729} vs {org.eclipse.ui.internal.CycleEditorHandler:true}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:23.598
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.previousEditor: {org.eclipse.ui.internal.CycleEditorHandler:false} vs {org.eclipse.ui.internal.CycleEditorHandler@36778590}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:23.598
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.nextView: {org.eclipse.ui.internal.CycleViewHandler:true} vs {org.eclipse.ui.internal.CycleViewHandler@426a086a}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:23.599
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.previousView: {org.eclipse.ui.internal.CycleViewHandler:false} vs {org.eclipse.ui.internal.CycleViewHandler@6d882c1a}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:23.599
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.nextPerspective: {org.eclipse.ui.internal.CyclePerspectiveHandler@a01ddcb} vs {org.eclipse.ui.internal.CyclePerspectiveHandler:true}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:23.603
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.previousPerspective: {org.eclipse.ui.internal.CyclePerspectiveHandler@dd1e765} vs {org.eclipse.ui.internal.CyclePerspectiveHandler:false}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:23.604
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.activateEditor: {org.eclipse.ui.internal.ActivateEditorHandler} vs {org.eclipse.ui.internal.ActivateEditorHandler@365aad2a}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:23.605
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.maximizePart: {org.eclipse.ui.internal.handlers.MaximizePartHandler@4f35ecf1} vs {org.eclipse.ui.internal.handlers.MaximizePartHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:23.605
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.minimizePart: {org.eclipse.ui.internal.handlers.MinimizePartHandler} vs {org.eclipse.ui.internal.handlers.MinimizePartHandler@3cd4c5a0}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:23.605
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.switchToEditor: {org.eclipse.ui.internal.WorkbenchEditorsHandler@1e8ee5c0} vs {org.eclipse.ui.internal.WorkbenchEditorsHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:23.606
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.openEditorDropDown: {org.eclipse.ui.internal.WorkbookEditorsHandler} vs {org.eclipse.ui.internal.WorkbookEditorsHandler@3020e746}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:23.607
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.customizePerspective: {org.eclipse.ui.internal.handlers.EditActionSetsHandler@c20e54a} vs {org.eclipse.ui.internal.handlers.EditActionSetsHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:23.608
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.closePerspective: {org.eclipse.ui.internal.handlers.ClosePerspectiveHandler@6f0725b4} vs {org.eclipse.ui.internal.handlers.ClosePerspectiveHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:23.609
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.closeAllPerspectives: {org.eclipse.ui.internal.handlers.CloseAllPerspectivesHandler@1e085b8d} vs {org.eclipse.ui.internal.handlers.CloseAllPerspectivesHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:23.611
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.exit: {org.eclipse.ui.internal.handlers.QuitHandler} vs {org.eclipse.ui.internal.handlers.QuitHandler@b3e6577}
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-01 10:25:50.833
+!MESSAGE NLS unused message: AddIncludeOnSelection_label in: org.eclipse.cdt.internal.ui.editor.CEditorMessages
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:55.214
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.import: {org.eclipse.ui.internal.handlers.WizardHandler$Import} vs {org.eclipse.ui.internal.handlers.WizardHandler$Import@20422e25}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:55.215
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.export: {org.eclipse.ui.internal.handlers.WizardHandler$Export} vs {org.eclipse.ui.internal.handlers.WizardHandler$Export@75f9eba0}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:25:55.219
+!MESSAGE Conflicting handlers for org.eclipse.ui.newWizard: {org.eclipse.ui.internal.handlers.WizardHandler$New@5f30cda4} vs {org.eclipse.ui.internal.handlers.WizardHandler$New}
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-01 10:26:00.653
+!MESSAGE NLS unused message: CheckoutDialog_Message in: org.eclipse.egit.ui.internal.uitext
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-01 10:26:00.653
+!MESSAGE NLS unused message: CheckoutDialog_WindowTitle in: org.eclipse.egit.ui.internal.uitext
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-01 10:26:00.656
+!MESSAGE NLS unused message: CreateBranchPage_LocalBranchWarningText in: org.eclipse.egit.ui.internal.uitext
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-01 10:26:00.656
+!MESSAGE NLS unused message: CreateBranchPage_LocalBranchWarningTooltip in: org.eclipse.egit.ui.internal.uitext
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-01 10:26:00.657
+!MESSAGE NLS unused message: CreateBranchPage_MergeRadioButton in: org.eclipse.egit.ui.internal.uitext
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-01 10:26:00.657
+!MESSAGE NLS unused message: CreateBranchPage_NoneRadioButton in: org.eclipse.egit.ui.internal.uitext
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-01 10:26:00.657
+!MESSAGE NLS unused message: CreateBranchPage_PullMergeTooltip in: org.eclipse.egit.ui.internal.uitext
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-01 10:26:00.657
+!MESSAGE NLS unused message: CreateBranchPage_PullNoneTooltip in: org.eclipse.egit.ui.internal.uitext
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-01 10:26:00.657
+!MESSAGE NLS unused message: CreateBranchPage_PullRebaseTooltip in: org.eclipse.egit.ui.internal.uitext
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-01 10:26:00.657
+!MESSAGE NLS unused message: CreateBranchPage_PullStrategyGroupHeader in: org.eclipse.egit.ui.internal.uitext
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-01 10:26:00.658
+!MESSAGE NLS unused message: CreateBranchPage_PullStrategyTooltip in: org.eclipse.egit.ui.internal.uitext
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-01 10:26:00.658
+!MESSAGE NLS unused message: CreateBranchPage_RebaseRadioButton in: org.eclipse.egit.ui.internal.uitext
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-01 10:26:00.658
+!MESSAGE NLS unused message: CreateBranchPage_SourceBranchLabel in: org.eclipse.egit.ui.internal.uitext
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-01 10:26:00.658
+!MESSAGE NLS unused message: CreateBranchPage_SourceBranchTooltip in: org.eclipse.egit.ui.internal.uitext
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-01 10:26:00.658
+!MESSAGE NLS unused message: CreateBranchPage_SourceCommitLabel in: org.eclipse.egit.ui.internal.uitext
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-01 10:26:00.658
+!MESSAGE NLS unused message: CreateBranchPage_SourceCommitTooltip in: org.eclipse.egit.ui.internal.uitext
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-01 10:26:00.659
+!MESSAGE NLS unused message: FetchGerritChangePage_ExistingRefMessage in: org.eclipse.egit.ui.internal.uitext
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-01 10:26:00.659
+!MESSAGE NLS unused message: FetchGerritChangePage_ProvideRefNameMessage in: org.eclipse.egit.ui.internal.uitext
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-01 10:26:00.660
+!MESSAGE NLS unused message: CheckoutDialog_ErrorCouldNotCreateNewRef in: org.eclipse.egit.ui.internal.uitext
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-01 10:26:00.660
+!MESSAGE NLS unused message: CheckoutDialog_ErrorCouldNotDeleteRef in: org.eclipse.egit.ui.internal.uitext
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-01 10:26:00.660
+!MESSAGE NLS unused message: CheckoutDialog_ErrorCouldNotRenameRef in: org.eclipse.egit.ui.internal.uitext
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-01 10:26:00.660
+!MESSAGE NLS unused message: CheckoutDialog_NewBranch in: org.eclipse.egit.ui.internal.uitext
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-01 10:26:00.661
+!MESSAGE NLS unused message: CheckoutDialog_QuestionNewBranchNameMessage in: org.eclipse.egit.ui.internal.uitext
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-01 10:26:00.661
+!MESSAGE NLS unused message: CheckoutDialog_QuestionNewBranchTitle in: org.eclipse.egit.ui.internal.uitext
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-01 10:26:00.661
+!MESSAGE NLS unused message: CheckoutDialog_Rename in: org.eclipse.egit.ui.internal.uitext
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-01 10:26:00.661
+!MESSAGE NLS unused message: CheckoutDialog_Delete in: org.eclipse.egit.ui.internal.uitext
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-01 10:26:00.664
+!MESSAGE NLS unused message: GitBranchSynchronizeWizardPage_repositories in: org.eclipse.egit.ui.internal.uitext
+
+!ENTRY org.eclipse.osgi 2 1 2016-02-01 10:26:00.665
+!MESSAGE NLS unused message: StashDropCommand_confirmMessage in: org.eclipse.egit.ui.internal.uitext
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:32:57.153
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.maximizePart: {org.eclipse.ui.internal.handlers.MaximizePartHandler@4f35ecf1} vs {org.eclipse.ui.internal.handlers.MaximizePartHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:32:57.153
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.showSystemMenu: {org.eclipse.ui.internal.ShowPartPaneMenuHandler} vs {org.eclipse.ui.internal.ShowPartPaneMenuHandler@55d43df5}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:32:57.154
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.previousView: {org.eclipse.ui.internal.CycleViewHandler:false} vs {org.eclipse.ui.internal.CycleViewHandler@6d882c1a}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:32:57.154
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.nextView: {org.eclipse.ui.internal.CycleViewHandler:true} vs {org.eclipse.ui.internal.CycleViewHandler@426a086a}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:32:57.155
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.closeAll: {org.eclipse.ui.internal.CloseAllHandler@17c047f0} vs {org.eclipse.ui.internal.CloseAllHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:32:57.191
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.showViewMenu: {org.eclipse.ui.internal.ShowViewMenuHandler@6bb0b0a0} vs {org.eclipse.ui.internal.ShowViewMenuHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 10:39:20.362
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.showViewMenu: {org.eclipse.ui.internal.ShowViewMenuHandler@6bb0b0a0} vs {org.eclipse.ui.internal.ShowViewMenuHandler}
+
+!ENTRY org.eclipse.rap.ui.workbench 4 2 2016-02-01 11:08:03.457
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.rap.ui.workbench".
+!STACK 0
+java.lang.IllegalStateException: Invalid thread access
+	at org.eclipse.rap.rwt.RWT.checkContext(RWT.java:652)
+	at org.eclipse.rap.rwt.RWT.getUISession(RWT.java:511)
+	at org.eclipse.rap.ui.internal.preferences.SessionPreferencesNode.getNodeCore(SessionPreferencesNode.java:506)
+	at org.eclipse.rap.ui.internal.preferences.SessionPreferencesNode.fireNodeEvent(SessionPreferencesNode.java:500)
+	at org.eclipse.rap.ui.internal.preferences.SessionPreferencesNode.createChild(SessionPreferencesNode.java:445)
+	at org.eclipse.rap.ui.internal.preferences.SessionPreferencesNode.getChild(SessionPreferencesNode.java:456)
+	at org.eclipse.rap.ui.internal.preferences.SessionPreferencesNode.node(SessionPreferencesNode.java:105)
+	at org.eclipse.rap.ui.internal.preferences.SessionScope.getNode(SessionScope.java:69)
+	at org.eclipse.ui.preferences.ScopedPreferenceStoreCore.getStorePreferences(ScopedPreferenceStoreCore.java:225)
+	at org.eclipse.ui.preferences.ScopedPreferenceStoreCore.<init>(ScopedPreferenceStoreCore.java:118)
+	at org.eclipse.ui.preferences.ScopedPreferenceStoreCore.<init>(ScopedPreferenceStoreCore.java:100)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.createScopedPreferenceStoreCore(ScopedPreferenceStore.java:155)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.<init>(ScopedPreferenceStore.java:136)
+	at org.eclipse.ui.plugin.AbstractUIPlugin.getPreferenceStore(AbstractUIPlugin.java:309)
+	at org.eclipse.ui.internal.progress.ProgressManager.shouldRunInBackground(ProgressManager.java:1357)
+	at org.eclipse.ui.internal.progress.ProgressManager.access$2(ProgressManager.java:1356)
+	at org.eclipse.ui.internal.progress.ProgressManager$2.scheduled(ProgressManager.java:516)
+	at org.eclipse.rap.ui.internal.progress.JobManagerAdapter.scheduled(JobManagerAdapter.java:163)
+	at org.eclipse.core.internal.jobs.JobListeners$5.notify(JobListeners.java:49)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:96)
+	at org.eclipse.core.internal.jobs.JobListeners.scheduled(JobListeners.java:162)
+	at org.eclipse.core.internal.jobs.JobManager.schedule(JobManager.java:1133)
+	at org.eclipse.core.internal.jobs.InternalJob.schedule(InternalJob.java:430)
+	at org.eclipse.core.runtime.jobs.Job.schedule(Job.java:436)
+	at org.eclipse.ui.actions.BuildAction.runInBackground(BuildAction.java:318)
+	at org.eclipse.ui.actions.WorkspaceAction.runInBackground(WorkspaceAction.java:441)
+	at org.eclipse.ui.actions.BuildAction.run(BuildAction.java:269)
+	at org.eclipse.cdt.internal.ui.cview.BuildGroup$CDTBuildAction.run(BuildGroup.java:86)
+	at org.eclipse.cdt.ui.actions.BuildActiveConfigMenuAction.run(BuildActiveConfigMenuAction.java:92)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:251)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:229)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$6.handleEvent(ActionContributionItem.java:452)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4166)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1489)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1474)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1279)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4012)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3651)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.cdt.core 4 0 2016-02-01 11:08:03.865
+!MESSAGE no spawner in java.library.path
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:08:04.124
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.maximizePart: {org.eclipse.ui.internal.handlers.MaximizePartHandler@4f35ecf1} vs {org.eclipse.ui.internal.handlers.MaximizePartHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:08:04.125
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.showSystemMenu: {org.eclipse.ui.internal.ShowPartPaneMenuHandler} vs {org.eclipse.ui.internal.ShowPartPaneMenuHandler@55d43df5}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:08:04.125
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.previousView: {org.eclipse.ui.internal.CycleViewHandler:false} vs {org.eclipse.ui.internal.CycleViewHandler@6d882c1a}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:08:04.126
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.nextView: {org.eclipse.ui.internal.CycleViewHandler:true} vs {org.eclipse.ui.internal.CycleViewHandler@426a086a}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:08:04.126
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.closeAll: {org.eclipse.ui.internal.CloseAllHandler@17c047f0} vs {org.eclipse.ui.internal.CloseAllHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:08:04.127
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.newEditor: {org.eclipse.ui.internal.handlers.NewEditorHandler@6c12a801} vs {org.eclipse.ui.internal.handlers.NewEditorHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:08:04.127
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.nextEditor: {org.eclipse.ui.internal.CycleEditorHandler@f5c0729} vs {org.eclipse.ui.internal.CycleEditorHandler:true}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:08:04.127
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.openEditorDropDown: {org.eclipse.ui.internal.WorkbookEditorsHandler} vs {org.eclipse.ui.internal.WorkbookEditorsHandler@3020e746}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:08:04.127
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.previousEditor: {org.eclipse.ui.internal.CycleEditorHandler:false} vs {org.eclipse.ui.internal.CycleEditorHandler@36778590}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:08:04.128
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.close: {org.eclipse.ui.internal.CloseEditorHandler@45c8dc5e} vs {org.eclipse.ui.internal.CloseEditorHandler}
+
+!ENTRY org.eclipse.rap.ui.workbench 4 2 2016-02-01 11:09:15.098
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.rap.ui.workbench".
+!STACK 0
+java.lang.IllegalStateException: Invalid thread access
+	at org.eclipse.rap.rwt.RWT.checkContext(RWT.java:652)
+	at org.eclipse.rap.rwt.RWT.getUISession(RWT.java:511)
+	at org.eclipse.rap.ui.internal.preferences.SessionPreferencesNode.getNodeCore(SessionPreferencesNode.java:506)
+	at org.eclipse.rap.ui.internal.preferences.SessionPreferencesNode.addNodeChangeListener(SessionPreferencesNode.java:80)
+	at org.eclipse.ui.preferences.ScopedPreferenceStoreCore.<init>(ScopedPreferenceStoreCore.java:119)
+	at org.eclipse.ui.preferences.ScopedPreferenceStoreCore.<init>(ScopedPreferenceStoreCore.java:100)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.createScopedPreferenceStoreCore(ScopedPreferenceStore.java:155)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.<init>(ScopedPreferenceStore.java:136)
+	at org.eclipse.ui.plugin.AbstractUIPlugin.getPreferenceStore(AbstractUIPlugin.java:309)
+	at org.eclipse.ui.internal.progress.ProgressManager.shouldRunInBackground(ProgressManager.java:1357)
+	at org.eclipse.ui.internal.progress.ProgressManager.access$2(ProgressManager.java:1356)
+	at org.eclipse.ui.internal.progress.ProgressManager$2.scheduled(ProgressManager.java:516)
+	at org.eclipse.rap.ui.internal.progress.JobManagerAdapter.scheduled(JobManagerAdapter.java:163)
+	at org.eclipse.core.internal.jobs.JobListeners$5.notify(JobListeners.java:49)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:96)
+	at org.eclipse.core.internal.jobs.JobListeners.scheduled(JobListeners.java:162)
+	at org.eclipse.core.internal.jobs.JobManager.schedule(JobManager.java:1133)
+	at org.eclipse.core.internal.jobs.InternalJob.schedule(InternalJob.java:430)
+	at org.eclipse.core.runtime.jobs.Job.schedule(Job.java:436)
+	at org.eclipse.ui.actions.BuildAction.runInBackground(BuildAction.java:318)
+	at org.eclipse.ui.actions.WorkspaceAction.runInBackground(WorkspaceAction.java:441)
+	at org.eclipse.ui.actions.BuildAction.run(BuildAction.java:269)
+	at org.eclipse.cdt.internal.ui.cview.BuildGroup$CDTBuildAction.run(BuildGroup.java:86)
+	at org.eclipse.cdt.ui.actions.BuildActiveConfigMenuAction.run(BuildActiveConfigMenuAction.java:92)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:251)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:229)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$6.handleEvent(ActionContributionItem.java:452)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4166)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1489)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1474)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1279)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4012)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3651)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:09:15.621
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.maximizePart: {org.eclipse.ui.internal.handlers.MaximizePartHandler@4f35ecf1} vs {org.eclipse.ui.internal.handlers.MaximizePartHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:09:15.621
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.showSystemMenu: {org.eclipse.ui.internal.ShowPartPaneMenuHandler} vs {org.eclipse.ui.internal.ShowPartPaneMenuHandler@55d43df5}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:09:15.622
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.previousView: {org.eclipse.ui.internal.CycleViewHandler:false} vs {org.eclipse.ui.internal.CycleViewHandler@6d882c1a}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:09:15.622
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.nextView: {org.eclipse.ui.internal.CycleViewHandler:true} vs {org.eclipse.ui.internal.CycleViewHandler@426a086a}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:09:15.623
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.closeAll: {org.eclipse.ui.internal.CloseAllHandler@17c047f0} vs {org.eclipse.ui.internal.CloseAllHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:09:15.623
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.newEditor: {org.eclipse.ui.internal.handlers.NewEditorHandler@6c12a801} vs {org.eclipse.ui.internal.handlers.NewEditorHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:09:15.624
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.nextEditor: {org.eclipse.ui.internal.CycleEditorHandler@f5c0729} vs {org.eclipse.ui.internal.CycleEditorHandler:true}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:09:15.624
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.openEditorDropDown: {org.eclipse.ui.internal.WorkbookEditorsHandler} vs {org.eclipse.ui.internal.WorkbookEditorsHandler@3020e746}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:09:15.624
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.previousEditor: {org.eclipse.ui.internal.CycleEditorHandler:false} vs {org.eclipse.ui.internal.CycleEditorHandler@36778590}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:09:15.625
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.close: {org.eclipse.ui.internal.CloseEditorHandler@45c8dc5e} vs {org.eclipse.ui.internal.CloseEditorHandler}
+
+!ENTRY org.eclipse.rap.ui.workbench 4 2 2016-02-01 11:09:17.168
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.rap.ui.workbench".
+!STACK 0
+java.lang.IllegalStateException: Invalid thread access
+	at org.eclipse.rap.rwt.RWT.checkContext(RWT.java:652)
+	at org.eclipse.rap.rwt.RWT.getUISession(RWT.java:511)
+	at org.eclipse.rap.ui.internal.preferences.SessionPreferencesNode.getNodeCore(SessionPreferencesNode.java:506)
+	at org.eclipse.rap.ui.internal.preferences.SessionPreferencesNode.addNodeChangeListener(SessionPreferencesNode.java:80)
+	at org.eclipse.ui.preferences.ScopedPreferenceStoreCore.<init>(ScopedPreferenceStoreCore.java:119)
+	at org.eclipse.ui.preferences.ScopedPreferenceStoreCore.<init>(ScopedPreferenceStoreCore.java:100)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.createScopedPreferenceStoreCore(ScopedPreferenceStore.java:155)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.<init>(ScopedPreferenceStore.java:136)
+	at org.eclipse.ui.plugin.AbstractUIPlugin.getPreferenceStore(AbstractUIPlugin.java:309)
+	at org.eclipse.ui.internal.progress.ProgressManager.shouldRunInBackground(ProgressManager.java:1357)
+	at org.eclipse.ui.internal.progress.ProgressManager.access$2(ProgressManager.java:1356)
+	at org.eclipse.ui.internal.progress.ProgressManager$2.scheduled(ProgressManager.java:516)
+	at org.eclipse.rap.ui.internal.progress.JobManagerAdapter.scheduled(JobManagerAdapter.java:163)
+	at org.eclipse.core.internal.jobs.JobListeners$5.notify(JobListeners.java:49)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:96)
+	at org.eclipse.core.internal.jobs.JobListeners.scheduled(JobListeners.java:162)
+	at org.eclipse.core.internal.jobs.JobManager.schedule(JobManager.java:1133)
+	at org.eclipse.core.internal.jobs.InternalJob.schedule(InternalJob.java:430)
+	at org.eclipse.core.runtime.jobs.Job.schedule(Job.java:436)
+	at org.eclipse.ui.actions.BuildAction.runInBackground(BuildAction.java:318)
+	at org.eclipse.ui.actions.WorkspaceAction.runInBackground(WorkspaceAction.java:441)
+	at org.eclipse.ui.actions.BuildAction.run(BuildAction.java:269)
+	at org.eclipse.cdt.internal.ui.cview.BuildGroup$CDTBuildAction.run(BuildGroup.java:86)
+	at org.eclipse.cdt.ui.actions.BuildActiveConfigMenuAction.run(BuildActiveConfigMenuAction.java:92)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:251)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:229)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$6.handleEvent(ActionContributionItem.java:452)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4166)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1489)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1474)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1279)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4012)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3651)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:09:19.665
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.maximizePart: {org.eclipse.ui.internal.handlers.MaximizePartHandler@4f35ecf1} vs {org.eclipse.ui.internal.handlers.MaximizePartHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:09:19.665
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.showSystemMenu: {org.eclipse.ui.internal.ShowPartPaneMenuHandler} vs {org.eclipse.ui.internal.ShowPartPaneMenuHandler@55d43df5}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:09:19.666
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.previousView: {org.eclipse.ui.internal.CycleViewHandler:false} vs {org.eclipse.ui.internal.CycleViewHandler@6d882c1a}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:09:19.666
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.nextView: {org.eclipse.ui.internal.CycleViewHandler:true} vs {org.eclipse.ui.internal.CycleViewHandler@426a086a}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:09:19.666
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.closeAll: {org.eclipse.ui.internal.CloseAllHandler@17c047f0} vs {org.eclipse.ui.internal.CloseAllHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:09:19.667
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.newEditor: {org.eclipse.ui.internal.handlers.NewEditorHandler@6c12a801} vs {org.eclipse.ui.internal.handlers.NewEditorHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:09:19.668
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.nextEditor: {org.eclipse.ui.internal.CycleEditorHandler@f5c0729} vs {org.eclipse.ui.internal.CycleEditorHandler:true}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:09:19.668
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.openEditorDropDown: {org.eclipse.ui.internal.WorkbookEditorsHandler} vs {org.eclipse.ui.internal.WorkbookEditorsHandler@3020e746}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:09:19.668
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.previousEditor: {org.eclipse.ui.internal.CycleEditorHandler:false} vs {org.eclipse.ui.internal.CycleEditorHandler@36778590}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:09:19.669
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.close: {org.eclipse.ui.internal.CloseEditorHandler@45c8dc5e} vs {org.eclipse.ui.internal.CloseEditorHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:09:22.583
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.properties: {org.eclipse.ui.internal.handlers.PropertyDialogHandler@204845a2} vs {org.eclipse.ui.internal.handlers.PropertyDialogHandler}
+
+!ENTRY org.eclipse.rap.ui.workbench 4 2 2016-02-01 11:09:23.780
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.rap.ui.workbench".
+!STACK 0
+java.lang.IllegalStateException: Invalid thread access
+	at org.eclipse.rap.rwt.RWT.checkContext(RWT.java:652)
+	at org.eclipse.rap.rwt.RWT.getUISession(RWT.java:511)
+	at org.eclipse.rap.ui.internal.preferences.SessionPreferencesNode.getNodeCore(SessionPreferencesNode.java:506)
+	at org.eclipse.rap.ui.internal.preferences.SessionPreferencesNode.addNodeChangeListener(SessionPreferencesNode.java:80)
+	at org.eclipse.ui.preferences.ScopedPreferenceStoreCore.<init>(ScopedPreferenceStoreCore.java:119)
+	at org.eclipse.ui.preferences.ScopedPreferenceStoreCore.<init>(ScopedPreferenceStoreCore.java:100)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.createScopedPreferenceStoreCore(ScopedPreferenceStore.java:155)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.<init>(ScopedPreferenceStore.java:136)
+	at org.eclipse.ui.plugin.AbstractUIPlugin.getPreferenceStore(AbstractUIPlugin.java:309)
+	at org.eclipse.ui.internal.progress.ProgressManager.shouldRunInBackground(ProgressManager.java:1357)
+	at org.eclipse.ui.internal.progress.ProgressManager.access$2(ProgressManager.java:1356)
+	at org.eclipse.ui.internal.progress.ProgressManager$2.scheduled(ProgressManager.java:516)
+	at org.eclipse.rap.ui.internal.progress.JobManagerAdapter.scheduled(JobManagerAdapter.java:163)
+	at org.eclipse.core.internal.jobs.JobListeners$5.notify(JobListeners.java:49)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:96)
+	at org.eclipse.core.internal.jobs.JobListeners.scheduled(JobListeners.java:162)
+	at org.eclipse.core.internal.jobs.JobManager.schedule(JobManager.java:1133)
+	at org.eclipse.core.internal.jobs.InternalJob.schedule(InternalJob.java:430)
+	at org.eclipse.core.runtime.jobs.Job.schedule(Job.java:436)
+	at org.eclipse.ui.actions.BuildAction.runInBackground(BuildAction.java:318)
+	at org.eclipse.ui.actions.WorkspaceAction.runInBackground(WorkspaceAction.java:441)
+	at org.eclipse.ui.actions.BuildAction.run(BuildAction.java:269)
+	at org.eclipse.cdt.internal.ui.cview.BuildGroup$CDTBuildAction.run(BuildGroup.java:86)
+	at org.eclipse.cdt.ui.actions.BuildActiveConfigMenuAction.run(BuildActiveConfigMenuAction.java:92)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:251)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:229)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$6.handleEvent(ActionContributionItem.java:452)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4166)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1489)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1474)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1279)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4012)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3651)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.rap.ui.workbench 4 2 2016-02-01 11:09:25.792
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.rap.ui.workbench".
+!STACK 0
+java.lang.IllegalStateException: Invalid thread access
+	at org.eclipse.rap.rwt.RWT.checkContext(RWT.java:652)
+	at org.eclipse.rap.rwt.RWT.getUISession(RWT.java:511)
+	at org.eclipse.rap.ui.internal.preferences.SessionPreferencesNode.getNodeCore(SessionPreferencesNode.java:506)
+	at org.eclipse.rap.ui.internal.preferences.SessionPreferencesNode.addNodeChangeListener(SessionPreferencesNode.java:80)
+	at org.eclipse.ui.preferences.ScopedPreferenceStoreCore.<init>(ScopedPreferenceStoreCore.java:119)
+	at org.eclipse.ui.preferences.ScopedPreferenceStoreCore.<init>(ScopedPreferenceStoreCore.java:100)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.createScopedPreferenceStoreCore(ScopedPreferenceStore.java:155)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.<init>(ScopedPreferenceStore.java:136)
+	at org.eclipse.ui.plugin.AbstractUIPlugin.getPreferenceStore(AbstractUIPlugin.java:309)
+	at org.eclipse.ui.internal.progress.ProgressManager.shouldRunInBackground(ProgressManager.java:1357)
+	at org.eclipse.ui.internal.progress.ProgressManager.access$2(ProgressManager.java:1356)
+	at org.eclipse.ui.internal.progress.ProgressManager$2.scheduled(ProgressManager.java:516)
+	at org.eclipse.rap.ui.internal.progress.JobManagerAdapter.scheduled(JobManagerAdapter.java:163)
+	at org.eclipse.core.internal.jobs.JobListeners$5.notify(JobListeners.java:49)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:96)
+	at org.eclipse.core.internal.jobs.JobListeners.scheduled(JobListeners.java:162)
+	at org.eclipse.core.internal.jobs.JobManager.schedule(JobManager.java:1133)
+	at org.eclipse.core.internal.jobs.InternalJob.schedule(InternalJob.java:430)
+	at org.eclipse.core.runtime.jobs.Job.schedule(Job.java:436)
+	at de.innot.avreclipse.ui.actions.UploadProjectAction.runAVRDude(UploadProjectAction.java:336)
+	at de.innot.avreclipse.ui.actions.UploadProjectAction.run(UploadProjectAction.java:191)
+	at org.eclipse.ui.actions.ActionDelegate.runWithEvent(ActionDelegate.java:70)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:241)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:229)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$6.handleEvent(ActionContributionItem.java:452)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4166)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1489)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1474)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1279)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4012)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3651)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:09:26.234
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.maximizePart: {org.eclipse.ui.internal.handlers.MaximizePartHandler@4f35ecf1} vs {org.eclipse.ui.internal.handlers.MaximizePartHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:09:26.234
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.showSystemMenu: {org.eclipse.ui.internal.ShowPartPaneMenuHandler} vs {org.eclipse.ui.internal.ShowPartPaneMenuHandler@55d43df5}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:09:26.234
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.previousView: {org.eclipse.ui.internal.CycleViewHandler:false} vs {org.eclipse.ui.internal.CycleViewHandler@6d882c1a}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:09:26.235
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.nextView: {org.eclipse.ui.internal.CycleViewHandler:true} vs {org.eclipse.ui.internal.CycleViewHandler@426a086a}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:09:26.235
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.closeAll: {org.eclipse.ui.internal.CloseAllHandler@17c047f0} vs {org.eclipse.ui.internal.CloseAllHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:09:26.235
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.showViewMenu: {org.eclipse.ui.internal.ShowViewMenuHandler@6bb0b0a0} vs {org.eclipse.ui.internal.ShowViewMenuHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:09:26.236
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.newEditor: {org.eclipse.ui.internal.handlers.NewEditorHandler@6c12a801} vs {org.eclipse.ui.internal.handlers.NewEditorHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:09:26.236
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.nextEditor: {org.eclipse.ui.internal.CycleEditorHandler@f5c0729} vs {org.eclipse.ui.internal.CycleEditorHandler:true}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:09:26.237
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.openEditorDropDown: {org.eclipse.ui.internal.WorkbookEditorsHandler} vs {org.eclipse.ui.internal.WorkbookEditorsHandler@3020e746}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:09:26.237
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.previousEditor: {org.eclipse.ui.internal.CycleEditorHandler:false} vs {org.eclipse.ui.internal.CycleEditorHandler@36778590}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:09:26.237
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.close: {org.eclipse.ui.internal.CloseEditorHandler@45c8dc5e} vs {org.eclipse.ui.internal.CloseEditorHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:09:31.040
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.maximizePart: {org.eclipse.ui.internal.handlers.MaximizePartHandler@4f35ecf1} vs {org.eclipse.ui.internal.handlers.MaximizePartHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:09:31.041
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.showSystemMenu: {org.eclipse.ui.internal.ShowPartPaneMenuHandler} vs {org.eclipse.ui.internal.ShowPartPaneMenuHandler@55d43df5}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:09:31.041
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.previousView: {org.eclipse.ui.internal.CycleViewHandler:false} vs {org.eclipse.ui.internal.CycleViewHandler@6d882c1a}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:09:31.041
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.nextView: {org.eclipse.ui.internal.CycleViewHandler:true} vs {org.eclipse.ui.internal.CycleViewHandler@426a086a}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:09:31.042
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.closeAll: {org.eclipse.ui.internal.CloseAllHandler@17c047f0} vs {org.eclipse.ui.internal.CloseAllHandler}
+
+!ENTRY org.eclipse.rap.ui.workbench 4 2 2016-02-01 11:12:53.171
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.rap.ui.workbench".
+!STACK 0
+java.lang.IllegalStateException: Invalid thread access
+	at org.eclipse.rap.rwt.RWT.checkContext(RWT.java:652)
+	at org.eclipse.rap.rwt.RWT.getUISession(RWT.java:511)
+	at org.eclipse.rap.ui.internal.preferences.SessionPreferencesNode.getNodeCore(SessionPreferencesNode.java:506)
+	at org.eclipse.rap.ui.internal.preferences.SessionPreferencesNode.addNodeChangeListener(SessionPreferencesNode.java:80)
+	at org.eclipse.ui.preferences.ScopedPreferenceStoreCore.<init>(ScopedPreferenceStoreCore.java:119)
+	at org.eclipse.ui.preferences.ScopedPreferenceStoreCore.<init>(ScopedPreferenceStoreCore.java:100)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.createScopedPreferenceStoreCore(ScopedPreferenceStore.java:155)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.<init>(ScopedPreferenceStore.java:136)
+	at org.eclipse.ui.plugin.AbstractUIPlugin.getPreferenceStore(AbstractUIPlugin.java:309)
+	at org.eclipse.ui.internal.progress.ProgressManager.shouldRunInBackground(ProgressManager.java:1357)
+	at org.eclipse.ui.internal.progress.ProgressManager.access$2(ProgressManager.java:1356)
+	at org.eclipse.ui.internal.progress.ProgressManager$2.scheduled(ProgressManager.java:516)
+	at org.eclipse.rap.ui.internal.progress.JobManagerAdapter.scheduled(JobManagerAdapter.java:163)
+	at org.eclipse.core.internal.jobs.JobListeners$5.notify(JobListeners.java:49)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:96)
+	at org.eclipse.core.internal.jobs.JobListeners.scheduled(JobListeners.java:162)
+	at org.eclipse.core.internal.jobs.JobManager.schedule(JobManager.java:1133)
+	at org.eclipse.core.internal.jobs.InternalJob.schedule(InternalJob.java:430)
+	at org.eclipse.core.runtime.jobs.Job.schedule(Job.java:436)
+	at org.eclipse.ui.actions.BuildAction.runInBackground(BuildAction.java:318)
+	at org.eclipse.ui.actions.WorkspaceAction.runInBackground(WorkspaceAction.java:441)
+	at org.eclipse.ui.actions.BuildAction.run(BuildAction.java:269)
+	at org.eclipse.cdt.internal.ui.cview.BuildGroup$CDTBuildAction.run(BuildGroup.java:86)
+	at org.eclipse.cdt.ui.actions.BuildActiveConfigMenuAction.run(BuildActiveConfigMenuAction.java:92)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:251)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:229)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$6.handleEvent(ActionContributionItem.java:452)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4166)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1489)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1474)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1279)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4012)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3651)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:12:53.621
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.maximizePart: {org.eclipse.ui.internal.handlers.MaximizePartHandler@4f35ecf1} vs {org.eclipse.ui.internal.handlers.MaximizePartHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:12:53.621
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.showSystemMenu: {org.eclipse.ui.internal.ShowPartPaneMenuHandler} vs {org.eclipse.ui.internal.ShowPartPaneMenuHandler@55d43df5}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:12:53.621
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.previousView: {org.eclipse.ui.internal.CycleViewHandler:false} vs {org.eclipse.ui.internal.CycleViewHandler@6d882c1a}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:12:53.622
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.nextView: {org.eclipse.ui.internal.CycleViewHandler:true} vs {org.eclipse.ui.internal.CycleViewHandler@426a086a}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:12:53.622
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.closeAll: {org.eclipse.ui.internal.CloseAllHandler@17c047f0} vs {org.eclipse.ui.internal.CloseAllHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:12:53.623
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.newEditor: {org.eclipse.ui.internal.handlers.NewEditorHandler@6c12a801} vs {org.eclipse.ui.internal.handlers.NewEditorHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:12:53.624
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.nextEditor: {org.eclipse.ui.internal.CycleEditorHandler@f5c0729} vs {org.eclipse.ui.internal.CycleEditorHandler:true}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:12:53.624
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.openEditorDropDown: {org.eclipse.ui.internal.WorkbookEditorsHandler} vs {org.eclipse.ui.internal.WorkbookEditorsHandler@3020e746}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:12:53.624
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.previousEditor: {org.eclipse.ui.internal.CycleEditorHandler:false} vs {org.eclipse.ui.internal.CycleEditorHandler@36778590}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:12:53.625
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.close: {org.eclipse.ui.internal.CloseEditorHandler@45c8dc5e} vs {org.eclipse.ui.internal.CloseEditorHandler}
+
+!ENTRY org.eclipse.rap.ui.workbench 4 2 2016-02-01 11:12:58.168
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.rap.ui.workbench".
+!STACK 0
+java.lang.IllegalStateException: Invalid thread access
+	at org.eclipse.rap.rwt.RWT.checkContext(RWT.java:652)
+	at org.eclipse.rap.rwt.RWT.getUISession(RWT.java:511)
+	at org.eclipse.rap.ui.internal.preferences.SessionPreferencesNode.getNodeCore(SessionPreferencesNode.java:506)
+	at org.eclipse.rap.ui.internal.preferences.SessionPreferencesNode.addNodeChangeListener(SessionPreferencesNode.java:80)
+	at org.eclipse.ui.preferences.ScopedPreferenceStoreCore.<init>(ScopedPreferenceStoreCore.java:119)
+	at org.eclipse.ui.preferences.ScopedPreferenceStoreCore.<init>(ScopedPreferenceStoreCore.java:100)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.createScopedPreferenceStoreCore(ScopedPreferenceStore.java:155)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.<init>(ScopedPreferenceStore.java:136)
+	at org.eclipse.ui.plugin.AbstractUIPlugin.getPreferenceStore(AbstractUIPlugin.java:309)
+	at org.eclipse.ui.internal.progress.ProgressManager.shouldRunInBackground(ProgressManager.java:1357)
+	at org.eclipse.ui.internal.progress.ProgressManager.access$2(ProgressManager.java:1356)
+	at org.eclipse.ui.internal.progress.ProgressManager$2.scheduled(ProgressManager.java:516)
+	at org.eclipse.rap.ui.internal.progress.JobManagerAdapter.scheduled(JobManagerAdapter.java:163)
+	at org.eclipse.core.internal.jobs.JobListeners$5.notify(JobListeners.java:49)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:96)
+	at org.eclipse.core.internal.jobs.JobListeners.scheduled(JobListeners.java:162)
+	at org.eclipse.core.internal.jobs.JobManager.schedule(JobManager.java:1133)
+	at org.eclipse.core.internal.jobs.InternalJob.schedule(InternalJob.java:430)
+	at org.eclipse.core.runtime.jobs.Job.schedule(Job.java:436)
+	at de.innot.avreclipse.ui.actions.UploadProjectAction.runAVRDude(UploadProjectAction.java:336)
+	at de.innot.avreclipse.ui.actions.UploadProjectAction.run(UploadProjectAction.java:191)
+	at org.eclipse.ui.actions.ActionDelegate.runWithEvent(ActionDelegate.java:70)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:241)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:229)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$6.handleEvent(ActionContributionItem.java:452)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4166)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1489)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1474)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1279)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4012)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3651)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:12:58.517
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.maximizePart: {org.eclipse.ui.internal.handlers.MaximizePartHandler@4f35ecf1} vs {org.eclipse.ui.internal.handlers.MaximizePartHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:12:58.517
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.showSystemMenu: {org.eclipse.ui.internal.ShowPartPaneMenuHandler} vs {org.eclipse.ui.internal.ShowPartPaneMenuHandler@55d43df5}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:12:58.518
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.previousView: {org.eclipse.ui.internal.CycleViewHandler:false} vs {org.eclipse.ui.internal.CycleViewHandler@6d882c1a}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:12:58.518
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.nextView: {org.eclipse.ui.internal.CycleViewHandler:true} vs {org.eclipse.ui.internal.CycleViewHandler@426a086a}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:12:58.518
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.closeAll: {org.eclipse.ui.internal.CloseAllHandler@17c047f0} vs {org.eclipse.ui.internal.CloseAllHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:12:58.519
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.newEditor: {org.eclipse.ui.internal.handlers.NewEditorHandler@6c12a801} vs {org.eclipse.ui.internal.handlers.NewEditorHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:12:58.519
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.nextEditor: {org.eclipse.ui.internal.CycleEditorHandler@f5c0729} vs {org.eclipse.ui.internal.CycleEditorHandler:true}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:12:58.519
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.openEditorDropDown: {org.eclipse.ui.internal.WorkbookEditorsHandler} vs {org.eclipse.ui.internal.WorkbookEditorsHandler@3020e746}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:12:58.520
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.previousEditor: {org.eclipse.ui.internal.CycleEditorHandler:false} vs {org.eclipse.ui.internal.CycleEditorHandler@36778590}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:12:58.520
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.close: {org.eclipse.ui.internal.CloseEditorHandler@45c8dc5e} vs {org.eclipse.ui.internal.CloseEditorHandler}
+
+!ENTRY org.eclipse.rap.ui.workbench 4 2 2016-02-01 11:13:14.499
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.rap.ui.workbench".
+!STACK 0
+java.lang.IllegalStateException: Invalid thread access
+	at org.eclipse.rap.rwt.RWT.checkContext(RWT.java:652)
+	at org.eclipse.rap.rwt.RWT.getUISession(RWT.java:511)
+	at org.eclipse.rap.ui.internal.preferences.SessionPreferencesNode.getNodeCore(SessionPreferencesNode.java:506)
+	at org.eclipse.rap.ui.internal.preferences.SessionPreferencesNode.addNodeChangeListener(SessionPreferencesNode.java:80)
+	at org.eclipse.ui.preferences.ScopedPreferenceStoreCore.<init>(ScopedPreferenceStoreCore.java:119)
+	at org.eclipse.ui.preferences.ScopedPreferenceStoreCore.<init>(ScopedPreferenceStoreCore.java:100)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.createScopedPreferenceStoreCore(ScopedPreferenceStore.java:155)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.<init>(ScopedPreferenceStore.java:136)
+	at org.eclipse.ui.plugin.AbstractUIPlugin.getPreferenceStore(AbstractUIPlugin.java:309)
+	at org.eclipse.ui.internal.progress.ProgressManager.shouldRunInBackground(ProgressManager.java:1357)
+	at org.eclipse.ui.internal.progress.ProgressManager.access$2(ProgressManager.java:1356)
+	at org.eclipse.ui.internal.progress.ProgressManager$2.scheduled(ProgressManager.java:516)
+	at org.eclipse.rap.ui.internal.progress.JobManagerAdapter.scheduled(JobManagerAdapter.java:163)
+	at org.eclipse.core.internal.jobs.JobListeners$5.notify(JobListeners.java:49)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:96)
+	at org.eclipse.core.internal.jobs.JobListeners.scheduled(JobListeners.java:162)
+	at org.eclipse.core.internal.jobs.JobManager.schedule(JobManager.java:1133)
+	at org.eclipse.core.internal.jobs.InternalJob.schedule(InternalJob.java:430)
+	at org.eclipse.core.runtime.jobs.Job.schedule(Job.java:436)
+	at de.innot.avreclipse.ui.actions.UploadProjectAction.runAVRDude(UploadProjectAction.java:336)
+	at de.innot.avreclipse.ui.actions.UploadProjectAction.run(UploadProjectAction.java:191)
+	at org.eclipse.ui.actions.ActionDelegate.runWithEvent(ActionDelegate.java:70)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:241)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:229)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$6.handleEvent(ActionContributionItem.java:452)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4166)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1489)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1474)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1279)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4012)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3651)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:13:14.883
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.maximizePart: {org.eclipse.ui.internal.handlers.MaximizePartHandler@4f35ecf1} vs {org.eclipse.ui.internal.handlers.MaximizePartHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:13:14.884
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.showSystemMenu: {org.eclipse.ui.internal.ShowPartPaneMenuHandler} vs {org.eclipse.ui.internal.ShowPartPaneMenuHandler@55d43df5}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:13:14.884
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.previousView: {org.eclipse.ui.internal.CycleViewHandler:false} vs {org.eclipse.ui.internal.CycleViewHandler@6d882c1a}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:13:14.885
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.nextView: {org.eclipse.ui.internal.CycleViewHandler:true} vs {org.eclipse.ui.internal.CycleViewHandler@426a086a}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:13:14.885
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.closeAll: {org.eclipse.ui.internal.CloseAllHandler@17c047f0} vs {org.eclipse.ui.internal.CloseAllHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:13:14.886
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.newEditor: {org.eclipse.ui.internal.handlers.NewEditorHandler@6c12a801} vs {org.eclipse.ui.internal.handlers.NewEditorHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:13:14.886
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.nextEditor: {org.eclipse.ui.internal.CycleEditorHandler@f5c0729} vs {org.eclipse.ui.internal.CycleEditorHandler:true}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:13:14.886
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.openEditorDropDown: {org.eclipse.ui.internal.WorkbookEditorsHandler} vs {org.eclipse.ui.internal.WorkbookEditorsHandler@3020e746}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:13:14.887
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.previousEditor: {org.eclipse.ui.internal.CycleEditorHandler:false} vs {org.eclipse.ui.internal.CycleEditorHandler@36778590}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:13:14.887
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.close: {org.eclipse.ui.internal.CloseEditorHandler@45c8dc5e} vs {org.eclipse.ui.internal.CloseEditorHandler}
+
+!ENTRY org.eclipse.rap.ui.workbench 4 2 2016-02-01 11:14:48.720
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.rap.ui.workbench".
+!STACK 0
+java.lang.IllegalStateException: Invalid thread access
+	at org.eclipse.rap.rwt.RWT.checkContext(RWT.java:652)
+	at org.eclipse.rap.rwt.RWT.getUISession(RWT.java:511)
+	at org.eclipse.rap.ui.internal.preferences.SessionPreferencesNode.getNodeCore(SessionPreferencesNode.java:506)
+	at org.eclipse.rap.ui.internal.preferences.SessionPreferencesNode.addNodeChangeListener(SessionPreferencesNode.java:80)
+	at org.eclipse.ui.preferences.ScopedPreferenceStoreCore.<init>(ScopedPreferenceStoreCore.java:119)
+	at org.eclipse.ui.preferences.ScopedPreferenceStoreCore.<init>(ScopedPreferenceStoreCore.java:100)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.createScopedPreferenceStoreCore(ScopedPreferenceStore.java:155)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.<init>(ScopedPreferenceStore.java:136)
+	at org.eclipse.ui.plugin.AbstractUIPlugin.getPreferenceStore(AbstractUIPlugin.java:309)
+	at org.eclipse.ui.internal.progress.ProgressManager.shouldRunInBackground(ProgressManager.java:1357)
+	at org.eclipse.ui.internal.progress.ProgressManager.access$2(ProgressManager.java:1356)
+	at org.eclipse.ui.internal.progress.ProgressManager$2.scheduled(ProgressManager.java:516)
+	at org.eclipse.rap.ui.internal.progress.JobManagerAdapter.scheduled(JobManagerAdapter.java:163)
+	at org.eclipse.core.internal.jobs.JobListeners$5.notify(JobListeners.java:49)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:96)
+	at org.eclipse.core.internal.jobs.JobListeners.scheduled(JobListeners.java:162)
+	at org.eclipse.core.internal.jobs.JobManager.schedule(JobManager.java:1133)
+	at org.eclipse.core.internal.jobs.InternalJob.schedule(InternalJob.java:430)
+	at org.eclipse.core.runtime.jobs.Job.schedule(Job.java:436)
+	at org.eclipse.ui.actions.BuildAction.runInBackground(BuildAction.java:318)
+	at org.eclipse.ui.actions.WorkspaceAction.runInBackground(WorkspaceAction.java:441)
+	at org.eclipse.ui.actions.BuildAction.run(BuildAction.java:269)
+	at org.eclipse.cdt.internal.ui.cview.BuildGroup$CDTBuildAction.run(BuildGroup.java:86)
+	at org.eclipse.cdt.ui.actions.BuildActiveConfigMenuAction.run(BuildActiveConfigMenuAction.java:92)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:251)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:229)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$6.handleEvent(ActionContributionItem.java:452)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4166)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1489)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1474)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1279)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4012)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3651)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:14:49.264
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.maximizePart: {org.eclipse.ui.internal.handlers.MaximizePartHandler@4f35ecf1} vs {org.eclipse.ui.internal.handlers.MaximizePartHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:14:49.265
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.showSystemMenu: {org.eclipse.ui.internal.ShowPartPaneMenuHandler} vs {org.eclipse.ui.internal.ShowPartPaneMenuHandler@55d43df5}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:14:49.265
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.previousView: {org.eclipse.ui.internal.CycleViewHandler:false} vs {org.eclipse.ui.internal.CycleViewHandler@6d882c1a}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:14:49.265
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.nextView: {org.eclipse.ui.internal.CycleViewHandler:true} vs {org.eclipse.ui.internal.CycleViewHandler@426a086a}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:14:49.266
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.closeAll: {org.eclipse.ui.internal.CloseAllHandler@17c047f0} vs {org.eclipse.ui.internal.CloseAllHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:14:49.266
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.newEditor: {org.eclipse.ui.internal.handlers.NewEditorHandler@6c12a801} vs {org.eclipse.ui.internal.handlers.NewEditorHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:14:49.267
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.nextEditor: {org.eclipse.ui.internal.CycleEditorHandler@f5c0729} vs {org.eclipse.ui.internal.CycleEditorHandler:true}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:14:49.267
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.openEditorDropDown: {org.eclipse.ui.internal.WorkbookEditorsHandler} vs {org.eclipse.ui.internal.WorkbookEditorsHandler@3020e746}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:14:49.267
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.previousEditor: {org.eclipse.ui.internal.CycleEditorHandler:false} vs {org.eclipse.ui.internal.CycleEditorHandler@36778590}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:14:49.267
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.close: {org.eclipse.ui.internal.CloseEditorHandler@45c8dc5e} vs {org.eclipse.ui.internal.CloseEditorHandler}
+
+!ENTRY org.eclipse.rap.ui.workbench 4 2 2016-02-01 11:14:50.768
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.rap.ui.workbench".
+!STACK 0
+java.lang.IllegalStateException: Invalid thread access
+	at org.eclipse.rap.rwt.RWT.checkContext(RWT.java:652)
+	at org.eclipse.rap.rwt.RWT.getUISession(RWT.java:511)
+	at org.eclipse.rap.ui.internal.preferences.SessionPreferencesNode.getNodeCore(SessionPreferencesNode.java:506)
+	at org.eclipse.rap.ui.internal.preferences.SessionPreferencesNode.addNodeChangeListener(SessionPreferencesNode.java:80)
+	at org.eclipse.ui.preferences.ScopedPreferenceStoreCore.<init>(ScopedPreferenceStoreCore.java:119)
+	at org.eclipse.ui.preferences.ScopedPreferenceStoreCore.<init>(ScopedPreferenceStoreCore.java:100)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.createScopedPreferenceStoreCore(ScopedPreferenceStore.java:155)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.<init>(ScopedPreferenceStore.java:136)
+	at org.eclipse.ui.plugin.AbstractUIPlugin.getPreferenceStore(AbstractUIPlugin.java:309)
+	at org.eclipse.ui.internal.progress.ProgressManager.shouldRunInBackground(ProgressManager.java:1357)
+	at org.eclipse.ui.internal.progress.ProgressManager.access$2(ProgressManager.java:1356)
+	at org.eclipse.ui.internal.progress.ProgressManager$2.scheduled(ProgressManager.java:516)
+	at org.eclipse.rap.ui.internal.progress.JobManagerAdapter.scheduled(JobManagerAdapter.java:163)
+	at org.eclipse.core.internal.jobs.JobListeners$5.notify(JobListeners.java:49)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:96)
+	at org.eclipse.core.internal.jobs.JobListeners.scheduled(JobListeners.java:162)
+	at org.eclipse.core.internal.jobs.JobManager.schedule(JobManager.java:1133)
+	at org.eclipse.core.internal.jobs.InternalJob.schedule(InternalJob.java:430)
+	at org.eclipse.core.runtime.jobs.Job.schedule(Job.java:436)
+	at de.innot.avreclipse.ui.actions.UploadProjectAction.runAVRDude(UploadProjectAction.java:336)
+	at de.innot.avreclipse.ui.actions.UploadProjectAction.run(UploadProjectAction.java:191)
+	at org.eclipse.ui.actions.ActionDelegate.runWithEvent(ActionDelegate.java:70)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:241)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:229)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$6.handleEvent(ActionContributionItem.java:452)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4166)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1489)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1474)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1279)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4012)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3651)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:14:51.157
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.maximizePart: {org.eclipse.ui.internal.handlers.MaximizePartHandler@4f35ecf1} vs {org.eclipse.ui.internal.handlers.MaximizePartHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:14:51.158
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.showSystemMenu: {org.eclipse.ui.internal.ShowPartPaneMenuHandler} vs {org.eclipse.ui.internal.ShowPartPaneMenuHandler@55d43df5}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:14:51.158
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.previousView: {org.eclipse.ui.internal.CycleViewHandler:false} vs {org.eclipse.ui.internal.CycleViewHandler@6d882c1a}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:14:51.158
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.nextView: {org.eclipse.ui.internal.CycleViewHandler:true} vs {org.eclipse.ui.internal.CycleViewHandler@426a086a}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:14:51.159
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.closeAll: {org.eclipse.ui.internal.CloseAllHandler@17c047f0} vs {org.eclipse.ui.internal.CloseAllHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:14:51.160
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.newEditor: {org.eclipse.ui.internal.handlers.NewEditorHandler@6c12a801} vs {org.eclipse.ui.internal.handlers.NewEditorHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:14:51.160
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.nextEditor: {org.eclipse.ui.internal.CycleEditorHandler@f5c0729} vs {org.eclipse.ui.internal.CycleEditorHandler:true}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:14:51.160
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.openEditorDropDown: {org.eclipse.ui.internal.WorkbookEditorsHandler} vs {org.eclipse.ui.internal.WorkbookEditorsHandler@3020e746}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:14:51.160
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.previousEditor: {org.eclipse.ui.internal.CycleEditorHandler:false} vs {org.eclipse.ui.internal.CycleEditorHandler@36778590}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:14:51.161
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.close: {org.eclipse.ui.internal.CloseEditorHandler@45c8dc5e} vs {org.eclipse.ui.internal.CloseEditorHandler}
+
+!ENTRY org.eclipse.rap.ui.workbench 4 2 2016-02-01 11:15:04.029
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.rap.ui.workbench".
+!STACK 0
+java.lang.IllegalStateException: Invalid thread access
+	at org.eclipse.rap.rwt.RWT.checkContext(RWT.java:652)
+	at org.eclipse.rap.rwt.RWT.getUISession(RWT.java:511)
+	at org.eclipse.rap.ui.internal.preferences.SessionPreferencesNode.getNodeCore(SessionPreferencesNode.java:506)
+	at org.eclipse.rap.ui.internal.preferences.SessionPreferencesNode.addNodeChangeListener(SessionPreferencesNode.java:80)
+	at org.eclipse.ui.preferences.ScopedPreferenceStoreCore.<init>(ScopedPreferenceStoreCore.java:119)
+	at org.eclipse.ui.preferences.ScopedPreferenceStoreCore.<init>(ScopedPreferenceStoreCore.java:100)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.createScopedPreferenceStoreCore(ScopedPreferenceStore.java:155)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.<init>(ScopedPreferenceStore.java:136)
+	at org.eclipse.ui.plugin.AbstractUIPlugin.getPreferenceStore(AbstractUIPlugin.java:309)
+	at org.eclipse.ui.internal.progress.ProgressManager.shouldRunInBackground(ProgressManager.java:1357)
+	at org.eclipse.ui.internal.progress.ProgressManager.access$2(ProgressManager.java:1356)
+	at org.eclipse.ui.internal.progress.ProgressManager$2.scheduled(ProgressManager.java:516)
+	at org.eclipse.rap.ui.internal.progress.JobManagerAdapter.scheduled(JobManagerAdapter.java:163)
+	at org.eclipse.core.internal.jobs.JobListeners$5.notify(JobListeners.java:49)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:96)
+	at org.eclipse.core.internal.jobs.JobListeners.scheduled(JobListeners.java:162)
+	at org.eclipse.core.internal.jobs.JobManager.schedule(JobManager.java:1133)
+	at org.eclipse.core.internal.jobs.InternalJob.schedule(InternalJob.java:430)
+	at org.eclipse.core.runtime.jobs.Job.schedule(Job.java:436)
+	at de.innot.avreclipse.ui.actions.UploadProjectAction.runAVRDude(UploadProjectAction.java:336)
+	at de.innot.avreclipse.ui.actions.UploadProjectAction.run(UploadProjectAction.java:191)
+	at org.eclipse.ui.actions.ActionDelegate.runWithEvent(ActionDelegate.java:70)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:241)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:229)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$6.handleEvent(ActionContributionItem.java:452)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4166)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1489)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1474)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1279)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4012)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3651)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:15:04.427
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.maximizePart: {org.eclipse.ui.internal.handlers.MaximizePartHandler@4f35ecf1} vs {org.eclipse.ui.internal.handlers.MaximizePartHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:15:04.428
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.showSystemMenu: {org.eclipse.ui.internal.ShowPartPaneMenuHandler} vs {org.eclipse.ui.internal.ShowPartPaneMenuHandler@55d43df5}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:15:04.430
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.previousView: {org.eclipse.ui.internal.CycleViewHandler:false} vs {org.eclipse.ui.internal.CycleViewHandler@6d882c1a}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:15:04.431
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.nextView: {org.eclipse.ui.internal.CycleViewHandler:true} vs {org.eclipse.ui.internal.CycleViewHandler@426a086a}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:15:04.431
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.closeAll: {org.eclipse.ui.internal.CloseAllHandler@17c047f0} vs {org.eclipse.ui.internal.CloseAllHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:15:04.432
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.newEditor: {org.eclipse.ui.internal.handlers.NewEditorHandler@6c12a801} vs {org.eclipse.ui.internal.handlers.NewEditorHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:15:04.432
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.nextEditor: {org.eclipse.ui.internal.CycleEditorHandler@f5c0729} vs {org.eclipse.ui.internal.CycleEditorHandler:true}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:15:04.432
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.openEditorDropDown: {org.eclipse.ui.internal.WorkbookEditorsHandler} vs {org.eclipse.ui.internal.WorkbookEditorsHandler@3020e746}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:15:04.433
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.previousEditor: {org.eclipse.ui.internal.CycleEditorHandler:false} vs {org.eclipse.ui.internal.CycleEditorHandler@36778590}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:15:04.433
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.close: {org.eclipse.ui.internal.CloseEditorHandler@45c8dc5e} vs {org.eclipse.ui.internal.CloseEditorHandler}
+
+!ENTRY org.eclipse.rap.ui.workbench 4 2 2016-02-01 11:16:20.674
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.rap.ui.workbench".
+!STACK 0
+java.lang.IllegalStateException: Invalid thread access
+	at org.eclipse.rap.rwt.RWT.checkContext(RWT.java:652)
+	at org.eclipse.rap.rwt.RWT.getUISession(RWT.java:511)
+	at org.eclipse.rap.ui.internal.preferences.SessionPreferencesNode.getNodeCore(SessionPreferencesNode.java:506)
+	at org.eclipse.rap.ui.internal.preferences.SessionPreferencesNode.addNodeChangeListener(SessionPreferencesNode.java:80)
+	at org.eclipse.ui.preferences.ScopedPreferenceStoreCore.<init>(ScopedPreferenceStoreCore.java:119)
+	at org.eclipse.ui.preferences.ScopedPreferenceStoreCore.<init>(ScopedPreferenceStoreCore.java:100)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.createScopedPreferenceStoreCore(ScopedPreferenceStore.java:155)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.<init>(ScopedPreferenceStore.java:136)
+	at org.eclipse.ui.plugin.AbstractUIPlugin.getPreferenceStore(AbstractUIPlugin.java:309)
+	at org.eclipse.ui.internal.progress.ProgressManager.shouldRunInBackground(ProgressManager.java:1357)
+	at org.eclipse.ui.internal.progress.ProgressManager.access$2(ProgressManager.java:1356)
+	at org.eclipse.ui.internal.progress.ProgressManager$2.scheduled(ProgressManager.java:516)
+	at org.eclipse.rap.ui.internal.progress.JobManagerAdapter.scheduled(JobManagerAdapter.java:163)
+	at org.eclipse.core.internal.jobs.JobListeners$5.notify(JobListeners.java:49)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:96)
+	at org.eclipse.core.internal.jobs.JobListeners.scheduled(JobListeners.java:162)
+	at org.eclipse.core.internal.jobs.JobManager.schedule(JobManager.java:1133)
+	at org.eclipse.core.internal.jobs.InternalJob.schedule(InternalJob.java:430)
+	at org.eclipse.core.runtime.jobs.Job.schedule(Job.java:436)
+	at org.eclipse.ui.actions.BuildAction.runInBackground(BuildAction.java:318)
+	at org.eclipse.ui.actions.WorkspaceAction.runInBackground(WorkspaceAction.java:441)
+	at org.eclipse.ui.actions.BuildAction.run(BuildAction.java:269)
+	at org.eclipse.cdt.internal.ui.cview.BuildGroup$CDTBuildAction.run(BuildGroup.java:86)
+	at org.eclipse.cdt.ui.actions.BuildActiveConfigMenuAction.run(BuildActiveConfigMenuAction.java:92)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:251)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:229)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$6.handleEvent(ActionContributionItem.java:452)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4166)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1489)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1474)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1279)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4012)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3651)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.rap.ui.workbench 4 2 2016-02-01 11:16:26.642
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.rap.ui.workbench".
+!STACK 0
+java.lang.IllegalStateException: Invalid thread access
+	at org.eclipse.rap.rwt.RWT.checkContext(RWT.java:652)
+	at org.eclipse.rap.rwt.RWT.getUISession(RWT.java:511)
+	at org.eclipse.rap.ui.internal.preferences.SessionPreferencesNode.getNodeCore(SessionPreferencesNode.java:506)
+	at org.eclipse.rap.ui.internal.preferences.SessionPreferencesNode.addNodeChangeListener(SessionPreferencesNode.java:80)
+	at org.eclipse.ui.preferences.ScopedPreferenceStoreCore.<init>(ScopedPreferenceStoreCore.java:119)
+	at org.eclipse.ui.preferences.ScopedPreferenceStoreCore.<init>(ScopedPreferenceStoreCore.java:100)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.createScopedPreferenceStoreCore(ScopedPreferenceStore.java:155)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.<init>(ScopedPreferenceStore.java:136)
+	at org.eclipse.ui.plugin.AbstractUIPlugin.getPreferenceStore(AbstractUIPlugin.java:309)
+	at org.eclipse.ui.internal.progress.ProgressManager.shouldRunInBackground(ProgressManager.java:1357)
+	at org.eclipse.ui.internal.progress.ProgressManager.access$2(ProgressManager.java:1356)
+	at org.eclipse.ui.internal.progress.ProgressManager$2.scheduled(ProgressManager.java:516)
+	at org.eclipse.rap.ui.internal.progress.JobManagerAdapter.scheduled(JobManagerAdapter.java:163)
+	at org.eclipse.core.internal.jobs.JobListeners$5.notify(JobListeners.java:49)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:96)
+	at org.eclipse.core.internal.jobs.JobListeners.scheduled(JobListeners.java:162)
+	at org.eclipse.core.internal.jobs.JobManager.schedule(JobManager.java:1133)
+	at org.eclipse.core.internal.jobs.InternalJob.schedule(InternalJob.java:430)
+	at org.eclipse.core.runtime.jobs.Job.schedule(Job.java:436)
+	at de.innot.avreclipse.ui.actions.UploadProjectAction.runAVRDude(UploadProjectAction.java:336)
+	at de.innot.avreclipse.ui.actions.UploadProjectAction.run(UploadProjectAction.java:191)
+	at org.eclipse.ui.actions.ActionDelegate.runWithEvent(ActionDelegate.java:70)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:241)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:229)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$6.handleEvent(ActionContributionItem.java:452)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4166)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1489)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1474)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1279)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4012)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3651)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:16:26.994
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.maximizePart: {org.eclipse.ui.internal.handlers.MaximizePartHandler@4f35ecf1} vs {org.eclipse.ui.internal.handlers.MaximizePartHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:16:26.994
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.showSystemMenu: {org.eclipse.ui.internal.ShowPartPaneMenuHandler} vs {org.eclipse.ui.internal.ShowPartPaneMenuHandler@55d43df5}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:16:26.994
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.previousView: {org.eclipse.ui.internal.CycleViewHandler:false} vs {org.eclipse.ui.internal.CycleViewHandler@6d882c1a}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:16:26.995
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.nextView: {org.eclipse.ui.internal.CycleViewHandler:true} vs {org.eclipse.ui.internal.CycleViewHandler@426a086a}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:16:26.995
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.closeAll: {org.eclipse.ui.internal.CloseAllHandler@17c047f0} vs {org.eclipse.ui.internal.CloseAllHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:16:26.996
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.newEditor: {org.eclipse.ui.internal.handlers.NewEditorHandler@6c12a801} vs {org.eclipse.ui.internal.handlers.NewEditorHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:16:26.997
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.nextEditor: {org.eclipse.ui.internal.CycleEditorHandler@f5c0729} vs {org.eclipse.ui.internal.CycleEditorHandler:true}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:16:26.997
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.openEditorDropDown: {org.eclipse.ui.internal.WorkbookEditorsHandler} vs {org.eclipse.ui.internal.WorkbookEditorsHandler@3020e746}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:16:26.997
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.previousEditor: {org.eclipse.ui.internal.CycleEditorHandler:false} vs {org.eclipse.ui.internal.CycleEditorHandler@36778590}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:16:26.998
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.close: {org.eclipse.ui.internal.CloseEditorHandler@45c8dc5e} vs {org.eclipse.ui.internal.CloseEditorHandler}
+
+!ENTRY org.eclipse.rap.ui.workbench 4 2 2016-02-01 11:18:44.504
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.rap.ui.workbench".
+!STACK 0
+java.lang.IllegalStateException: Invalid thread access
+	at org.eclipse.rap.rwt.RWT.checkContext(RWT.java:652)
+	at org.eclipse.rap.rwt.RWT.getUISession(RWT.java:511)
+	at org.eclipse.rap.ui.internal.preferences.SessionPreferencesNode.getNodeCore(SessionPreferencesNode.java:506)
+	at org.eclipse.rap.ui.internal.preferences.SessionPreferencesNode.addNodeChangeListener(SessionPreferencesNode.java:80)
+	at org.eclipse.ui.preferences.ScopedPreferenceStoreCore.<init>(ScopedPreferenceStoreCore.java:119)
+	at org.eclipse.ui.preferences.ScopedPreferenceStoreCore.<init>(ScopedPreferenceStoreCore.java:100)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.createScopedPreferenceStoreCore(ScopedPreferenceStore.java:155)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.<init>(ScopedPreferenceStore.java:136)
+	at org.eclipse.ui.plugin.AbstractUIPlugin.getPreferenceStore(AbstractUIPlugin.java:309)
+	at org.eclipse.ui.internal.progress.ProgressManager.shouldRunInBackground(ProgressManager.java:1357)
+	at org.eclipse.ui.internal.progress.ProgressManager.access$2(ProgressManager.java:1356)
+	at org.eclipse.ui.internal.progress.ProgressManager$2.scheduled(ProgressManager.java:516)
+	at org.eclipse.rap.ui.internal.progress.JobManagerAdapter.scheduled(JobManagerAdapter.java:163)
+	at org.eclipse.core.internal.jobs.JobListeners$5.notify(JobListeners.java:49)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:96)
+	at org.eclipse.core.internal.jobs.JobListeners.scheduled(JobListeners.java:162)
+	at org.eclipse.core.internal.jobs.JobManager.schedule(JobManager.java:1133)
+	at org.eclipse.core.internal.jobs.InternalJob.schedule(InternalJob.java:430)
+	at org.eclipse.core.runtime.jobs.Job.schedule(Job.java:436)
+	at org.eclipse.ui.actions.BuildAction.runInBackground(BuildAction.java:318)
+	at org.eclipse.ui.actions.WorkspaceAction.runInBackground(WorkspaceAction.java:441)
+	at org.eclipse.ui.actions.BuildAction.run(BuildAction.java:269)
+	at org.eclipse.cdt.internal.ui.cview.BuildGroup$CDTBuildAction.run(BuildGroup.java:86)
+	at org.eclipse.cdt.ui.actions.BuildActiveConfigMenuAction.run(BuildActiveConfigMenuAction.java:92)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:251)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:229)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$6.handleEvent(ActionContributionItem.java:452)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4166)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1489)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1474)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1279)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4012)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3651)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.rap.ui.workbench 4 2 2016-02-01 11:18:47.443
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.rap.ui.workbench".
+!STACK 0
+java.lang.IllegalStateException: Invalid thread access
+	at org.eclipse.rap.rwt.RWT.checkContext(RWT.java:652)
+	at org.eclipse.rap.rwt.RWT.getUISession(RWT.java:511)
+	at org.eclipse.rap.ui.internal.preferences.SessionPreferencesNode.getNodeCore(SessionPreferencesNode.java:506)
+	at org.eclipse.rap.ui.internal.preferences.SessionPreferencesNode.addNodeChangeListener(SessionPreferencesNode.java:80)
+	at org.eclipse.ui.preferences.ScopedPreferenceStoreCore.<init>(ScopedPreferenceStoreCore.java:119)
+	at org.eclipse.ui.preferences.ScopedPreferenceStoreCore.<init>(ScopedPreferenceStoreCore.java:100)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.createScopedPreferenceStoreCore(ScopedPreferenceStore.java:155)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.<init>(ScopedPreferenceStore.java:136)
+	at org.eclipse.ui.plugin.AbstractUIPlugin.getPreferenceStore(AbstractUIPlugin.java:309)
+	at org.eclipse.ui.internal.progress.ProgressManager.shouldRunInBackground(ProgressManager.java:1357)
+	at org.eclipse.ui.internal.progress.ProgressManager.access$2(ProgressManager.java:1356)
+	at org.eclipse.ui.internal.progress.ProgressManager$2.scheduled(ProgressManager.java:516)
+	at org.eclipse.rap.ui.internal.progress.JobManagerAdapter.scheduled(JobManagerAdapter.java:163)
+	at org.eclipse.core.internal.jobs.JobListeners$5.notify(JobListeners.java:49)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:96)
+	at org.eclipse.core.internal.jobs.JobListeners.scheduled(JobListeners.java:162)
+	at org.eclipse.core.internal.jobs.JobManager.schedule(JobManager.java:1133)
+	at org.eclipse.core.internal.jobs.InternalJob.schedule(InternalJob.java:430)
+	at org.eclipse.core.runtime.jobs.Job.schedule(Job.java:436)
+	at de.innot.avreclipse.ui.actions.UploadProjectAction.runAVRDude(UploadProjectAction.java:336)
+	at de.innot.avreclipse.ui.actions.UploadProjectAction.run(UploadProjectAction.java:191)
+	at org.eclipse.ui.actions.ActionDelegate.runWithEvent(ActionDelegate.java:70)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:241)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:229)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$6.handleEvent(ActionContributionItem.java:452)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4166)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1489)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1474)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1279)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4012)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3651)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:18:47.803
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.maximizePart: {org.eclipse.ui.internal.handlers.MaximizePartHandler@4f35ecf1} vs {org.eclipse.ui.internal.handlers.MaximizePartHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:18:47.803
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.showSystemMenu: {org.eclipse.ui.internal.ShowPartPaneMenuHandler} vs {org.eclipse.ui.internal.ShowPartPaneMenuHandler@55d43df5}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:18:47.804
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.previousView: {org.eclipse.ui.internal.CycleViewHandler:false} vs {org.eclipse.ui.internal.CycleViewHandler@6d882c1a}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:18:47.805
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.nextView: {org.eclipse.ui.internal.CycleViewHandler:true} vs {org.eclipse.ui.internal.CycleViewHandler@426a086a}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:18:47.805
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.closeAll: {org.eclipse.ui.internal.CloseAllHandler@17c047f0} vs {org.eclipse.ui.internal.CloseAllHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:18:47.806
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.newEditor: {org.eclipse.ui.internal.handlers.NewEditorHandler@6c12a801} vs {org.eclipse.ui.internal.handlers.NewEditorHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:18:47.806
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.nextEditor: {org.eclipse.ui.internal.CycleEditorHandler@f5c0729} vs {org.eclipse.ui.internal.CycleEditorHandler:true}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:18:47.806
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.openEditorDropDown: {org.eclipse.ui.internal.WorkbookEditorsHandler} vs {org.eclipse.ui.internal.WorkbookEditorsHandler@3020e746}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:18:47.806
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.previousEditor: {org.eclipse.ui.internal.CycleEditorHandler:false} vs {org.eclipse.ui.internal.CycleEditorHandler@36778590}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:18:47.807
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.close: {org.eclipse.ui.internal.CloseEditorHandler@45c8dc5e} vs {org.eclipse.ui.internal.CloseEditorHandler}
+
+!ENTRY org.eclipse.rap.ui.workbench 4 2 2016-02-01 11:28:12.599
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.rap.ui.workbench".
+!STACK 0
+java.lang.IllegalStateException: Invalid thread access
+	at org.eclipse.rap.rwt.RWT.checkContext(RWT.java:652)
+	at org.eclipse.rap.rwt.RWT.getUISession(RWT.java:511)
+	at org.eclipse.rap.ui.internal.preferences.SessionPreferencesNode.getNodeCore(SessionPreferencesNode.java:506)
+	at org.eclipse.rap.ui.internal.preferences.SessionPreferencesNode.addNodeChangeListener(SessionPreferencesNode.java:80)
+	at org.eclipse.ui.preferences.ScopedPreferenceStoreCore.<init>(ScopedPreferenceStoreCore.java:119)
+	at org.eclipse.ui.preferences.ScopedPreferenceStoreCore.<init>(ScopedPreferenceStoreCore.java:100)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.createScopedPreferenceStoreCore(ScopedPreferenceStore.java:155)
+	at org.eclipse.ui.preferences.ScopedPreferenceStore.<init>(ScopedPreferenceStore.java:136)
+	at org.eclipse.ui.plugin.AbstractUIPlugin.getPreferenceStore(AbstractUIPlugin.java:309)
+	at org.eclipse.ui.internal.progress.ProgressManager.shouldRunInBackground(ProgressManager.java:1357)
+	at org.eclipse.ui.internal.progress.ProgressManager.access$2(ProgressManager.java:1356)
+	at org.eclipse.ui.internal.progress.ProgressManager$2.scheduled(ProgressManager.java:516)
+	at org.eclipse.rap.ui.internal.progress.JobManagerAdapter.scheduled(JobManagerAdapter.java:163)
+	at org.eclipse.core.internal.jobs.JobListeners$5.notify(JobListeners.java:49)
+	at org.eclipse.core.internal.jobs.JobListeners.doNotify(JobListeners.java:96)
+	at org.eclipse.core.internal.jobs.JobListeners.scheduled(JobListeners.java:162)
+	at org.eclipse.core.internal.jobs.JobManager.schedule(JobManager.java:1133)
+	at org.eclipse.core.internal.jobs.InternalJob.schedule(InternalJob.java:430)
+	at org.eclipse.core.runtime.jobs.Job.schedule(Job.java:436)
+	at org.eclipse.ui.internal.navigator.resources.actions.ResourceMgmtActionProvider$2.run(ResourceMgmtActionProvider.java:240)
+	at org.eclipse.ui.actions.BaseSelectionListenerAction.runWithEvent(BaseSelectionListenerAction.java:168)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4166)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1466)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1489)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1474)
+	at org.eclipse.swt.widgets.Widget.notifyListeners(Widget.java:1279)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4012)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3651)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:140)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:611)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+	at java.lang.reflect.Method.invoke(Method.java:597)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:28:17.074
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.properties: {org.eclipse.ui.internal.handlers.PropertyDialogHandler@204845a2} vs {org.eclipse.ui.internal.handlers.PropertyDialogHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:28:17.078
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.properties: {org.eclipse.ui.internal.handlers.PropertyDialogHandler@204845a2} vs {org.eclipse.ui.internal.handlers.PropertyDialogHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:28:20.401
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.properties: {org.eclipse.ui.internal.handlers.PropertyDialogHandler@204845a2} vs {org.eclipse.ui.internal.handlers.PropertyDialogHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:28:20.405
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.properties: {org.eclipse.ui.internal.handlers.PropertyDialogHandler@204845a2} vs {org.eclipse.ui.internal.handlers.PropertyDialogHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:28:23.507
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.maximizePart: {org.eclipse.ui.internal.handlers.MaximizePartHandler@4f35ecf1} vs {org.eclipse.ui.internal.handlers.MaximizePartHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:28:23.508
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.showSystemMenu: {org.eclipse.ui.internal.ShowPartPaneMenuHandler} vs {org.eclipse.ui.internal.ShowPartPaneMenuHandler@55d43df5}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:28:23.508
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.previousView: {org.eclipse.ui.internal.CycleViewHandler:false} vs {org.eclipse.ui.internal.CycleViewHandler@6d882c1a}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:28:23.508
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.previousView: {org.eclipse.ui.internal.CycleViewHandler:false} vs {org.eclipse.ui.internal.CycleViewHandler@6d882c1a}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:28:23.509
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.nextView: {org.eclipse.ui.internal.CycleViewHandler:true} vs {org.eclipse.ui.internal.CycleViewHandler@426a086a}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:28:23.509
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.closeAll: {org.eclipse.ui.internal.CloseAllHandler@17c047f0} vs {org.eclipse.ui.internal.CloseAllHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:28:23.509
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.closeAll: {org.eclipse.ui.internal.CloseAllHandler@17c047f0} vs {org.eclipse.ui.internal.CloseAllHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:28:23.510
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.showViewMenu: {org.eclipse.ui.internal.ShowViewMenuHandler@6bb0b0a0} vs {org.eclipse.ui.internal.ShowViewMenuHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:28:23.510
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.showViewMenu: {org.eclipse.ui.internal.ShowViewMenuHandler@6bb0b0a0} vs {org.eclipse.ui.internal.ShowViewMenuHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:28:23.510
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.nextView: {org.eclipse.ui.internal.CycleViewHandler:true} vs {org.eclipse.ui.internal.CycleViewHandler@426a086a}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:28:23.511
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.maximizePart: {org.eclipse.ui.internal.handlers.MaximizePartHandler@4f35ecf1} vs {org.eclipse.ui.internal.handlers.MaximizePartHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:28:23.511
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.showSystemMenu: {org.eclipse.ui.internal.ShowPartPaneMenuHandler} vs {org.eclipse.ui.internal.ShowPartPaneMenuHandler@55d43df5}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:28:23.512
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.newEditor: {org.eclipse.ui.internal.handlers.NewEditorHandler@6c12a801} vs {org.eclipse.ui.internal.handlers.NewEditorHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:28:23.512
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.nextEditor: {org.eclipse.ui.internal.CycleEditorHandler@f5c0729} vs {org.eclipse.ui.internal.CycleEditorHandler:true}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:28:23.512
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.openEditorDropDown: {org.eclipse.ui.internal.WorkbookEditorsHandler} vs {org.eclipse.ui.internal.WorkbookEditorsHandler@3020e746}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:28:23.512
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.previousEditor: {org.eclipse.ui.internal.CycleEditorHandler:false} vs {org.eclipse.ui.internal.CycleEditorHandler@36778590}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:28:23.512
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.openEditorDropDown: {org.eclipse.ui.internal.WorkbookEditorsHandler} vs {org.eclipse.ui.internal.WorkbookEditorsHandler@3020e746}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:28:23.513
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.newEditor: {org.eclipse.ui.internal.handlers.NewEditorHandler@6c12a801} vs {org.eclipse.ui.internal.handlers.NewEditorHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:28:23.513
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.nextEditor: {org.eclipse.ui.internal.CycleEditorHandler@f5c0729} vs {org.eclipse.ui.internal.CycleEditorHandler:true}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:28:23.513
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.close: {org.eclipse.ui.internal.CloseEditorHandler@45c8dc5e} vs {org.eclipse.ui.internal.CloseEditorHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:28:23.513
+!MESSAGE Conflicting handlers for org.eclipse.ui.file.close: {org.eclipse.ui.internal.CloseEditorHandler@45c8dc5e} vs {org.eclipse.ui.internal.CloseEditorHandler}
+
+!ENTRY org.eclipse.ui 4 4 2016-02-01 11:28:23.513
+!MESSAGE Conflicting handlers for org.eclipse.ui.window.previousEditor: {org.eclipse.ui.internal.CycleEditorHandler:false} vs {org.eclipse.ui.internal.CycleEditorHandler@36778590}

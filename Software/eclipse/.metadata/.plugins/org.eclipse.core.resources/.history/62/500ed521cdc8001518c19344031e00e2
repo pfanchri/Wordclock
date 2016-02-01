@@ -732,7 +732,7 @@ int main(void)
 
     //TESTSCHLEIFE für Matrix ------------------------------
     PORTC &= ~(1 << 1);
-    while(1){
+    while(0){
 	for (uint8_t i = 0; i <= 110; i++)
 		{
 		matrix[i].r = 0;
