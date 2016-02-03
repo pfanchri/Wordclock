@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.24)  3 FEB 2016 10:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2016.1.24)  3 FEB 2016 16:03
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1499,116 +1499,120 @@ Package babel Info: Redefining ngerman shorthand "~
 File: Bilder/Frontplatte1.png Graphic file (type png)
 
 <use Bilder/Frontplatte1.png>
-Package pdftex.def Info: Bilder/Frontplatte1.png used on input line 149.
+Package pdftex.def Info: Bilder/Frontplatte1.png used on input line 147.
 (pdftex.def)             Requested size: 233.06917pt x 232.67203pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 154.
+(babel)             in language  on input line 152.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 154.
-LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 157.
+(babel)             in language  on input line 152.
+LaTeX Font Info:    Calculating math sizes for size <12.045> on input line 155.
 
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 158.
+(babel)             in language  on input line 156.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 158.
+(babel)             in language  on input line 156.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 158.
+(babel)             in language  on input line 156.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 158.
+(babel)             in language  on input line 156.
  [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
  <./Bilder/Frontplatte1.png>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 160.
+(babel)             in language  on input line 158.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 160.
+(babel)             in language  on input line 158.
 LaTeX Font Info:    Font shape `OT1/phv/bx/n' in size <12.045> not available
-(Font)              Font shape `OT1/phv/b/n' tried instead on input line 162.
+(Font)              Font shape `OT1/phv/b/n' tried instead on input line 160.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 162.
+(babel)             in language  on input line 160.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 162.
+(babel)             in language  on input line 160.
 
 <Bilder/Eagle.png, id=55, 686.565pt x 674.52pt>
 File: Bilder/Eagle.png Graphic file (type png)
  <use Bilder/Eagle.png>
-Package pdftex.def Info: Bilder/Eagle.png used on input line 166.
+Package pdftex.def Info: Bilder/Eagle.png used on input line 164.
 (pdftex.def)             Requested size: 233.06917pt x 228.97353pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 175.
+(babel)             in language  on input line 173.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 175.
+(babel)             in language  on input line 173.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 185.
+(babel)             in language  on input line 183.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 185.
+(babel)             in language  on input line 183.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 185.
+(babel)             in language  on input line 183.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 185.
+(babel)             in language  on input line 183.
  [2 <./Bilder/Eagle.png>]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 185.
+(babel)             in language  on input line 183.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 185.
+(babel)             in language  on input line 183.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 185.
+(babel)             in language  on input line 183.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 185.
+(babel)             in language  on input line 183.
  [3]
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 187.
+(babel)             in language  on input line 185.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 187.
- <Bilder/SW2.png, id=66, 1011.78pt x 693.59125pt>
-File: Bilder/SW2.png Graphic file (type png)
+(babel)             in language  on input line 185.
 
-<use Bilder/SW2.png>
-Package pdftex.def Info: Bilder/SW2.png used on input line 191.
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 187.
+
+<Bilder/SW2.png, id=66, 1011.78pt x 693.59125pt>
+File: Bilder/SW2.png Graphic file (type png)
+ <use Bilder/SW2.png>
+Package pdftex.def Info: Bilder/SW2.png used on input line 189.
 (pdftex.def)             Requested size: 233.06917pt x 159.76604pt.
-LaTeX Font Info:    Try loading font information for TS1+ppl on input line 196.
+LaTeX Font Info:    Try loading font information for TS1+ppl on input line 194.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
-
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 202.
-
 <Bilder/SW3.png, id=68, 1011.78pt x 693.59125pt>
 File: Bilder/SW3.png Graphic file (type png)
  <use Bilder/SW3.png>
-Package pdftex.def Info: Bilder/SW3.png used on input line 204.
+Package pdftex.def Info: Bilder/SW3.png used on input line 202.
 (pdftex.def)             Requested size: 233.06917pt x 159.76604pt.
 Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 210.
+(babel)             in language  on input line 208.
 Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 210.
+(babel)             in language  on input line 208.
 
 <Bilder/Frontplatte2.png, id=69, 589.20125pt x 588.1975pt>
 File: Bilder/Frontplatte2.png Graphic file (type png)
 
 <use Bilder/Frontplatte2.png>
-Package pdftex.def Info: Bilder/Frontplatte2.png used on input line 214.
+Package pdftex.def Info: Bilder/Frontplatte2.png used on input line 212.
 (pdftex.def)             Requested size: 233.06917pt x 232.67203pt.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 218.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 218.
-Package babel Info: Redefining ngerman shorthand "|
-(babel)             in language  on input line 218.
-Package babel Info: Redefining ngerman shorthand "~
-(babel)             in language  on input line 218.
- [4 <./Bilder/SW2.png> <./Bilder/SW3.png>]
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 217.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 217.
+Package babel Info: Redefining ngerman shorthand "|
+(babel)             in language  on input line 217.
+Package babel Info: Redefining ngerman shorthand "~
+(babel)             in language  on input line 217.
+[4 <./Bilder/SW2.png> <./Bilder/SW3.png>]
+Underfull \vbox (badness 1019) has occurred while \output is active []
+
+Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 220.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 220.
+
 <Bilder/WS2812Code.png, id=83, 318.18875pt x 162.6075pt>
 File: Bilder/WS2812Code.png Graphic file (type png)
 
@@ -1628,12 +1632,12 @@ Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 231.
 Package babel Info: Redefining ngerman shorthand "~
 (babel)             in language  on input line 231.
- <Bilder/FotoWordclock.jpg, id=90, 1187.1552pt x 786.2976pt>
+ <Bilder/FotoWordclock.jpg, id=90, 907.2294pt x 693.5511pt>
 File: Bilder/FotoWordclock.jpg Graphic file (type jpg)
 
 <use Bilder/FotoWordclock.jpg>
 Package pdftex.def Info: Bilder/FotoWordclock.jpg used on input line 238.
-(pdftex.def)             Requested size: 233.06917pt x 154.36523pt.
+(pdftex.def)             Requested size: 233.06917pt x 178.17073pt.
 Package babel Info: Redefining ngerman shorthand "|
 (babel)             in language  on input line 258.
 Package babel Info: Redefining ngerman shorthand "~
@@ -1671,7 +1675,7 @@ ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive
 f-dist/fonts/type1/urw/helvetic/uhvr8a.pfb></usr/local/texlive/2015/texmf-dist/
 fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
 ype1/urw/zapfding/uzdr.pfb>
-Output written on Projektdokumentation.pdf (6 pages, 6852146 bytes).
+Output written on Projektdokumentation.pdf (6 pages, 4906466 bytes).
 PDF statistics:
  134 PDF objects out of 1000 (max. 8388607)
  107 compressed objects within 2 object streams
