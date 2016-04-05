@@ -132,30 +132,31 @@ void ds1307_getdate(uint8_t *year, uint8_t *month, uint8_t *day, uint8_t *hour,
 
 /*
  * set alarm 1
- * dayofweek: 0=Monday 6=sunday
  */
-uint8_t ds1307_setalarm1(uint8_t dayofweek, uint8_t hour, uint8_t minute,
+uint8_t ds1307_setalarm1(uint8_t day, uint8_t hour, uint8_t minute,
 	uint8_t second)
     {
     //sanitize data
     if (second < 0 || second > 59 || minute < 0 || minute > 59 || hour < 0
-	    || hour > 23 || dayofweek < 0 || dayofweek > 6)
+	    || hour > 23 || day < 1 || day > 31)
 	return 8;
 
     i2c_start_wait(DS1307_ADDR | I2C_WRITE);
-    i2c_write(0x07); //set pointer to first alarm
+    i2c_write(0x00); //stop oscillator
     i2c_write(ds1307_dec2bcd(second));
     i2c_write(ds1307_dec2bcd(minute));
     i2c_write(ds1307_dec2bcd(hour));
     i2c_write(ds1307_dec2bcd(dayofweek));
+    i2c_write(ds1307_dec2bcd(day));
+    i2c_write(ds1307_dec2bcd(month));
+    i2c_write(ds1307_dec2bcd(year));
+    i2c_write(0x00); //start oscillator
     i2c_stop();
 
     return 1;
     }
 
 //void ds1307_getalarm1(uint8_t *year, uint8_t *month, uint8_t *day, uint8_t *hour, uint8_t *minute, uint8_t *second);
-uint8_t ds1307_setalarm2( uint8_t day, uint8_t hour, uint8_t minute){
-
-}
-//void ds1307_getalarm2( uint8_t *day, uint8_t *hour, uint8_t *minute);
+//uint8_t ds1307_setalarm2(uint8_t year, uint8_t month, uint8_t day, uint8_t hour, uint8_t minute, uint8_t second);
+//void ds1307_getalarm2(uint8_t *year, uint8_t *month, uint8_t *day, uint8_t *hour, uint8_t *minute, uint8_t *second);
 

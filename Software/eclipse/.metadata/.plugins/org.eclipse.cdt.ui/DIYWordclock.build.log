@@ -1,8 +1,25 @@
-15:17:48 **** Incremental Build of configuration Release for project DIYWordclock ****
+14:17:51 **** Incremental Build of configuration Release for project DIYWordclock ****
 make all 
+Building file: ../ds1307/ds1307.c
+Invoking: AVR Compiler
+avr-gcc -Wall -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega168p -DF_CPU=16000000UL -MMD -MP -MF"ds1307/ds1307.d" -MT"ds1307/ds1307.d" -c -o "ds1307/ds1307.o" "../ds1307/ds1307.c"
+../ds1307/ds1307.c: In function 'ds1307_setalarm2':
+../ds1307/ds1307.c:159:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+Finished building: ../ds1307/ds1307.c
+ 
 Building file: ../main.c
 Invoking: AVR Compiler
 avr-gcc -Wall -Os -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -std=gnu99 -funsigned-char -funsigned-bitfields -mmcu=atmega168p -DF_CPU=16000000UL -MMD -MP -MF"main.d" -MT"main.d" -c -o "main.o" "../main.c"
+../main.c: In function 'main':
+../main.c:809:2: warning: passing argument 1 of 'ds1307_getdate' from incompatible pointer type [enabled by default]
+  ds1307_getdate(&year, &month, &day, &hour, &minute, &second);
+  ^
+In file included from ../main.c:22:0:
+../ds1307/ds1307.h:26:13: note: expected 'uint8_t *' but argument is of type 'uint16_t *'
+ extern void ds1307_getdate(uint8_t *year, uint8_t *month, uint8_t *day, uint8_t *hour, uint8_t *minute, uint8_t *second);
+             ^
 Finished building: ../main.c
  
 Building target: DIYWordclock.elf
@@ -28,7 +45,7 @@ AVR Memory Usage
 ----------------
 Device: atmega168p
 
-Program:    3908 bytes (23.9% Full)
+Program:    4120 bytes (25.1% Full)
 (.text + .data + .bootloader)
 
 Data:        412 bytes (40.2% Full)
@@ -38,5 +55,5 @@ Data:        412 bytes (40.2% Full)
 Finished building: sizedummy
  
 
-15:17:48 Build Finished (took 265ms)
+14:17:56 Build Finished (took 5s.130ms)
 
